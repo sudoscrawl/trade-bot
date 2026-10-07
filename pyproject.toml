@@ -1,0 +1,32 @@
+[project]
+name = "quant-bot"
+version = "0.1.0"
+description = "XtraSpeed submission for quant hackathon"
+readme = "README.md"
+authors = [
+    { name = "Ayush Kumar", email = "ayush438500@gmail.com" },
+    { name = "Divyanshu Singh", email="anshusingh.2007.1.19@gmail.com"}
+]
+requires-python = ">=3.13"
+dependencies = [
+    "alembic>=1.20.0",
+    "httpx>=0.28.1",
+    "pydantic>=2.13.5",
+    "pydantic-settings>=2.15.0",
+    "psycopg[binary]>=3.2.0",
+    "sqlalchemy>=2.1.1",
+]
+
+[build-system]
+requires = ["setuptools>=80"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["bot*"]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1",
+    "ruff>=0.16.9",
+    "ty>=0.0.84",
+]

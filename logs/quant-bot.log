@@ -1,0 +1,1339 @@
+2026-10-04 17:45:58,034 INFO alembic.runtime.migration: Context impl PostgresqlImpl.
+2026-10-04 17:45:58,034 INFO alembic.runtime.migration: Will assume transactional DDL.
+2026-10-04 17:45:59,835 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/exchangeInfo "HTTP/1.1 200 OK"
+2026-10-04 17:46:00,126 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791116159835 "HTTP/1.1 451 Unavailable For Legal Reasons"
+2026-10-04 17:52:30,889 INFO alembic.runtime.migration: Context impl PostgresqlImpl.
+2026-10-04 17:52:30,889 INFO alembic.runtime.migration: Will assume transactional DDL.
+2026-10-04 17:52:32,398 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/exchangeInfo "HTTP/1.1 200 OK"
+2026-10-04 17:52:32,533 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791116552398 "HTTP/1.1 451 Unavailable For Legal Reasons"
+2026-10-04 17:54:27,061 INFO alembic.runtime.migration: Context impl PostgresqlImpl.
+2026-10-04 17:54:27,061 INFO alembic.runtime.migration: Will assume transactional DDL.
+2026-10-04 17:54:28,599 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/serverTime "HTTP/1.1 200 OK"
+2026-10-04 17:54:28,737 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/exchangeInfo "HTTP/1.1 200 OK"
+2026-10-04 17:54:29,041 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791116581010 "HTTP/1.1 200 OK"
+2026-10-04 17:54:29,429 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791116581314 "HTTP/1.1 200 OK"
+2026-10-04 17:54:34,171 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791116586070 "HTTP/1.1 200 OK"
+2026-10-04 17:54:34,321 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791116586444 "HTTP/1.1 200 OK"
+2026-10-04 17:55:24,371 INFO alembic.runtime.migration: Context impl PostgresqlImpl.
+2026-10-04 17:55:24,371 INFO alembic.runtime.migration: Will assume transactional DDL.
+2026-10-04 17:55:26,122 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/serverTime "HTTP/1.1 200 OK"
+2026-10-04 17:55:26,262 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/exchangeInfo "HTTP/1.1 200 OK"
+2026-10-04 17:55:26,743 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791116638559 "HTTP/1.1 200 OK"
+2026-10-04 17:55:26,883 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791116639040 "HTTP/1.1 200 OK"
+2026-10-04 17:55:31,689 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791116643676 "HTTP/1.1 200 OK"
+2026-10-04 17:55:32,064 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791116643987 "HTTP/1.1 200 OK"
+2026-10-04 17:56:36,626 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791116708625 "HTTP/1.1 200 OK"
+2026-10-04 17:56:36,777 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791116708924 "HTTP/1.1 200 OK"
+2026-10-04 17:57:42,337 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791116774425 "HTTP/1.1 200 OK"
+2026-10-04 17:57:42,469 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791116774634 "HTTP/1.1 200 OK"
+2026-10-04 17:58:47,193 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791116839186 "HTTP/1.1 200 OK"
+2026-10-04 17:58:47,333 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791116839490 "HTTP/1.1 200 OK"
+2026-10-04 17:59:51,524 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791116903513 "HTTP/1.1 200 OK"
+2026-10-04 17:59:51,671 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791116903821 "HTTP/1.1 200 OK"
+2026-10-04 18:00:56,178 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791116968144 "HTTP/1.1 200 OK"
+2026-10-04 18:00:56,325 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791116968476 "HTTP/1.1 200 OK"
+2026-10-04 18:02:01,640 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791117033501 "HTTP/1.1 200 OK"
+2026-10-04 18:02:01,947 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791117033938 "HTTP/1.1 200 OK"
+2026-10-04 18:18:24,561 INFO alembic.runtime.migration: Context impl PostgresqlImpl.
+2026-10-04 18:18:24,561 INFO alembic.runtime.migration: Will assume transactional DDL.
+2026-10-04 18:18:26,082 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/serverTime "HTTP/1.1 200 OK"
+2026-10-04 18:18:27,242 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/exchangeInfo "HTTP/1.1 200 OK"
+2026-10-04 18:18:28,241 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791118020006 "HTTP/1.1 200 OK"
+2026-10-04 18:18:29,417 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791118021008 "HTTP/1.1 200 OK"
+2026-10-04 18:18:49,196 INFO __main__: Bot initialized with 20 tracked coins (min required: 15). Open positions: 1
+2026-10-04 18:18:49,724 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791118041109 "HTTP/1.1 200 OK"
+2026-10-04 18:18:50,680 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791118042449 "HTTP/1.1 200 OK"
+2026-10-04 18:20:23,616 INFO alembic.runtime.migration: Context impl PostgresqlImpl.
+2026-10-04 18:20:23,616 INFO alembic.runtime.migration: Will assume transactional DDL.
+2026-10-04 18:20:25,077 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/serverTime "HTTP/1.1 200 OK"
+2026-10-04 18:20:26,110 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/exchangeInfo "HTTP/1.1 200 OK"
+2026-10-04 18:20:27,111 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791118138834 "HTTP/1.1 200 OK"
+2026-10-04 18:20:28,256 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791118139796 "HTTP/1.1 200 OK"
+2026-10-04 18:20:30,971 INFO __main__: Bot initialized with 20 tracked coins (min required: 15). Open positions: 1
+2026-10-04 18:20:31,249 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791118142822 "HTTP/1.1 200 OK"
+2026-10-04 18:20:32,482 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791118144023 "HTTP/1.1 200 OK"
+2026-10-04 18:20:51,240 INFO __main__: Cycle complete: 20 coins monitored, 1 positions open, equity=$49300.33
+2026-10-04 18:21:20,628 INFO alembic.runtime.migration: Context impl PostgresqlImpl.
+2026-10-04 18:21:20,628 INFO alembic.runtime.migration: Will assume transactional DDL.
+2026-10-04 18:21:22,131 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/serverTime "HTTP/1.1 200 OK"
+2026-10-04 18:21:23,188 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/exchangeInfo "HTTP/1.1 200 OK"
+2026-10-04 18:21:24,268 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791118196003 "HTTP/1.1 200 OK"
+2026-10-04 18:21:25,568 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791118197092 "HTTP/1.1 200 OK"
+2026-10-04 18:21:28,249 INFO __main__: Bot initialized with 20 tracked coins (min required: 15). Open positions: 1
+2026-10-04 18:21:28,555 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791118200128 "HTTP/1.1 200 OK"
+2026-10-04 18:21:29,635 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791118201362 "HTTP/1.1 200 OK"
+2026-10-04 18:21:33,683 INFO __main__: Cycle complete: 20 coins monitored, 1 positions open, equity=$49318.41
+2026-10-04 18:25:44,499 INFO alembic.runtime.migration: Context impl PostgresqlImpl.
+2026-10-04 18:25:44,499 INFO alembic.runtime.migration: Will assume transactional DDL.
+2026-10-04 18:25:45,978 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/serverTime "HTTP/1.1 200 OK"
+2026-10-04 18:25:47,010 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/exchangeInfo "HTTP/1.1 200 OK"
+2026-10-04 18:25:48,111 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791118459780 "HTTP/1.1 200 OK"
+2026-10-04 18:25:49,329 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791118460913 "HTTP/1.1 200 OK"
+2026-10-04 18:25:51,817 INFO __main__: Bot initialized with 85 tracked coins (min required: 15). Open positions: 1
+2026-10-04 18:25:52,127 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791118463697 "HTTP/1.1 200 OK"
+2026-10-04 18:25:53,063 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791118464793 "HTTP/1.1 200 OK"
+2026-10-04 18:25:57,591 INFO __main__: Cycle complete: 85 coins monitored, 1 positions open, equity=$49314.48
+2026-10-04 18:29:39,209 INFO alembic.runtime.migration: Context impl PostgresqlImpl.
+2026-10-04 18:29:39,209 INFO alembic.runtime.migration: Will assume transactional DDL.
+2026-10-04 18:29:40,765 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/serverTime "HTTP/1.1 200 OK"
+2026-10-04 18:29:41,804 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/exchangeInfo "HTTP/1.1 200 OK"
+2026-10-04 18:29:43,023 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791118694684 "HTTP/1.1 200 OK"
+2026-10-04 18:29:44,201 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791118695817 "HTTP/1.1 200 OK"
+2026-10-04 18:29:47,146 INFO __main__: Bot initialized with 85 tracked coins (min required: 15). Open positions: 0
+2026-10-04 18:29:47,430 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791118699115 "HTTP/1.1 200 OK"
+2026-10-04 18:29:48,590 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791118700250 "HTTP/1.1 200 OK"
+2026-10-04 18:29:53,228 INFO __main__: Cycle complete: 85 coins monitored, 0 positions open, equity=$100000.12
+2026-10-04 18:30:53,482 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791118765197 "HTTP/1.1 200 OK"
+2026-10-04 18:30:54,481 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791118766322 "HTTP/1.1 200 OK"
+2026-10-04 18:30:58,991 INFO __main__: Cycle complete: 85 coins monitored, 0 positions open, equity=$100000.12
+2026-10-04 18:31:59,437 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791118830961 "HTTP/1.1 200 OK"
+2026-10-04 18:32:00,327 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791118832164 "HTTP/1.1 200 OK"
+2026-10-04 18:32:04,580 INFO __main__: Cycle complete: 86 coins monitored, 0 positions open, equity=$100002.31
+2026-10-04 18:33:05,058 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791118896549 "HTTP/1.1 200 OK"
+2026-10-04 18:33:06,294 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791118897851 "HTTP/1.1 200 OK"
+2026-10-04 18:33:11,036 INFO __main__: Cycle complete: 86 coins monitored, 0 positions open, equity=$100002.31
+2026-10-04 18:34:11,314 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791118963005 "HTTP/1.1 200 OK"
+2026-10-04 18:34:12,306 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791118964130 "HTTP/1.1 200 OK"
+2026-10-04 18:34:16,330 INFO __main__: Cycle complete: 86 coins monitored, 0 positions open, equity=$100000.12
+2026-10-04 18:35:16,642 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791119028299 "HTTP/1.1 200 OK"
+2026-10-04 18:35:17,678 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791119029502 "HTTP/1.1 200 OK"
+2026-10-04 18:35:22,666 INFO __main__: Cycle complete: 86 coins monitored, 0 positions open, equity=$99999.02
+2026-10-04 18:36:22,922 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791119094636 "HTTP/1.1 200 OK"
+2026-10-04 18:36:23,825 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791119095659 "HTTP/1.1 200 OK"
+2026-10-04 18:36:28,253 INFO __main__: Cycle complete: 86 coins monitored, 0 positions open, equity=$99999.02
+2026-10-04 18:37:28,837 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791119160223 "HTTP/1.1 200 OK"
+2026-10-04 18:37:29,802 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791119161629 "HTTP/1.1 200 OK"
+2026-10-04 18:37:34,092 INFO __main__: Cycle complete: 86 coins monitored, 0 positions open, equity=$99999.02
+2026-10-04 18:38:34,554 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791119226062 "HTTP/1.1 200 OK"
+2026-10-04 18:38:35,569 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791119227393 "HTTP/1.1 200 OK"
+2026-10-04 18:38:39,970 INFO __main__: Cycle complete: 86 coins monitored, 0 positions open, equity=$99995.74
+2026-10-04 18:39:40,277 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791119291939 "HTTP/1.1 200 OK"
+2026-10-04 18:39:41,293 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791119292978 "HTTP/1.1 200 OK"
+2026-10-04 18:39:45,210 INFO __main__: Cycle complete: 37 coins monitored, 0 positions open, equity=$97926.95
+2026-10-04 18:40:45,488 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791119357180 "HTTP/1.1 200 OK"
+2026-10-04 18:40:46,643 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791119358486 "HTTP/1.1 200 OK"
+2026-10-04 18:40:51,178 INFO __main__: Cycle complete: 74 coins monitored, 0 positions open, equity=$99996.83
+2026-10-04 18:41:51,476 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791119423147 "HTTP/1.1 200 OK"
+2026-10-04 18:41:52,610 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791119424272 "HTTP/1.1 200 OK"
+2026-10-04 18:41:57,050 INFO __main__: Cycle complete: 79 coins monitored, 0 positions open, equity=$99994.64
+2026-10-04 18:42:57,450 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791119489020 "HTTP/1.1 200 OK"
+2026-10-04 18:42:58,503 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791119490347 "HTTP/1.1 200 OK"
+2026-10-04 18:43:02,814 INFO __main__: Cycle complete: 83 coins monitored, 0 positions open, equity=$99996.83
+2026-10-04 18:44:03,077 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791119554783 "HTTP/1.1 200 OK"
+2026-10-04 18:44:04,451 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791119556008 "HTTP/1.1 200 OK"
+2026-10-04 18:44:08,778 INFO __main__: Cycle complete: 83 coins monitored, 0 positions open, equity=$99996.83
+2026-10-04 18:45:09,290 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791119620748 "HTTP/1.1 200 OK"
+2026-10-04 18:45:10,240 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791119622080 "HTTP/1.1 200 OK"
+2026-10-04 18:45:14,854 INFO __main__: Cycle complete: 85 coins monitored, 0 positions open, equity=$99999.02
+2026-10-04 18:46:15,174 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791119686823 "HTTP/1.1 200 OK"
+2026-10-04 18:46:16,230 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791119688050 "HTTP/1.1 200 OK"
+2026-10-04 18:46:20,514 INFO __main__: Cycle complete: 85 coins monitored, 0 positions open, equity=$99999.02
+2026-10-04 18:47:21,693 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791119752483 "HTTP/1.1 200 OK"
+2026-10-04 18:47:22,717 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791119754537 "HTTP/1.1 200 OK"
+2026-10-04 18:47:27,000 INFO __main__: Cycle complete: 85 coins monitored, 0 positions open, equity=$100002.31
+2026-10-04 18:48:27,237 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791119818969 "HTTP/1.1 200 OK"
+2026-10-04 18:48:28,249 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791119820094 "HTTP/1.1 200 OK"
+2026-10-04 18:48:32,867 INFO __main__: Cycle complete: 86 coins monitored, 0 positions open, equity=$100002.31
+2026-10-04 18:49:34,303 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791119884836 "HTTP/1.1 200 OK"
+2026-10-04 18:49:35,177 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791119886971 "HTTP/1.1 200 OK"
+2026-10-04 18:49:39,306 INFO __main__: Cycle complete: 86 coins monitored, 0 positions open, equity=$100000.12
+2026-10-04 18:50:39,757 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791119951275 "HTTP/1.1 200 OK"
+2026-10-04 18:50:40,924 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791119952756 "HTTP/1.1 200 OK"
+2026-10-04 18:50:45,323 INFO __main__: Cycle complete: 86 coins monitored, 0 positions open, equity=$100001.22
+2026-10-04 18:51:45,832 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791120017292 "HTTP/1.1 200 OK"
+2026-10-04 18:51:46,901 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791120018729 "HTTP/1.1 200 OK"
+2026-10-04 18:51:51,576 INFO __main__: Cycle complete: 86 coins monitored, 0 positions open, equity=$99999.02
+2026-10-04 18:52:51,776 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791120083545 "HTTP/1.1 200 OK"
+2026-10-04 18:52:52,713 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791120084545 "HTTP/1.1 200 OK"
+2026-10-04 18:52:56,509 INFO __main__: Cycle complete: 86 coins monitored, 0 positions open, equity=$100005.60
+2026-10-04 18:53:56,720 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791120148479 "HTTP/1.1 200 OK"
+2026-10-04 18:53:57,771 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791120149485 "HTTP/1.1 200 OK"
+2026-10-04 18:54:02,307 INFO __main__: Cycle complete: 86 coins monitored, 0 positions open, equity=$100005.60
+2026-10-04 18:55:02,564 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791120214276 "HTTP/1.1 200 OK"
+2026-10-04 18:55:03,429 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791120215256 "HTTP/1.1 200 OK"
+2026-10-04 18:55:07,658 INFO __main__: Cycle complete: 86 coins monitored, 0 positions open, equity=$100005.60
+2026-10-04 18:56:07,914 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791120279627 "HTTP/1.1 200 OK"
+2026-10-04 19:06:39,903 INFO alembic.runtime.migration: Context impl PostgresqlImpl.
+2026-10-04 19:06:39,904 INFO alembic.runtime.migration: Will assume transactional DDL.
+2026-10-04 19:06:41,978 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/serverTime "HTTP/1.1 200 OK"
+2026-10-04 19:06:43,627 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/exchangeInfo "HTTP/1.1 200 OK"
+2026-10-04 19:06:44,984 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791120916762 "HTTP/1.1 200 OK"
+2026-10-04 19:06:46,191 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791120917794 "HTTP/1.1 200 OK"
+2026-10-04 19:06:48,457 INFO __main__: Adopted pre-existing wallet holding BMT/USD (qty=109575.6) @ $0.0189
+2026-10-04 19:06:51,551 INFO __main__: Bot initialized with 86 tracked coins (min required: 15). Open positions: 1
+2026-10-04 19:06:51,920 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791120923463 "HTTP/1.1 200 OK"
+2026-10-04 19:06:53,199 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791120924802 "HTTP/1.1 200 OK"
+2026-10-04 19:06:57,842 INFO __main__: Cycle complete: 86 coins monitored, 1 positions open, equity=$99997.93
+2026-10-04 19:07:58,246 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791120989754 "HTTP/1.1 200 OK"
+2026-10-04 19:09:18,026 INFO alembic.runtime.migration: Context impl PostgresqlImpl.
+2026-10-04 19:09:18,026 INFO alembic.runtime.migration: Will assume transactional DDL.
+2026-10-04 19:09:19,541 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/serverTime "HTTP/1.1 200 OK"
+2026-10-04 19:09:20,622 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/exchangeInfo "HTTP/1.1 200 OK"
+2026-10-04 19:09:21,553 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791121073382 "HTTP/1.1 200 OK"
+2026-10-04 19:09:22,769 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791121074415 "HTTP/1.1 200 OK"
+2026-10-04 19:09:27,612 INFO __main__: Bot initialized with 86 tracked coins (min required: 15). Open positions: 1
+2026-10-04 19:09:27,754 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791121079569 "HTTP/1.1 200 OK"
+2026-10-04 19:09:28,951 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791121080599 "HTTP/1.1 200 OK"
+2026-10-04 19:09:33,384 INFO __main__: Cycle complete: 86 coins monitored, 1 positions open, equity=$99997.93
+2026-10-04 19:10:33,984 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791121145340 "HTTP/1.1 200 OK"
+2026-10-04 19:10:35,316 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791121146865 "HTTP/1.1 200 OK"
+2026-10-04 19:10:39,820 INFO __main__: Cycle complete: 86 coins monitored, 1 positions open, equity=$99994.64
+2026-10-04 19:11:40,093 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791121211777 "HTTP/1.1 200 OK"
+2026-10-04 19:15:15,296 INFO alembic.runtime.migration: Context impl PostgresqlImpl.
+2026-10-04 19:15:15,296 INFO alembic.runtime.migration: Will assume transactional DDL.
+2026-10-04 19:15:17,049 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/serverTime "HTTP/1.1 200 OK"
+2026-10-04 19:15:18,117 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/exchangeInfo "HTTP/1.1 200 OK"
+2026-10-04 19:15:19,253 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791121431174 "HTTP/1.1 200 OK"
+2026-10-04 19:15:20,552 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791121432308 "HTTP/1.1 200 OK"
+2026-10-04 19:15:25,294 INFO __main__: Bot initialized with 86 tracked coins (min required: 15). Open positions: 1
+2026-10-04 19:15:25,429 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791121437360 "HTTP/1.1 200 OK"
+2026-10-04 19:15:26,643 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791121438391 "HTTP/1.1 200 OK"
+2026-10-04 19:15:31,229 INFO __main__: Cycle complete: 86 coins monitored, 1 positions open, equity=$99997.93
+2026-10-04 19:16:31,884 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791121503295 "HTTP/1.1 200 OK"
+2026-10-04 19:16:32,890 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791121504796 "HTTP/1.1 200 OK"
+2026-10-04 19:16:37,551 INFO __main__: Cycle complete: 86 coins monitored, 1 positions open, equity=$99995.74
+2026-10-04 19:17:39,452 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791121569617 "HTTP/1.1 200 OK"
+2026-10-04 19:17:40,575 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791121572496 "HTTP/1.1 200 OK"
+2026-10-04 19:17:44,348 INFO __main__: Found 9 candidate coins. Top picks: VIRTUAL/USD (score: 2.81), TAO/USD (score: 2.7999), XPL/USD (score: 2.4134), XRP/USD (score: 2.2363), EIGEN/USD (score: 2.151), POL/USD (score: 1.8854), DOGE/USD (score: 1.8528)
+2026-10-04 19:17:44,663 INFO httpx: HTTP Request: POST https://mock-api.roostoo.com/v3/place_order "HTTP/1.1 200 OK"
+2026-10-04 19:17:47,743 INFO __main__: LIVE BUY VIRTUAL/USD qty=7888.7 @ 0.79570000 (score=2.8100)
+2026-10-04 19:17:47,899 INFO httpx: HTTP Request: POST https://mock-api.roostoo.com/v3/place_order "HTTP/1.1 200 OK"
+2026-10-04 19:17:51,047 INFO __main__: LIVE BUY TAO/USD qty=19.3364 @ 304.40000000 (score=2.7999)
+2026-10-04 19:17:51,203 INFO httpx: HTTP Request: POST https://mock-api.roostoo.com/v3/place_order "HTTP/1.1 200 OK"
+2026-10-04 19:17:54,345 INFO __main__: LIVE BUY XPL/USD qty=61986.7 @ 0.09561000 (score=2.4134)
+2026-10-04 19:17:54,499 INFO httpx: HTTP Request: POST https://mock-api.roostoo.com/v3/place_order "HTTP/1.1 200 OK"
+2026-10-04 19:17:57,540 INFO __main__: LIVE BUY XRP/USD qty=3922.8 @ 1.50230000 (score=2.2363)
+2026-10-04 19:17:57,747 INFO httpx: HTTP Request: POST https://mock-api.roostoo.com/v3/place_order "HTTP/1.1 200 OK"
+2026-10-04 19:18:00,839 INFO __main__: LIVE BUY EIGEN/USD qty=21301.12 @ 0.26050000 (score=2.1510)
+2026-10-04 19:18:01,047 INFO httpx: HTTP Request: POST https://mock-api.roostoo.com/v3/place_order "HTTP/1.1 200 OK"
+2026-10-04 19:18:05,273 INFO __main__: LIVE BUY POL/USD qty=51630.4 @ 0.10897000 (score=1.8854)
+2026-10-04 19:18:05,429 INFO httpx: HTTP Request: POST https://mock-api.roostoo.com/v3/place_order "HTTP/1.1 200 OK"
+2026-10-04 19:18:08,570 INFO __main__: LIVE BUY DOGE/USD qty=59344.0 @ 0.09364000 (score=1.8528)
+2026-10-04 19:18:10,324 INFO __main__: Cycle complete: 86 coins monitored, 8 positions open, equity=$99994.64
+2026-10-04 19:19:10,613 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791121662390 "HTTP/1.1 200 OK"
+2026-10-04 19:19:11,956 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791121663677 "HTTP/1.1 200 OK"
+2026-10-04 19:19:16,511 INFO __main__: Cycle complete: 86 coins monitored, 8 positions open, equity=$99939.91
+2026-10-04 19:20:16,815 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791121728577 "HTTP/1.1 200 OK"
+2026-10-04 19:20:17,869 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791121729793 "HTTP/1.1 200 OK"
+2026-10-04 19:20:22,572 INFO __main__: Cycle complete: 86 coins monitored, 8 positions open, equity=$99977.33
+2026-10-04 19:21:22,828 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791121794638 "HTTP/1.1 200 OK"
+2026-10-04 19:21:23,927 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791121795866 "HTTP/1.1 200 OK"
+2026-10-04 19:21:29,367 INFO __main__: Cycle complete: 86 coins monitored, 8 positions open, equity=$100004.18
+2026-10-04 19:22:29,597 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791121861433 "HTTP/1.1 200 OK"
+2026-10-04 19:28:51,472 INFO alembic.runtime.migration: Context impl PostgresqlImpl.
+2026-10-04 19:28:51,472 INFO alembic.runtime.migration: Will assume transactional DDL.
+2026-10-04 19:28:52,828 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/serverTime "HTTP/1.1 200 OK"
+2026-10-04 19:28:54,048 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/exchangeInfo "HTTP/1.1 200 OK"
+2026-10-04 19:28:55,004 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791122246908 "HTTP/1.1 200 OK"
+2026-10-04 19:28:56,110 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791122247836 "HTTP/1.1 200 OK"
+2026-10-04 19:29:00,330 INFO __main__: Bot initialized with 86 tracked coins (min required: 15). Open positions: 8
+2026-10-04 19:29:00,645 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791122252366 "HTTP/1.1 200 OK"
+2026-10-04 19:29:01,890 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791122253608 "HTTP/1.1 200 OK"
+2026-10-04 19:29:06,211 INFO __main__: Cycle complete: 86 coins monitored, 8 positions open, equity=$99962.62
+2026-10-04 19:30:06,470 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791122318247 "HTTP/1.1 200 OK"
+2026-10-04 19:30:07,358 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791122319240 "HTTP/1.1 200 OK"
+2026-10-04 19:30:11,044 INFO __main__: Cycle complete: 86 coins monitored, 8 positions open, equity=$99959.11
+2026-10-04 19:31:11,304 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791122383080 "HTTP/1.1 200 OK"
+2026-10-04 19:31:12,187 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791122384072 "HTTP/1.1 200 OK"
+2026-10-04 19:31:16,089 INFO __main__: Cycle complete: 86 coins monitored, 8 positions open, equity=$99951.76
+2026-10-04 19:32:16,823 INFO alembic.runtime.migration: Context impl PostgresqlImpl.
+2026-10-04 19:32:16,823 INFO alembic.runtime.migration: Will assume transactional DDL.
+2026-10-04 19:32:18,322 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/serverTime "HTTP/1.1 200 OK"
+2026-10-04 19:32:19,271 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/exchangeInfo "HTTP/1.1 200 OK"
+2026-10-04 19:32:20,157 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791122452185 "HTTP/1.1 200 OK"
+2026-10-04 19:32:21,189 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791122453067 "HTTP/1.1 200 OK"
+2026-10-04 19:32:22,742 INFO __main__: Adopted pre-existing wallet holding BMT/USD (qty=109575.6) @ $0.0189
+2026-10-04 19:32:22,742 INFO __main__: Adopted pre-existing wallet holding DOGE/USD (qty=59344.0) @ $0.0936
+2026-10-04 19:32:22,742 INFO __main__: Adopted pre-existing wallet holding EIGEN/USD (qty=21301.12) @ $0.2600
+2026-10-04 19:32:22,742 INFO __main__: Adopted pre-existing wallet holding POL/USD (qty=51630.4) @ $0.1090
+2026-10-04 19:32:22,742 INFO __main__: Adopted pre-existing wallet holding TAO/USD (qty=19.3364) @ $303.9000
+2026-10-04 19:32:22,742 INFO __main__: Adopted pre-existing wallet holding VIRTUAL/USD (qty=7888.7) @ $0.7986
+2026-10-04 19:32:22,742 INFO __main__: Adopted pre-existing wallet holding XPL/USD (qty=61986.7) @ $0.0953
+2026-10-04 19:32:22,742 INFO __main__: Adopted pre-existing wallet holding XRP/USD (qty=3922.8) @ $1.5003
+2026-10-04 19:32:25,128 INFO __main__: Bot initialized with 86 tracked coins (min required: 15). Open positions: 8
+2026-10-04 19:32:25,408 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791122457285 "HTTP/1.1 200 OK"
+2026-10-04 19:32:26,538 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791122458407 "HTTP/1.1 200 OK"
+2026-10-04 19:32:30,451 INFO __main__: Cycle complete: 86 coins monitored, 8 positions open, equity=$99928.59
+2026-10-04 19:34:30,918 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791122582609 "HTTP/1.1 200 OK"
+2026-10-04 19:34:31,889 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791122583904 "HTTP/1.1 200 OK"
+2026-10-04 19:34:35,919 INFO __main__: Cycle complete: 86 coins monitored, 8 positions open, equity=$99883.68
+2026-10-04 19:36:36,190 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791122708077 "HTTP/1.1 200 OK"
+2026-10-04 19:36:37,134 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791122709139 "HTTP/1.1 200 OK"
+2026-10-04 19:36:41,814 INFO __main__: Cycle complete: 86 coins monitored, 8 positions open, equity=$99910.56
+2026-10-04 19:38:42,025 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791122833971 "HTTP/1.1 200 OK"
+2026-10-04 19:38:43,069 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791122834942 "HTTP/1.1 200 OK"
+2026-10-04 19:38:46,885 INFO __main__: Cycle complete: 86 coins monitored, 8 positions open, equity=$99963.32
+2026-10-04 19:39:21,879 INFO alembic.runtime.migration: Context impl PostgresqlImpl.
+2026-10-04 19:39:21,879 INFO alembic.runtime.migration: Will assume transactional DDL.
+2026-10-04 19:39:23,451 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/serverTime "HTTP/1.1 200 OK"
+2026-10-04 19:39:24,425 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/exchangeInfo "HTTP/1.1 200 OK"
+2026-10-04 19:39:25,380 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791122877417 "HTTP/1.1 200 OK"
+2026-10-04 19:39:26,492 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791122878375 "HTTP/1.1 200 OK"
+2026-10-04 19:39:32,513 INFO __main__: Bot initialised: 86 tracked coins (4 warmed), 8 open positions
+2026-10-04 19:39:32,938 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791122884697 "HTTP/1.1 200 OK"
+2026-10-04 19:39:33,897 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791122885932 "HTTP/1.1 200 OK"
+2026-10-04 19:39:37,964 INFO __main__: Cycle complete: state=WARMING  86 monitored  8 positions  equity=$99967.45
+2026-10-04 19:41:38,640 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791123010149 "HTTP/1.1 200 OK"
+2026-10-04 19:43:46,814 INFO alembic.runtime.migration: Context impl PostgresqlImpl.
+2026-10-04 19:43:46,814 INFO alembic.runtime.migration: Will assume transactional DDL.
+2026-10-04 19:43:48,052 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/serverTime "HTTP/1.1 200 OK"
+2026-10-04 19:43:48,903 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/exchangeInfo "HTTP/1.1 200 OK"
+2026-10-04 19:43:49,771 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791123141780 "HTTP/1.1 200 OK"
+2026-10-04 19:43:50,770 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791123142648 "HTTP/1.1 200 OK"
+2026-10-04 19:43:52,208 INFO __main__: Adopted pre-existing wallet holding BMT/USD (qty=109575.6) @ $0.0189
+2026-10-04 19:43:52,208 INFO __main__: Adopted pre-existing wallet holding DOGE/USD (qty=59344.0) @ $0.0935
+2026-10-04 19:43:52,208 INFO __main__: Adopted pre-existing wallet holding EIGEN/USD (qty=21301.12) @ $0.2605
+2026-10-04 19:43:52,208 INFO __main__: Adopted pre-existing wallet holding POL/USD (qty=51630.4) @ $0.1089
+2026-10-04 19:43:52,208 INFO __main__: Adopted pre-existing wallet holding TAO/USD (qty=19.3364) @ $304.4000
+2026-10-04 19:43:52,208 INFO __main__: Adopted pre-existing wallet holding VIRTUAL/USD (qty=7888.7) @ $0.8048
+2026-10-04 19:43:52,208 INFO __main__: Adopted pre-existing wallet holding XPL/USD (qty=61986.7) @ $0.0953
+2026-10-04 19:43:52,208 INFO __main__: Adopted pre-existing wallet holding XRP/USD (qty=3922.8) @ $1.4999
+2026-10-04 19:43:54,875 INFO __main__: Bot initialised: 86 tracked coins (86 warmed), 8 open positions
+2026-10-04 19:43:55,234 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791123147034 "HTTP/1.1 200 OK"
+2026-10-04 19:43:56,339 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791123148213 "HTTP/1.1 200 OK"
+2026-10-04 19:43:58,958 INFO __main__: Market regime: None → RANGING  (avg_rsi=45.1  ema_up=35%  rising=69%)
+2026-10-04 19:43:58,958 INFO __main__: Adapted params: rsi=45.0–56.0  sep=0.06%  confirm=3  stop=1.5%  target=2.0%
+2026-10-04 19:43:59,910 INFO __main__: Cycle complete: state=RANGING  86 monitored  8 positions  equity=$99981.04
+2026-10-04 19:44:42,256 INFO alembic.runtime.migration: Context impl PostgresqlImpl.
+2026-10-04 19:44:42,257 INFO alembic.runtime.migration: Will assume transactional DDL.
+2026-10-04 19:44:43,589 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/serverTime "HTTP/1.1 200 OK"
+2026-10-04 19:44:44,525 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/exchangeInfo "HTTP/1.1 200 OK"
+2026-10-04 19:44:45,466 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791123197427 "HTTP/1.1 200 OK"
+2026-10-04 19:44:46,559 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791123198367 "HTTP/1.1 200 OK"
+2026-10-04 19:44:51,435 INFO __main__: Bot initialised: 86 tracked coins (86 warmed), 8 open positions
+2026-10-04 19:44:51,738 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791123203538 "HTTP/1.1 200 OK"
+2026-10-04 19:44:52,873 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791123204645 "HTTP/1.1 200 OK"
+2026-10-04 19:44:55,835 INFO __main__: Market regime: None → RANGING  (avg_rsi=49.8  ema_up=35%  rising=71%)
+2026-10-04 19:44:55,835 INFO __main__: Adapted params: rsi=45.0–56.0  sep=0.06%  confirm=3  stop=1.5%  target=2.0%
+2026-10-04 19:44:56,896 INFO __main__: Cycle complete: state=RANGING  86 monitored  8 positions  equity=$99973.56
+2026-10-04 19:46:57,106 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791123328998 "HTTP/1.1 200 OK"
+2026-10-04 19:46:58,032 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791123330006 "HTTP/1.1 200 OK"
+2026-10-04 19:47:02,018 INFO __main__: Cycle complete: state=RANGING  86 monitored  8 positions  equity=$99991.08
+2026-10-04 19:49:02,228 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791123454120 "HTTP/1.1 200 OK"
+2026-10-04 19:49:03,172 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791123455142 "HTTP/1.1 200 OK"
+2026-10-04 19:49:07,435 INFO __main__: Cycle complete: state=RANGING  86 monitored  8 positions  equity=$100019.38
+2026-10-04 19:51:07,710 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791123579538 "HTTP/1.1 200 OK"
+2026-10-04 19:51:08,674 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791123580617 "HTTP/1.1 200 OK"
+2026-10-04 19:51:11,602 INFO bot.strategy.momentum: SUI/USD signal=BUY | fast=1.192899 slow=1.190978 rsi=55.7 sep=0.1613% cooldown=0 confirm_ticks=3
+2026-10-04 19:51:12,663 INFO __main__: Cycle complete: state=RANGING  86 monitored  8 positions  equity=$100079.13
+2026-10-04 19:53:12,986 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791123704765 "HTTP/1.1 200 OK"
+2026-10-04 19:53:13,925 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791123705882 "HTTP/1.1 200 OK"
+2026-10-04 19:53:17,934 INFO __main__: Cycle complete: state=RANGING  86 monitored  8 positions  equity=$100085.72
+2026-10-04 19:54:10,608 INFO alembic.runtime.migration: Context impl PostgresqlImpl.
+2026-10-04 19:54:10,608 INFO alembic.runtime.migration: Will assume transactional DDL.
+2026-10-04 19:54:12,227 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/serverTime "HTTP/1.1 200 OK"
+2026-10-04 19:54:13,117 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/exchangeInfo "HTTP/1.1 200 OK"
+2026-10-04 19:54:14,018 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791123766157 "HTTP/1.1 200 OK"
+2026-10-04 19:54:15,072 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791123767048 "HTTP/1.1 200 OK"
+2026-10-04 19:54:18,615 INFO __main__: Bot initialised: 86 tracked coins (86 warmed), 8 open positions
+2026-10-04 19:54:18,913 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791123770900 "HTTP/1.1 200 OK"
+2026-10-04 19:54:19,961 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791123771943 "HTTP/1.1 200 OK"
+2026-10-04 19:54:22,694 INFO __main__: Market regime: None → RANGING  (avg_rsi=46.1  ema_up=40%  rising=66%)
+2026-10-04 19:54:22,694 INFO __main__: Adapted params: rsi=45.0–56.0  sep=0.06%  confirm=3  stop=1.5%  target=2.0%
+2026-10-04 19:54:23,691 INFO __main__: Cycle complete: state=RANGING  86 monitored  8 positions  equity=$100100.09
+2026-10-04 19:56:23,901 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791123895976 "HTTP/1.1 200 OK"
+2026-10-04 19:56:24,839 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791123896996 "HTTP/1.1 200 OK"
+2026-10-04 19:56:28,575 INFO __main__: Cycle complete: state=RANGING  86 monitored  8 positions  equity=$100133.41
+2026-10-04 19:58:28,977 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791124020860 "HTTP/1.1 200 OK"
+2026-10-04 19:58:29,869 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791124022005 "HTTP/1.1 200 OK"
+2026-10-04 19:58:33,897 INFO __main__: Cycle complete: state=RANGING  86 monitored  8 positions  equity=$100133.80
+2026-10-04 20:00:34,332 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791124146182 "HTTP/1.1 200 OK"
+2026-10-04 20:00:35,396 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791124147375 "HTTP/1.1 200 OK"
+2026-10-04 20:00:38,139 INFO __main__: Market regime: RANGING → TRENDING  (avg_rsi=53.7  ema_up=54%  rising=69%)
+2026-10-04 20:00:38,139 INFO __main__: Adapted params: rsi=44.0–60.0  sep=0.04%  confirm=2  stop=2.0%  target=3.5%
+2026-10-04 20:00:38,140 INFO bot.strategy.momentum: SUI/USD signal=BUY | fast=1.196066 slow=1.193158 rsi=58.9 sep=0.2437% cooldown=0 confirm_ticks=3
+2026-10-04 20:00:38,140 INFO bot.strategy.momentum: PEPE/USD signal=BUY | fast=0.000004 slow=0.000004 rsi=53.8 sep=0.0689% cooldown=0 confirm_ticks=2
+2026-10-04 20:00:38,140 INFO bot.strategy.momentum: BONK/USD signal=BUY | fast=0.000004 slow=0.000004 rsi=57.1 sep=0.0989% cooldown=0 confirm_ticks=3
+2026-10-04 20:00:38,141 INFO bot.strategy.momentum: ZEN/USD signal=BUY | fast=6.963475 slow=6.959749 rsi=54.3 sep=0.0535% cooldown=0 confirm_ticks=2
+2026-10-04 20:00:39,138 INFO __main__: Cycle complete: state=TRENDING  86 monitored  8 positions  equity=$100138.74
+2026-10-04 20:02:39,445 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791124271423 "HTTP/1.1 200 OK"
+2026-10-04 20:02:40,337 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791124272476 "HTTP/1.1 200 OK"
+2026-10-04 20:02:44,059 INFO __main__: Cycle complete: state=TRENDING  86 monitored  8 positions  equity=$100172.10
+2026-10-04 20:04:44,317 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791124396345 "HTTP/1.1 200 OK"
+2026-10-04 20:04:45,186 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791124397344 "HTTP/1.1 200 OK"
+2026-10-04 20:04:48,400 INFO bot.strategy.momentum: TUT/USD signal=BUY | fast=0.024402 slow=0.024381 rsi=57.1 sep=0.0881% cooldown=0 confirm_ticks=4
+2026-10-04 20:04:49,642 INFO __main__: Cycle complete: state=TRENDING  86 monitored  8 positions  equity=$100209.77
+2026-10-04 20:06:50,040 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791124521927 "HTTP/1.1 200 OK"
+2026-10-04 20:06:50,914 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791124523068 "HTTP/1.1 200 OK"
+2026-10-04 20:06:54,623 INFO __main__: Cycle complete: state=TRENDING  86 monitored  8 positions  equity=$100231.81
+2026-10-04 20:07:42,823 INFO alembic.runtime.migration: Context impl PostgresqlImpl.
+2026-10-04 20:07:42,823 INFO alembic.runtime.migration: Will assume transactional DDL.
+2026-10-04 20:07:44,269 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/serverTime "HTTP/1.1 200 OK"
+2026-10-04 20:07:45,304 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/exchangeInfo "HTTP/1.1 200 OK"
+2026-10-04 20:07:46,187 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791124578325 "HTTP/1.1 200 OK"
+2026-10-04 20:07:47,224 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791124579212 "HTTP/1.1 200 OK"
+2026-10-04 20:07:51,968 INFO __main__: Bot initialised: 86 tracked coins (86 warmed), 8 open positions
+2026-10-04 20:07:52,106 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791124584248 "HTTP/1.1 200 OK"
+2026-10-04 20:07:53,154 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791124585134 "HTTP/1.1 200 OK"
+2026-10-04 20:07:55,874 INFO __main__: Market regime: None → TRENDING  (avg_rsi=60.5  ema_up=70%  rising=74%)
+2026-10-04 20:07:55,875 INFO __main__: Adapted params: rsi=44.0–60.0  sep=0.04%  confirm=2  stop=2.0%  target=3.5%
+2026-10-04 20:07:56,869 INFO __main__: Cycle complete: state=TRENDING  86 monitored  8 positions  equity=$100259.62
+2026-10-04 20:09:57,126 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791124709149 "HTTP/1.1 200 OK"
+2026-10-04 20:09:58,165 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791124710155 "HTTP/1.1 200 OK"
+2026-10-04 20:10:00,907 INFO __main__: Market regime: TRENDING → RANGING  (avg_rsi=63.9  ema_up=73%  rising=69%)
+2026-10-04 20:10:00,907 INFO __main__: Adapted params: rsi=45.0–56.0  sep=0.06%  confirm=3  stop=1.5%  target=2.0%
+2026-10-04 20:10:01,901 INFO __main__: Cycle complete: state=RANGING  86 monitored  8 positions  equity=$100175.27
+2026-10-04 20:12:02,113 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791124834182 "HTTP/1.1 200 OK"
+2026-10-04 20:12:02,994 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791124835142 "HTTP/1.1 200 OK"
+2026-10-04 20:12:05,998 INFO __main__: Market regime: RANGING → TRENDING  (avg_rsi=55.1  ema_up=72%  rising=67%)
+2026-10-04 20:12:05,999 INFO __main__: Adapted params: rsi=44.0–60.0  sep=0.04%  confirm=2  stop=2.0%  target=3.5%
+2026-10-04 20:12:05,999 INFO bot.strategy.momentum: SUI/USD signal=BUY | fast=1.198563 slow=1.195796 rsi=58.2 sep=0.2314% cooldown=0 confirm_ticks=2
+2026-10-04 20:12:06,000 INFO bot.strategy.momentum: PEPE/USD signal=BUY | fast=0.000004 slow=0.000004 rsi=54.5 sep=0.0901% cooldown=0 confirm_ticks=2
+2026-10-04 20:12:06,000 INFO bot.strategy.momentum: TUT/USD signal=BUY | fast=0.024401 slow=0.024387 rsi=46.7 sep=0.0567% cooldown=0 confirm_ticks=2
+2026-10-04 20:12:06,000 INFO bot.strategy.momentum: PLUME/USD signal=BUY | fast=0.018773 slow=0.018722 rsi=56.5 sep=0.2691% cooldown=0 confirm_ticks=2
+2026-10-04 20:12:06,001 INFO bot.strategy.momentum: CFX/USD signal=BUY | fast=0.053835 slow=0.053803 rsi=55.6 sep=0.0591% cooldown=0 confirm_ticks=2
+2026-10-04 20:12:06,001 INFO bot.strategy.momentum: 1000CHEEMS/USD signal=BUY | fast=0.000554 slow=0.000553 rsi=58.3 sep=0.0763% cooldown=0 confirm_ticks=2
+2026-10-04 20:12:06,142 INFO httpx: HTTP Request: POST https://mock-api.roostoo.com/v3/place_order "HTTP/1.1 200 OK"
+2026-10-04 20:12:08,642 INFO __main__: LIVE BUY PLUME/USD qty=203014.0 @ 0.01876000 (score=3.6911)
+2026-10-04 20:12:08,782 INFO httpx: HTTP Request: POST https://mock-api.roostoo.com/v3/place_order "HTTP/1.1 200 OK"
+2026-10-04 20:12:11,257 INFO __main__: LIVE BUY SUI/USD qty=3052.6 @ 1.19810000 (score=2.1819)
+2026-10-04 20:12:11,393 INFO httpx: HTTP Request: POST https://mock-api.roostoo.com/v3/place_order "HTTP/1.1 200 OK"
+2026-10-04 20:12:13,872 INFO __main__: LIVE BUY PEPE/USD qty=778943879.0 @ 0.00000429 (score=1.5830)
+2026-10-04 20:12:14,179 INFO httpx: HTTP Request: POST https://mock-api.roostoo.com/v3/place_order "HTTP/1.1 200 OK"
+2026-10-04 20:12:17,081 INFO __main__: LIVE BUY TUT/USD qty=130734.0 @ 0.02442000 (score=1.2996)
+2026-10-04 20:12:17,482 INFO httpx: HTTP Request: POST https://mock-api.roostoo.com/v3/place_order "HTTP/1.1 200 OK"
+2026-10-04 20:12:20,039 INFO __main__: LIVE BUY CFX/USD qty=60410.0 @ 0.05380000 (score=1.1525)
+2026-10-04 20:12:20,181 INFO httpx: HTTP Request: POST https://mock-api.roostoo.com/v3/place_order "HTTP/1.1 200 OK"
+2026-10-04 20:12:23,155 INFO __main__: LIVE BUY 1000CHEEMS/USD qty=5590102.0 @ 0.00055400 (score=1.0359)
+2026-10-04 20:12:24,149 INFO __main__: Cycle complete: state=TRENDING  86 monitored  14 positions  equity=$100198.73
+2026-10-04 20:14:24,444 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791124976430 "HTTP/1.1 200 OK"
+2026-10-04 20:14:25,332 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791124977468 "HTTP/1.1 200 OK"
+2026-10-04 20:14:28,060 INFO bot.strategy.momentum: ICP/USD signal=BUY | fast=3.438808 slow=3.428001 rsi=60.0 sep=0.3153% cooldown=0 confirm_ticks=3
+2026-10-04 20:14:28,061 INFO bot.strategy.momentum: WLFI/USD signal=BUY | fast=0.055593 slow=0.055564 rsi=50.0 sep=0.0533% cooldown=0 confirm_ticks=3
+2026-10-04 20:14:28,224 INFO httpx: HTTP Request: POST https://mock-api.roostoo.com/v3/place_order "HTTP/1.1 200 OK"
+2026-10-04 20:14:30,716 INFO __main__: LIVE BUY ICP/USD qty=1087.42 @ 3.44000000 (score=2.2636)
+2026-10-04 20:14:30,871 INFO httpx: HTTP Request: POST https://mock-api.roostoo.com/v3/place_order "HTTP/1.1 200 OK"
+2026-10-04 20:14:33,348 INFO __main__: LIVE BUY WLFI/USD qty=60156.4 @ 0.05570000 (score=1.6743)
+2026-10-04 20:14:34,340 INFO __main__: Cycle complete: state=TRENDING  86 monitored  16 positions  equity=$100191.53
+2026-10-04 20:16:34,561 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791125106620 "HTTP/1.1 200 OK"
+2026-10-04 20:16:35,434 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791125107586 "HTTP/1.1 200 OK"
+2026-10-04 20:16:38,163 INFO __main__: TRAILING STOP VIRTUAL/USD: pnl=1.60% — entry moved 0.8048 → 0.8064 (stop 0.7887 → 0.7903)
+2026-10-04 20:16:38,163 INFO bot.strategy.momentum: WLD/USD signal=BUY | fast=0.580538 slow=0.580146 rsi=54.1 sep=0.0676% cooldown=0 confirm_ticks=4
+2026-10-04 20:16:38,164 INFO bot.strategy.momentum: ONDO/USD signal=BUY | fast=0.494273 slow=0.493882 rsi=53.6 sep=0.0790% cooldown=0 confirm_ticks=4
+2026-10-04 20:16:38,165 INFO bot.strategy.momentum: MIRA/USD signal=BUY | fast=0.052283 slow=0.052240 rsi=58.6 sep=0.0826% cooldown=0 confirm_ticks=4
+2026-10-04 20:16:38,312 INFO httpx: HTTP Request: POST https://mock-api.roostoo.com/v3/place_order "HTTP/1.1 200 OK"
+2026-10-04 20:16:40,794 INFO __main__: LIVE BUY ONDO/USD qty=6961.1 @ 0.49380000 (score=1.8204)
+2026-10-04 20:16:40,931 INFO httpx: HTTP Request: POST https://mock-api.roostoo.com/v3/place_order "HTTP/1.1 200 OK"
+2026-10-04 20:16:43,415 INFO __main__: LIVE BUY WLD/USD qty=5744.8 @ 0.58110000 (score=1.0384)
+2026-10-04 20:16:43,554 INFO httpx: HTTP Request: POST https://mock-api.roostoo.com/v3/place_order "HTTP/1.1 200 OK"
+2026-10-04 20:16:46,031 INFO __main__: LIVE BUY MIRA/USD qty=61967.5 @ 0.05227000 (score=0.7478)
+2026-10-04 20:16:47,036 INFO __main__: Cycle complete: state=TRENDING  86 monitored  19 positions  equity=$100202.77
+2026-10-04 20:18:47,297 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791125239316 "HTTP/1.1 200 OK"
+2026-10-04 20:18:48,242 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791125240378 "HTTP/1.1 200 OK"
+2026-10-04 20:18:52,718 INFO __main__: Cycle complete: state=TRENDING  86 monitored  19 positions  equity=$100244.02
+2026-10-04 20:20:53,098 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791125364999 "HTTP/1.1 200 OK"
+2026-10-04 20:20:54,127 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791125366125 "HTTP/1.1 200 OK"
+2026-10-04 20:20:56,857 INFO __main__: Market regime: TRENDING → RANGING  (avg_rsi=64.2  ema_up=78%  rising=64%)
+2026-10-04 20:20:56,857 INFO __main__: Adapted params: rsi=45.0–56.0  sep=0.06%  confirm=3  stop=1.5%  target=2.0%
+2026-10-04 20:20:57,851 INFO __main__: Cycle complete: state=RANGING  86 monitored  19 positions  equity=$100187.52
+2026-10-04 20:22:58,107 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791125490132 "HTTP/1.1 200 OK"
+2026-10-04 20:22:58,985 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791125491134 "HTTP/1.1 200 OK"
+2026-10-04 20:23:01,723 INFO __main__: Market regime: RANGING → TRENDING  (avg_rsi=60.4  ema_up=78%  rising=64%)
+2026-10-04 20:23:01,724 INFO __main__: Adapted params: rsi=44.0–60.0  sep=0.04%  confirm=2  stop=2.0%  target=3.5%
+2026-10-04 20:23:02,725 INFO __main__: Cycle complete: state=TRENDING  86 monitored  19 positions  equity=$100166.84
+2026-10-04 20:25:03,029 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791125615005 "HTTP/1.1 200 OK"
+2026-10-04 20:25:04,072 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791125616050 "HTTP/1.1 200 OK"
+2026-10-04 20:25:06,796 INFO __main__: TRAILING STOP VIRTUAL/USD: pnl=1.67% — entry moved 0.8064 → 0.8080 (stop 0.7903 → 0.7919)
+2026-10-04 20:25:07,786 INFO __main__: Cycle complete: state=TRENDING  86 monitored  19 positions  equity=$100279.97
+2026-10-04 20:27:08,095 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791125740066 "HTTP/1.1 200 OK"
+2026-10-04 20:27:08,998 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791125741125 "HTTP/1.1 200 OK"
+2026-10-04 20:27:11,742 INFO __main__: Market regime: TRENDING → RANGING  (avg_rsi=62.4  ema_up=77%  rising=64%)
+2026-10-04 20:27:11,742 INFO __main__: Adapted params: rsi=45.0–56.0  sep=0.06%  confirm=3  stop=1.5%  target=2.0%
+2026-10-04 20:27:11,742 INFO __main__: TRAILING STOP VIRTUAL/USD: pnl=1.57% — entry moved 0.8080 → 0.8096 (stop 0.7959 → 0.7975)
+2026-10-04 20:27:12,756 INFO __main__: Cycle complete: state=RANGING  86 monitored  19 positions  equity=$100306.76
+2026-10-04 20:29:13,167 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791125865037 "HTTP/1.1 200 OK"
+2026-10-04 20:29:14,041 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791125866193 "HTTP/1.1 200 OK"
+2026-10-04 20:29:17,769 INFO __main__: Cycle complete: state=RANGING  86 monitored  19 positions  equity=$100292.85
+2026-10-04 20:31:24,843 INFO alembic.runtime.migration: Context impl PostgresqlImpl.
+2026-10-04 20:31:24,843 INFO alembic.runtime.migration: Will assume transactional DDL.
+2026-10-04 20:31:26,180 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/serverTime "HTTP/1.1 200 OK"
+2026-10-04 20:31:27,081 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/exchangeInfo "HTTP/1.1 200 OK"
+2026-10-04 20:31:27,985 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791126000092 "HTTP/1.1 200 OK"
+2026-10-04 20:31:29,049 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791126000992 "HTTP/1.1 200 OK"
+2026-10-04 20:31:30,569 INFO __main__: Adopted pre-existing wallet holding 1000CHEEMS/USD (qty=5590102.0) @ $0.0006
+2026-10-04 20:31:30,569 INFO __main__: Adopted pre-existing wallet holding BMT/USD (qty=109575.6) @ $0.0190
+2026-10-04 20:31:30,569 INFO __main__: Adopted pre-existing wallet holding CFX/USD (qty=60410.0) @ $0.0539
+2026-10-04 20:31:30,569 INFO __main__: Adopted pre-existing wallet holding DOGE/USD (qty=59344.0) @ $0.0940
+2026-10-04 20:31:30,569 INFO __main__: Adopted pre-existing wallet holding EIGEN/USD (qty=21301.12) @ $0.2628
+2026-10-04 20:31:30,569 INFO __main__: Adopted pre-existing wallet holding ICP/USD (qty=1087.42) @ $3.4200
+2026-10-04 20:31:30,569 INFO __main__: Adopted pre-existing wallet holding MIRA/USD (qty=61967.5) @ $0.0522
+2026-10-04 20:31:30,569 INFO __main__: Adopted pre-existing wallet holding ONDO/USD (qty=6961.1) @ $0.4955
+2026-10-04 20:31:30,569 INFO __main__: Adopted pre-existing wallet holding PEPE/USD (qty=778943879.0) @ $0.0000
+2026-10-04 20:31:30,569 INFO __main__: Adopted pre-existing wallet holding PLUME/USD (qty=203014.0) @ $0.0188
+2026-10-04 20:31:30,569 INFO __main__: Adopted pre-existing wallet holding POL/USD (qty=51630.4) @ $0.1092
+2026-10-04 20:31:30,569 INFO __main__: Adopted pre-existing wallet holding SUI/USD (qty=3052.6) @ $1.2000
+2026-10-04 20:31:30,569 INFO __main__: Adopted pre-existing wallet holding TAO/USD (qty=19.3364) @ $305.8000
+2026-10-04 20:31:30,569 INFO __main__: Adopted pre-existing wallet holding TUT/USD (qty=130734.0) @ $0.0244
+2026-10-04 20:31:30,569 INFO __main__: Adopted pre-existing wallet holding VIRTUAL/USD (qty=7888.7) @ $0.8211
+2026-10-04 20:31:30,569 INFO __main__: Adopted pre-existing wallet holding WLD/USD (qty=5744.8) @ $0.5878
+2026-10-04 20:31:30,570 INFO __main__: Adopted pre-existing wallet holding WLFI/USD (qty=60156.4) @ $0.0557
+2026-10-04 20:31:30,570 INFO __main__: Adopted pre-existing wallet holding XPL/USD (qty=61986.7) @ $0.0958
+2026-10-04 20:31:30,570 INFO __main__: Adopted pre-existing wallet holding XRP/USD (qty=3922.8) @ $1.5022
+2026-10-04 20:31:33,632 INFO __main__: Bot initialised: 86 tracked coins (86 warmed), 19 open positions
+2026-10-04 20:31:33,934 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791126005887 "HTTP/1.1 200 OK"
+2026-10-04 20:31:35,009 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791126006940 "HTTP/1.1 200 OK"
+2026-10-04 20:31:37,779 INFO __main__: Market regime: None → TRENDING  (avg_rsi=61.6  ema_up=81%  rising=67%)
+2026-10-04 20:31:37,779 INFO __main__: Adapted params: rsi=44.0–60.0  sep=0.04%  confirm=3  stop=2.5%  target=3.5%
+2026-10-04 20:31:38,783 INFO __main__: Cycle complete: state=TRENDING  86 monitored  19 positions  equity=$100280.01
+2026-10-04 20:33:39,030 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791126131038 "HTTP/1.1 200 OK"
+2026-10-04 20:33:39,908 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791126132036 "HTTP/1.1 200 OK"
+2026-10-04 20:33:43,684 INFO __main__: Cycle complete: state=TRENDING  86 monitored  19 positions  equity=$100299.54
+2026-10-04 20:35:43,951 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791126255939 "HTTP/1.1 200 OK"
+2026-10-04 20:35:44,849 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791126256957 "HTTP/1.1 200 OK"
+2026-10-04 20:35:48,804 INFO __main__: TRAILING STOP SUI/USD: pnl=2.78% — entry moved 1.2000 → 1.2024 (stop 1.1700 → 1.1723)
+2026-10-04 20:35:50,158 INFO __main__: Cycle complete: state=TRENDING  86 monitored  19 positions  equity=$100596.17
+2026-10-04 20:37:50,560 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791126382413 "HTTP/1.1 200 OK"
+2026-10-04 20:37:51,473 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791126383577 "HTTP/1.1 200 OK"
+2026-10-04 20:37:54,298 INFO __main__: Market regime: TRENDING → RANGING  (avg_rsi=63.2  ema_up=84%  rising=74%)
+2026-10-04 20:37:54,298 INFO __main__: Adapted params: rsi=45.0–56.0  sep=0.06%  confirm=3  stop=2.0%  target=2.0%
+2026-10-04 20:37:54,299 INFO __main__: TRAILING STOP SUI/USD: pnl=1.99% — entry moved 1.2024 → 1.2048 (stop 1.1784 → 1.1807)
+2026-10-04 20:37:54,299 INFO bot.strategy.momentum: SOL/USD signal=BUY | fast=121.767724 slow=121.649964 rsi=52.8 sep=0.0968% cooldown=0 confirm_ticks=3
+2026-10-04 20:37:54,299 INFO bot.strategy.momentum: ENA/USD signal=BUY | fast=0.237652 slow=0.237142 rsi=53.8 sep=0.2153% cooldown=0 confirm_ticks=3
+2026-10-04 20:37:54,300 INFO bot.strategy.momentum: LINK/USD signal=BUY | fast=14.164308 slow=14.148899 rsi=51.3 sep=0.1089% cooldown=0 confirm_ticks=3
+2026-10-04 20:37:54,300 INFO bot.strategy.momentum: DOT/USD signal=BUY | fast=1.193823 slow=1.192255 rsi=45.5 sep=0.1315% cooldown=0 confirm_ticks=3
+2026-10-04 20:37:54,300 INFO bot.strategy.momentum: PENGU/USD signal=BUY | fast=0.009271 slow=0.009253 rsi=50.0 sep=0.1879% cooldown=0 confirm_ticks=3
+2026-10-04 20:37:54,301 INFO bot.strategy.momentum: BONK/USD signal=BUY | fast=0.000004 slow=0.000004 rsi=50.0 sep=0.1164% cooldown=0 confirm_ticks=3
+2026-10-04 20:37:54,301 INFO bot.strategy.momentum: SHIB/USD signal=BUY | fast=0.000006 slow=0.000006 rsi=54.5 sep=0.1167% cooldown=0 confirm_ticks=3
+2026-10-04 20:37:54,301 INFO bot.strategy.momentum: ZEN/USD signal=BUY | fast=6.995103 slow=6.987553 rsi=46.1 sep=0.1080% cooldown=0 confirm_ticks=3
+2026-10-04 20:37:54,301 INFO bot.strategy.momentum: BIO/USD signal=BUY | fast=0.030702 slow=0.030669 rsi=49.0 sep=0.1080% cooldown=0 confirm_ticks=3
+2026-10-04 20:37:54,302 INFO bot.strategy.momentum: LINEA/USD signal=BUY | fast=0.002879 slow=0.002875 rsi=50.0 sep=0.1448% cooldown=0 confirm_ticks=3
+2026-10-04 20:37:54,474 INFO httpx: HTTP Request: POST https://mock-api.roostoo.com/v3/place_order "HTTP/1.1 200 OK"
+2026-10-04 20:37:57,480 INFO __main__: LIVE BUY ENA/USD qty=16631.24 @ 0.23720000 (score=3.4059)
+2026-10-04 20:37:57,680 INFO httpx: HTTP Request: POST https://mock-api.roostoo.com/v3/place_order "HTTP/1.1 200 OK"
+2026-10-04 20:38:00,202 INFO __main__: LIVE BUY PENGU/USD qty=427384.0 @ 0.00926200 (score=3.2447)
+2026-10-04 20:38:00,366 INFO httpx: HTTP Request: POST https://mock-api.roostoo.com/v3/place_order "HTTP/1.1 200 OK"
+2026-10-04 20:38:02,898 INFO __main__: LIVE BUY LINK/USD qty=259.93 @ 14.16600000 (score=2.9162)
+2026-10-04 20:38:03,220 INFO httpx: HTTP Request: POST https://mock-api.roostoo.com/v3/place_order "HTTP/1.1 200 OK"
+2026-10-04 20:38:05,768 INFO __main__: LIVE BUY LINEA/USD qty=1320959.0 @ 0.00288000 (score=2.5129)
+2026-10-04 20:38:06,082 INFO httpx: HTTP Request: POST https://mock-api.roostoo.com/v3/place_order "HTTP/1.1 200 OK"
+2026-10-04 20:38:08,603 INFO __main__: LIVE BUY SOL/USD qty=29.451 @ 121.75000000 (score=2.4483)
+2026-10-04 20:38:08,758 INFO httpx: HTTP Request: POST https://mock-api.roostoo.com/v3/place_order "HTTP/1.1 200 OK"
+2026-10-04 20:38:11,781 INFO __main__: LIVE BUY BONK/USD qty=169584570.0 @ 0.00000385 (score=2.2213)
+2026-10-04 20:38:11,940 INFO httpx: HTTP Request: POST https://mock-api.roostoo.com/v3/place_order "HTTP/1.1 200 OK"
+2026-10-04 20:38:14,456 INFO __main__: LIVE BUY SHIB/USD qty=5410696.0 @ 0.00000572 (score=1.8318)
+2026-10-04 20:38:15,718 INFO __main__: Cycle complete: state=RANGING  86 monitored  26 positions  equity=$100402.13
+2026-10-04 20:40:16,190 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791126527973 "HTTP/1.1 200 OK"
+2026-10-04 20:40:17,118 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791126529220 "HTTP/1.1 200 OK"
+2026-10-04 20:40:19,937 INFO __main__: Market regime: RANGING → TRENDING  (avg_rsi=56.3  ema_up=83%  rising=74%)
+2026-10-04 20:40:19,938 INFO __main__: Adapted params: rsi=44.0–60.0  sep=0.04%  confirm=3  stop=2.5%  target=3.5%
+2026-10-04 20:40:19,938 INFO __main__: TRAILING STOP SUI/USD: pnl=1.93% — entry moved 1.2048 → 1.2072 (stop 1.1747 → 1.1770)
+2026-10-04 20:40:19,939 INFO bot.strategy.momentum: AVAX/USD signal=BUY | fast=11.052787 slow=11.038996 rsi=58.5 sep=0.1249% cooldown=0 confirm_ticks=4
+2026-10-04 20:40:19,939 INFO bot.strategy.momentum: HBAR/USD signal=BUY | fast=0.102431 slow=0.102274 rsi=49.5 sep=0.1531% cooldown=0 confirm_ticks=4
+2026-10-04 20:40:19,939 INFO bot.strategy.momentum: APT/USD signal=BUY | fast=0.810135 slow=0.807378 rsi=59.4 sep=0.3415% cooldown=0 confirm_ticks=4
+2026-10-04 20:40:19,939 INFO bot.strategy.momentum: FIL/USD signal=BUY | fast=1.059101 slow=1.058266 rsi=46.7 sep=0.0789% cooldown=0 confirm_ticks=4
+2026-10-04 20:40:19,940 INFO bot.strategy.momentum: CRCLB/USD signal=BUY | fast=83.281449 slow=83.228979 rsi=55.8 sep=0.0630% cooldown=0 confirm_ticks=4
+2026-10-04 20:40:19,940 INFO bot.strategy.momentum: WIF/USD signal=BUY | fast=0.248262 slow=0.247688 rsi=56.6 sep=0.2318% cooldown=0 confirm_ticks=4
+2026-10-04 20:40:19,940 INFO bot.strategy.momentum: AVNT/USD signal=BUY | fast=0.126842 slow=0.126719 rsi=58.8 sep=0.0966% cooldown=0 confirm_ticks=4
+2026-10-04 20:40:21,228 INFO __main__: Cycle complete: state=TRENDING  86 monitored  26 positions  equity=$100317.74
+2026-10-04 20:42:21,483 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791126653484 "HTTP/1.1 200 OK"
+2026-10-04 20:42:22,378 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791126654488 "HTTP/1.1 200 OK"
+2026-10-04 20:42:25,671 INFO __main__: TRAILING STOP SUI/USD: pnl=2.02% — entry moved 1.2072 → 1.2096 (stop 1.1770 → 1.1794)
+2026-10-04 20:42:25,671 INFO bot.strategy.momentum: FET/USD signal=BUY | fast=0.240696 slow=0.240343 rsi=52.6 sep=0.1473% cooldown=0 confirm_ticks=4
+2026-10-04 20:42:25,673 INFO bot.strategy.momentum: STO/USD signal=BUY | fast=0.041125 slow=0.041106 rsi=50.0 sep=0.0469% cooldown=0 confirm_ticks=5
+2026-10-04 20:42:27,171 INFO __main__: Cycle complete: state=TRENDING  86 monitored  26 positions  equity=$100372.01
+2026-10-04 20:44:27,382 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791126779426 "HTTP/1.1 200 OK"
+2026-10-04 20:44:28,267 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791126780395 "HTTP/1.1 200 OK"
+2026-10-04 20:44:32,101 INFO __main__: Cycle complete: state=TRENDING  86 monitored  26 positions  equity=$100280.26
+2026-10-04 20:46:32,357 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791126904356 "HTTP/1.1 200 OK"
+2026-10-04 20:46:33,253 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791126905365 "HTTP/1.1 200 OK"
+2026-10-04 20:46:36,023 INFO __main__: TRAILING STOP SUI/USD: pnl=1.66% — entry moved 1.2096 → 1.2120 (stop 1.1794 → 1.1817)
+2026-10-04 20:46:37,030 INFO __main__: Cycle complete: state=TRENDING  86 monitored  26 positions  equity=$100359.87
+2026-10-04 20:48:37,248 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791127029286 "HTTP/1.1 200 OK"
+2026-10-04 20:48:38,130 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791127030257 "HTTP/1.1 200 OK"
+2026-10-04 20:48:41,001 INFO __main__: TRAILING STOP SUI/USD: pnl=1.87% — entry moved 1.2120 → 1.2145 (stop 1.1817 → 1.1841)
+2026-10-04 20:48:42,200 INFO __main__: Cycle complete: state=TRENDING  86 monitored  26 positions  equity=$100408.75
+2026-10-04 20:50:49,611 INFO alembic.runtime.migration: Context impl PostgresqlImpl.
+2026-10-04 20:50:49,611 INFO alembic.runtime.migration: Will assume transactional DDL.
+2026-10-04 20:50:50,898 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/serverTime "HTTP/1.1 200 OK"
+2026-10-04 20:50:51,771 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/exchangeInfo "HTTP/1.1 200 OK"
+2026-10-04 20:50:52,644 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791127164800 "HTTP/1.1 200 OK"
+2026-10-04 20:50:53,688 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791127165676 "HTTP/1.1 200 OK"
+2026-10-04 20:50:55,186 INFO __main__: Adopted pre-existing wallet holding 1000CHEEMS/USD (qty=5590102.0) @ $0.0006
+2026-10-04 20:50:55,186 INFO __main__: Adopted pre-existing wallet holding BMT/USD (qty=109575.6) @ $0.0189
+2026-10-04 20:50:55,186 INFO __main__: Adopted pre-existing wallet holding BONK/USD (qty=169584570.0) @ $0.0000
+2026-10-04 20:50:55,186 INFO __main__: Adopted pre-existing wallet holding CFX/USD (qty=60410.0) @ $0.0538
+2026-10-04 20:50:55,187 INFO __main__: Adopted pre-existing wallet holding DOGE/USD (qty=59344.0) @ $0.0942
+2026-10-04 20:50:55,187 INFO __main__: Adopted pre-existing wallet holding EIGEN/USD (qty=21301.12) @ $0.2623
+2026-10-04 20:50:55,187 INFO __main__: Adopted pre-existing wallet holding ENA/USD (qty=16631.24) @ $0.2374
+2026-10-04 20:50:55,187 INFO __main__: Adopted pre-existing wallet holding ICP/USD (qty=1087.42) @ $3.3980
+2026-10-04 20:50:55,187 INFO __main__: Adopted pre-existing wallet holding LINEA/USD (qty=1320959.0) @ $0.0029
+2026-10-04 20:50:55,187 INFO __main__: Adopted pre-existing wallet holding LINK/USD (qty=259.93) @ $14.2110
+2026-10-04 20:50:55,187 INFO __main__: Adopted pre-existing wallet holding MIRA/USD (qty=61967.5) @ $0.0522
+2026-10-04 20:50:55,187 INFO __main__: Adopted pre-existing wallet holding ONDO/USD (qty=6961.1) @ $0.4956
+2026-10-04 20:50:55,187 INFO __main__: Adopted pre-existing wallet holding PENGU/USD (qty=427384.0) @ $0.0093
+2026-10-04 20:50:55,187 INFO __main__: Adopted pre-existing wallet holding PEPE/USD (qty=778943879.0) @ $0.0000
+2026-10-04 20:50:55,187 INFO __main__: Adopted pre-existing wallet holding PLUME/USD (qty=203014.0) @ $0.0188
+2026-10-04 20:50:55,187 INFO __main__: Adopted pre-existing wallet holding POL/USD (qty=51630.4) @ $0.1088
+2026-10-04 20:50:55,187 INFO __main__: Adopted pre-existing wallet holding SHIB/USD (qty=5410696.0) @ $0.0000
+2026-10-04 20:50:55,187 INFO __main__: Adopted pre-existing wallet holding SOL/USD (qty=29.451) @ $121.9500
+2026-10-04 20:50:55,187 INFO __main__: Adopted pre-existing wallet holding SUI/USD (qty=3052.6) @ $1.2325
+2026-10-04 20:50:55,187 INFO __main__: Adopted pre-existing wallet holding TAO/USD (qty=19.3364) @ $306.7000
+2026-10-04 20:50:55,187 INFO __main__: Adopted pre-existing wallet holding TUT/USD (qty=130734.0) @ $0.0243
+2026-10-04 20:50:55,187 INFO __main__: Adopted pre-existing wallet holding VIRTUAL/USD (qty=7888.7) @ $0.8202
+2026-10-04 20:50:55,187 INFO __main__: Adopted pre-existing wallet holding WLD/USD (qty=5744.8) @ $0.5847
+2026-10-04 20:50:55,188 INFO __main__: Adopted pre-existing wallet holding WLFI/USD (qty=60156.4) @ $0.0557
+2026-10-04 20:50:55,188 INFO __main__: Adopted pre-existing wallet holding XPL/USD (qty=61986.7) @ $0.0965
+2026-10-04 20:50:55,188 INFO __main__: Adopted pre-existing wallet holding XRP/USD (qty=3922.8) @ $1.5076
+2026-10-04 20:50:57,929 INFO __main__: Bot initialised: 86 tracked coins (86 warmed), 26 open positions
+2026-10-04 20:50:58,076 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791127170231 "HTTP/1.1 200 OK"
+2026-10-04 20:50:59,111 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791127171111 "HTTP/1.1 200 OK"
+2026-10-04 20:51:01,887 INFO __main__: Market regime: None → TRENDING  (avg_rsi=52.7  ema_up=71%  rising=74%)
+2026-10-04 20:51:01,887 INFO __main__: Adapted params: rsi=44.0–60.0  sep=0.04%  confirm=3  stop=2.5%  target=3.5%
+2026-10-04 20:51:02,872 INFO __main__: Cycle complete: state=TRENDING  86 monitored  26 positions  equity=$100376.32
+2026-10-04 20:53:03,143 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791127295174 "HTTP/1.1 200 OK"
+2026-10-04 20:53:04,032 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791127296183 "HTTP/1.1 200 OK"
+2026-10-04 20:53:07,746 INFO __main__: Cycle complete: state=TRENDING  86 monitored  26 positions  equity=$100480.33
+2026-10-04 20:55:07,946 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791127420048 "HTTP/1.1 200 OK"
+2026-10-04 20:55:08,807 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791127420977 "HTTP/1.1 200 OK"
+2026-10-04 20:55:13,183 INFO __main__: Cycle complete: state=TRENDING  86 monitored  26 positions  equity=$100317.03
+2026-10-04 20:57:13,493 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791127545485 "HTTP/1.1 200 OK"
+2026-10-04 20:57:14,375 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791127546530 "HTTP/1.1 200 OK"
+2026-10-04 20:57:17,072 INFO bot.strategy.momentum: BTC/USD signal=BUY | fast=85350.638200 slow=85295.721215 rsi=56.7 sep=0.0644% cooldown=0 confirm_ticks=3
+2026-10-04 20:57:17,072 INFO bot.strategy.momentum: ETH/USD signal=BUY | fast=2700.072194 slow=2698.595787 rsi=55.4 sep=0.0547% cooldown=0 confirm_ticks=3
+2026-10-04 20:57:17,072 INFO bot.strategy.momentum: ZEC/USD signal=BUY | fast=1331.163647 slow=1328.726195 rsi=59.4 sep=0.1834% cooldown=0 confirm_ticks=3
+2026-10-04 20:57:17,072 INFO bot.strategy.momentum: NEAR/USD signal=BUY | fast=4.864709 slow=4.859270 rsi=48.1 sep=0.1119% cooldown=0 confirm_ticks=3
+2026-10-04 20:57:17,072 INFO bot.strategy.momentum: PUMP/USD signal=BUY | fast=0.006295 slow=0.006287 rsi=59.0 sep=0.1220% cooldown=0 confirm_ticks=3
+2026-10-04 20:57:17,072 INFO bot.strategy.momentum: UNI/USD signal=BUY | fast=9.043996 slow=9.036787 rsi=49.4 sep=0.0798% cooldown=0 confirm_ticks=3
+2026-10-04 20:57:17,072 INFO bot.strategy.momentum: AVAX/USD signal=BUY | fast=11.062164 slow=11.050687 rsi=50.7 sep=0.1039% cooldown=0 confirm_ticks=3
+2026-10-04 20:57:17,073 INFO bot.strategy.momentum: TRUMP/USD signal=BUY | fast=2.044545 slow=2.041944 rsi=48.3 sep=0.1274% cooldown=0 confirm_ticks=3
+2026-10-04 20:57:17,073 INFO bot.strategy.momentum: ASTER/USD signal=BUY | fast=0.710315 slow=0.709979 rsi=53.4 sep=0.0472% cooldown=0 confirm_ticks=3
+2026-10-04 20:57:17,073 INFO bot.strategy.momentum: ARB/USD signal=BUY | fast=0.201616 slow=0.201249 rsi=58.8 sep=0.1821% cooldown=0 confirm_ticks=3
+2026-10-04 20:57:17,073 INFO bot.strategy.momentum: HBAR/USD signal=BUY | fast=0.102437 slow=0.102346 rsi=51.5 sep=0.0885% cooldown=0 confirm_ticks=3
+2026-10-04 20:57:17,073 INFO bot.strategy.momentum: DOT/USD signal=BUY | fast=1.194037 slow=1.192936 rsi=54.2 sep=0.0923% cooldown=0 confirm_ticks=3
+2026-10-04 20:57:17,074 INFO bot.strategy.momentum: APT/USD signal=BUY | fast=0.812785 slow=0.810538 rsi=56.2 sep=0.2772% cooldown=0 confirm_ticks=3
+2026-10-04 20:57:17,074 INFO bot.strategy.momentum: PENDLE/USD signal=BUY | fast=2.436096 slow=2.434456 rsi=52.4 sep=0.0674% cooldown=0 confirm_ticks=3
+2026-10-04 20:57:17,075 INFO bot.strategy.momentum: ZEN/USD signal=BUY | fast=6.992310 slow=6.988982 rsi=45.3 sep=0.0476% cooldown=0 confirm_ticks=3
+2026-10-04 20:57:17,076 INFO bot.strategy.momentum: BIO/USD signal=BUY | fast=0.030703 slow=0.030688 rsi=47.8 sep=0.0492% cooldown=0 confirm_ticks=3
+2026-10-04 20:57:18,050 INFO __main__: Cycle complete: state=TRENDING  86 monitored  26 positions  equity=$100173.66
+2026-10-04 20:59:18,470 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791127670352 "HTTP/1.1 200 OK"
+2026-10-04 20:59:19,327 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791127671501 "HTTP/1.1 200 OK"
+2026-10-04 20:59:22,474 INFO bot.strategy.momentum: PLUME/USD EMA-SELL: pnl=-0.37% cycles=4
+2026-10-04 20:59:22,474 INFO bot.strategy.momentum: PLUME/USD signal=SELL | fast=0.018745 slow=0.018746 rsi=46.3 sep=-0.0070% cooldown=3 confirm_ticks=0
+2026-10-04 20:59:22,622 INFO httpx: HTTP Request: POST https://mock-api.roostoo.com/v3/place_order "HTTP/1.1 200 OK"
+2026-10-04 20:59:25,060 INFO __main__: LIVE SELL PLUME/USD qty=203014.0 @ 0.01871000
+2026-10-04 20:59:25,063 INFO bot.strategy.momentum: FLOKI/USD signal=BUY | fast=0.000028 slow=0.000027 rsi=59.6 sep=0.2750% cooldown=0 confirm_ticks=4
+2026-10-04 20:59:25,210 INFO httpx: HTTP Request: POST https://mock-api.roostoo.com/v3/place_order "HTTP/1.1 200 OK"
+2026-10-04 20:59:27,632 INFO __main__: LIVE BUY FLOKI/USD qty=130856837.0 @ 0.00002756 (score=1.8256)
+2026-10-04 20:59:28,848 INFO __main__: Cycle complete: state=TRENDING  86 monitored  26 positions  equity=$100229.70
+2026-10-04 21:01:29,109 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791127801150 "HTTP/1.1 200 OK"
+2026-10-04 21:01:30,444 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791127802600 "HTTP/1.1 200 OK"
+2026-10-04 21:01:33,628 INFO bot.strategy.momentum: CRCLB/USD signal=BUY | fast=83.358369 slow=83.308713 rsi=57.1 sep=0.0596% cooldown=0 confirm_ticks=5
+2026-10-04 21:01:33,772 INFO httpx: HTTP Request: POST https://mock-api.roostoo.com/v3/place_order "HTTP/1.1 200 OK"
+2026-10-04 21:01:36,220 INFO __main__: LIVE BUY CRCLB/USD qty=2.11 @ 83.37000000 (score=1.2243)
+2026-10-04 21:01:37,442 INFO __main__: Cycle complete: state=TRENDING  86 monitored  27 positions  equity=$100220.12
+2026-10-04 21:03:37,690 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791127929744 "HTTP/1.1 200 OK"
+2026-10-04 21:03:39,019 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791127931191 "HTTP/1.1 200 OK"
+2026-10-04 21:03:41,729 INFO bot.strategy.momentum: ZEN/USD EMA-SELL: pnl=-0.10% cycles=3
+2026-10-04 21:03:41,730 INFO bot.strategy.momentum: ZEN/USD signal=SELL | fast=6.987608 slow=6.987688 rsi=47.6 sep=-0.0011% cooldown=3 confirm_ticks=0
+2026-10-04 21:03:42,697 INFO __main__: Cycle complete: state=TRENDING  86 monitored  27 positions  equity=$100270.02
+2026-10-04 21:05:42,913 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791128055000 "HTTP/1.1 200 OK"
+2026-10-04 21:05:43,790 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791128055955 "HTTP/1.1 200 OK"
+2026-10-04 21:05:47,581 INFO __main__: Cycle complete: state=TRENDING  86 monitored  27 positions  equity=$100237.07
+2026-10-04 21:07:47,975 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791128179883 "HTTP/1.1 200 OK"
+2026-10-04 21:07:48,822 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791128180993 "HTTP/1.1 200 OK"
+2026-10-04 21:07:51,423 INFO __main__: Market regime: TRENDING → RANGING  (avg_rsi=39.0  ema_up=51%  rising=77%)
+2026-10-04 21:07:51,423 INFO __main__: Adapted params: rsi=45.0–56.0  sep=0.06%  confirm=3  stop=2.0%  target=2.0%
+2026-10-04 21:07:51,424 INFO bot.strategy.momentum: PUMP/USD TAKE-PROFIT: pnl=2.67%
+2026-10-04 21:07:51,424 INFO bot.strategy.momentum: PUMP/USD signal=SELL | fast=0.006363 slow=0.006322 rsi=87.1 sep=0.6521% cooldown=0 confirm_ticks=8
+2026-10-04 21:07:52,372 INFO __main__: Cycle complete: state=RANGING  86 monitored  27 positions  equity=$100200.83
+2026-10-04 21:09:57,641 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791128304674 "HTTP/1.1 200 OK"
+2026-10-04 21:09:58,498 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791128310654 "HTTP/1.1 200 OK"
+2026-10-04 21:10:01,103 INFO __main__: Market regime: RANGING → TRENDING  (avg_rsi=43.3  ema_up=50%  rising=73%)
+2026-10-04 21:10:01,103 INFO __main__: Adapted params: rsi=44.0–60.0  sep=0.04%  confirm=3  stop=2.5%  target=3.5%
+2026-10-04 21:10:01,104 INFO bot.strategy.momentum: SOL/USD EMA-SELL: pnl=-0.21% cycles=9
+2026-10-04 21:10:01,104 INFO bot.strategy.momentum: SOL/USD signal=SELL | fast=121.736278 slow=121.739956 rsi=51.7 sep=-0.0030% cooldown=3 confirm_ticks=0
+2026-10-04 21:10:01,262 INFO httpx: HTTP Request: POST https://mock-api.roostoo.com/v3/place_order "HTTP/1.1 200 OK"
+2026-10-04 21:10:03,643 INFO __main__: LIVE SELL SOL/USD qty=29.451 @ 121.69000000
+2026-10-04 21:10:03,643 INFO bot.strategy.momentum: LTC/USD signal=BUY | fast=71.821358 slow=71.760750 rsi=57.8 sep=0.0845% cooldown=0 confirm_ticks=3
+2026-10-04 21:10:03,805 INFO httpx: HTTP Request: POST https://mock-api.roostoo.com/v3/place_order "HTTP/1.1 200 OK"
+2026-10-04 21:10:06,188 INFO __main__: LIVE BUY LTC/USD qty=44.901 @ 71.95000000 (score=1.4461)
+2026-10-04 21:10:07,132 INFO __main__: Cycle complete: state=TRENDING  86 monitored  27 positions  equity=$100153.07
+2026-10-04 21:12:07,349 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791128439434 "HTTP/1.1 200 OK"
+2026-10-04 21:12:08,222 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791128440361 "HTTP/1.1 200 OK"
+2026-10-04 21:12:10,895 INFO bot.strategy.momentum: LINK/USD EMA-SELL: pnl=-0.44% cycles=10
+2026-10-04 21:12:10,895 INFO bot.strategy.momentum: LINK/USD signal=SELL | fast=14.172033 slow=14.172746 rsi=45.9 sep=-0.0050% cooldown=3 confirm_ticks=0
+2026-10-04 21:12:11,042 INFO httpx: HTTP Request: POST https://mock-api.roostoo.com/v3/place_order "HTTP/1.1 200 OK"
+2026-10-04 21:12:13,855 INFO __main__: LIVE SELL LINK/USD qty=259.93 @ 14.14800000
+2026-10-04 21:12:13,855 INFO bot.strategy.momentum: PENGU/USD EMA-SELL: pnl=-0.05% cycles=10
+2026-10-04 21:12:13,855 INFO bot.strategy.momentum: PENGU/USD signal=SELL | fast=0.009251 slow=0.009251 rsi=54.2 sep=-0.0037% cooldown=3 confirm_ticks=0
+2026-10-04 21:12:13,996 INFO httpx: HTTP Request: POST https://mock-api.roostoo.com/v3/place_order "HTTP/1.1 200 OK"
+2026-10-04 21:12:16,346 INFO __main__: LIVE SELL PENGU/USD qty=427384.0 @ 0.00924300
+2026-10-04 21:12:16,347 INFO bot.strategy.momentum: ZEC/USD EMA-SELL: pnl=-0.39% cycles=7
+2026-10-04 21:12:16,347 INFO bot.strategy.momentum: ZEC/USD signal=SELL | fast=1328.162442 slow=1328.362294 rsi=54.4 sep=-0.0150% cooldown=3 confirm_ticks=0
+2026-10-04 21:12:16,348 INFO bot.strategy.momentum: PENDLE/USD EMA-SELL: pnl=-0.12% cycles=7
+2026-10-04 21:12:16,348 INFO bot.strategy.momentum: PENDLE/USD signal=SELL | fast=2.433769 slow=2.434057 rsi=50.0 sep=-0.0119% cooldown=3 confirm_ticks=0
+2026-10-04 21:12:17,290 INFO __main__: Cycle complete: state=TRENDING  86 monitored  25 positions  equity=$100115.81
+2026-10-04 21:14:17,595 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791128569592 "HTTP/1.1 200 OK"
+2026-10-04 21:14:18,440 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791128570609 "HTTP/1.1 200 OK"
+2026-10-04 21:14:21,050 INFO __main__: Market regime: TRENDING → RANGING  (avg_rsi=42.9  ema_up=41%  rising=72%)
+2026-10-04 21:14:21,050 INFO __main__: Adapted params: rsi=45.0–56.0  sep=0.06%  confirm=3  stop=2.0%  target=2.0%
+2026-10-04 21:14:21,194 INFO httpx: HTTP Request: POST https://mock-api.roostoo.com/v3/place_order "HTTP/1.1 200 OK"
+2026-10-04 21:14:23,641 INFO __main__: PROACTIVE EXIT BMT/USD qty=109575.6 @ 0.01878000 pnl=-0.85% rsi=5.6
+2026-10-04 21:14:23,642 INFO bot.strategy.momentum: NEAR/USD EMA-SELL: pnl=-0.33% cycles=8
+2026-10-04 21:14:23,642 INFO bot.strategy.momentum: NEAR/USD signal=SELL | fast=4.856492 slow=4.858128 rsi=52.3 sep=-0.0337% cooldown=3 confirm_ticks=0
+2026-10-04 21:14:24,587 INFO __main__: Cycle complete: state=RANGING  86 monitored  24 positions  equity=$100130.20
+2026-10-04 21:16:24,949 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791128696890 "HTTP/1.1 200 OK"
+2026-10-04 21:16:25,803 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791128697978 "HTTP/1.1 200 OK"
+2026-10-04 21:16:28,531 INFO __main__: TRAILING STOP SUI/USD: pnl=1.87% — entry moved 1.2325 → 1.2350 (stop 1.2078 → 1.2103)
+2026-10-04 21:16:29,537 INFO __main__: Cycle complete: state=RANGING  86 monitored  24 positions  equity=$100115.65
+2026-10-04 21:18:29,860 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791128821840 "HTTP/1.1 200 OK"
+2026-10-04 21:18:30,723 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791128822893 "HTTP/1.1 200 OK"
+2026-10-04 21:18:33,412 INFO __main__: TRAILING STOP SUI/USD: pnl=1.88% — entry moved 1.2350 → 1.2374 (stop 1.2103 → 1.2127)
+2026-10-04 21:18:33,560 INFO httpx: HTTP Request: POST https://mock-api.roostoo.com/v3/place_order "HTTP/1.1 200 OK"
+2026-10-04 21:18:36,460 INFO __main__: PROACTIVE EXIT TAO/USD qty=19.3364 @ 303.90000000 pnl=-0.85% rsi=26.3
+2026-10-04 21:18:36,601 INFO httpx: HTTP Request: POST https://mock-api.roostoo.com/v3/place_order "HTTP/1.1 200 OK"
+2026-10-04 21:18:39,049 INFO __main__: PROACTIVE EXIT WLD/USD qty=5744.8 @ 0.58000000 pnl=-0.80% rsi=38.9
+2026-10-04 21:18:40,027 INFO __main__: Cycle complete: state=RANGING  86 monitored  22 positions  equity=$100110.78
+2026-10-04 21:20:40,279 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791128952329 "HTTP/1.1 200 OK"
+2026-10-04 21:20:41,179 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791128953349 "HTTP/1.1 200 OK"
+2026-10-04 21:20:43,862 INFO __main__: TRAILING STOP SUI/USD: pnl=1.67% — entry moved 1.2374 → 1.2399 (stop 1.2127 → 1.2151)
+2026-10-04 21:20:44,836 INFO __main__: Cycle complete: state=RANGING  86 monitored  22 positions  equity=$100080.96
+2026-10-04 21:22:45,226 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791129077138 "HTTP/1.1 200 OK"
+2026-10-04 21:22:46,152 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791129078298 "HTTP/1.1 200 OK"
+2026-10-04 21:22:48,838 INFO bot.strategy.momentum: 1000CHEEMS/USD STAGNANT EXIT: pnl=-0.54% cycles=15 ema_below=15 ticks
+2026-10-04 21:22:48,838 INFO bot.strategy.momentum: 1000CHEEMS/USD signal=SELL | fast=0.000550 slow=0.000551 rsi=28.6 sep=-0.1594% cooldown=3 confirm_ticks=0
+2026-10-04 21:22:48,996 INFO httpx: HTTP Request: POST https://mock-api.roostoo.com/v3/place_order "HTTP/1.1 200 OK"
+2026-10-04 21:22:51,433 INFO __main__: LIVE SELL 1000CHEEMS/USD qty=5590102.0 @ 0.00054900
+2026-10-04 21:22:51,433 INFO bot.strategy.momentum: CFX/USD STAGNANT EXIT: pnl=-0.28% cycles=15 ema_below=15 ticks
+2026-10-04 21:22:51,433 INFO bot.strategy.momentum: CFX/USD signal=SELL | fast=0.053645 slow=0.053692 rsi=31.3 sep=-0.0872% cooldown=3 confirm_ticks=0
+2026-10-04 21:22:51,754 INFO httpx: HTTP Request: POST https://mock-api.roostoo.com/v3/place_order "HTTP/1.1 200 OK"
+2026-10-04 21:22:54,175 INFO __main__: LIVE SELL CFX/USD qty=60410.0 @ 0.05363000
+2026-10-04 21:22:54,175 INFO bot.strategy.momentum: EIGEN/USD STAGNANT EXIT: pnl=-0.65% cycles=15 ema_below=13 ticks
+2026-10-04 21:22:54,175 INFO bot.strategy.momentum: EIGEN/USD signal=SELL | fast=0.261379 slow=0.261805 rsi=29.3 sep=-0.1630% cooldown=3 confirm_ticks=0
+2026-10-04 21:22:54,346 INFO httpx: HTTP Request: POST https://mock-api.roostoo.com/v3/place_order "HTTP/1.1 200 OK"
+2026-10-04 21:22:56,775 INFO __main__: LIVE SELL EIGEN/USD qty=21301.12 @ 0.26020000
+2026-10-04 21:22:56,776 INFO bot.strategy.momentum: ENA/USD STAGNANT EXIT: pnl=-0.34% cycles=15 ema_below=10 ticks
+2026-10-04 21:22:56,776 INFO bot.strategy.momentum: ENA/USD signal=SELL | fast=0.236755 slow=0.236947 rsi=15.4 sep=-0.0810% cooldown=3 confirm_ticks=0
+2026-10-04 21:22:57,117 INFO httpx: HTTP Request: POST https://mock-api.roostoo.com/v3/place_order "HTTP/1.1 200 OK"
+2026-10-04 21:22:59,546 INFO __main__: LIVE SELL ENA/USD qty=16631.24 @ 0.23650000
+2026-10-04 21:22:59,704 INFO httpx: HTTP Request: POST https://mock-api.roostoo.com/v3/place_order "HTTP/1.1 200 OK"
+2026-10-04 21:23:02,150 INFO __main__: PROACTIVE EXIT ICP/USD qty=1087.42 @ 3.36800000 pnl=-0.85% rsi=21.7
+2026-10-04 21:23:02,150 INFO bot.strategy.momentum: LINEA/USD STAGNANT EXIT: pnl=-0.42% cycles=15 ema_below=11 ticks
+2026-10-04 21:23:02,150 INFO bot.strategy.momentum: LINEA/USD signal=SELL | fast=0.002862 slow=0.002867 rsi=10.5 sep=-0.1685% cooldown=3 confirm_ticks=0
+2026-10-04 21:23:02,471 INFO httpx: HTTP Request: POST https://mock-api.roostoo.com/v3/place_order "HTTP/1.1 200 OK"
+2026-10-04 21:23:04,903 INFO __main__: LIVE SELL LINEA/USD qty=1320959.0 @ 0.00286000
+2026-10-04 21:23:04,904 INFO bot.strategy.momentum: MIRA/USD STAGNANT EXIT: pnl=-0.29% cycles=15 ema_below=15 ticks
+2026-10-04 21:23:04,904 INFO bot.strategy.momentum: MIRA/USD signal=SELL | fast=0.052103 slow=0.052158 rsi=22.2 sep=-0.1052% cooldown=3 confirm_ticks=0
+2026-10-04 21:23:05,228 INFO httpx: HTTP Request: POST https://mock-api.roostoo.com/v3/place_order "HTTP/1.1 200 OK"
+2026-10-04 21:23:07,645 INFO __main__: LIVE SELL MIRA/USD qty=61967.5 @ 0.05205000
+2026-10-04 21:23:07,645 INFO bot.strategy.momentum: ONDO/USD STAGNANT EXIT: pnl=-0.12% cycles=15 ema_below=12 ticks
+2026-10-04 21:23:07,645 INFO bot.strategy.momentum: ONDO/USD signal=SELL | fast=0.494739 slow=0.494802 rsi=40.4 sep=-0.0125% cooldown=3 confirm_ticks=0
+2026-10-04 21:23:07,812 INFO httpx: HTTP Request: POST https://mock-api.roostoo.com/v3/place_order "HTTP/1.1 200 OK"
+2026-10-04 21:23:10,241 INFO __main__: LIVE SELL ONDO/USD qty=6961.1 @ 0.49450000
+2026-10-04 21:23:10,241 INFO bot.strategy.momentum: POL/USD STAGNANT EXIT: pnl=-0.29% cycles=15 ema_below=15 ticks
+2026-10-04 21:23:10,241 INFO bot.strategy.momentum: POL/USD signal=SELL | fast=0.108503 slow=0.108651 rsi=30.4 sep=-0.1357% cooldown=3 confirm_ticks=0
+2026-10-04 21:23:10,573 INFO httpx: HTTP Request: POST https://mock-api.roostoo.com/v3/place_order "HTTP/1.1 200 OK"
+2026-10-04 21:23:13,009 INFO __main__: LIVE SELL POL/USD qty=51630.4 @ 0.10847000
+2026-10-04 21:23:13,010 INFO __main__: TRAILING STOP SUI/USD: pnl=1.98% — entry moved 1.2399 → 1.2424 (stop 1.2151 → 1.2175)
+2026-10-04 21:23:13,010 INFO bot.strategy.momentum: TUT/USD STAGNANT EXIT: pnl=-0.66% cycles=15 ema_below=15 ticks
+2026-10-04 21:23:13,010 INFO bot.strategy.momentum: TUT/USD signal=SELL | fast=0.024130 slow=0.024212 rsi=31.1 sep=-0.3379% cooldown=3 confirm_ticks=0
+2026-10-04 21:23:13,325 INFO httpx: HTTP Request: POST https://mock-api.roostoo.com/v3/place_order "HTTP/1.1 200 OK"
+2026-10-04 21:23:15,772 INFO __main__: LIVE SELL TUT/USD qty=130734.0 @ 0.02408000
+2026-10-04 21:23:15,772 INFO bot.strategy.momentum: VIRTUAL/USD STAGNANT EXIT: pnl=-0.21% cycles=15 ema_below=7 ticks
+2026-10-04 21:23:15,772 INFO bot.strategy.momentum: VIRTUAL/USD signal=SELL | fast=0.818674 slow=0.818914 rsi=44.1 sep=-0.0292% cooldown=3 confirm_ticks=0
+2026-10-04 21:23:16,098 INFO httpx: HTTP Request: POST https://mock-api.roostoo.com/v3/place_order "HTTP/1.1 200 OK"
+2026-10-04 21:23:18,530 INFO __main__: LIVE SELL VIRTUAL/USD qty=7888.7 @ 0.81860000
+2026-10-04 21:23:18,530 INFO bot.strategy.momentum: WLFI/USD STAGNANT EXIT: pnl=-0.18% cycles=15 ema_below=13 ticks
+2026-10-04 21:23:18,530 INFO bot.strategy.momentum: WLFI/USD signal=SELL | fast=0.055537 slow=0.055578 rsi=37.5 sep=-0.0741% cooldown=3 confirm_ticks=0
+2026-10-04 21:23:18,856 INFO httpx: HTTP Request: POST https://mock-api.roostoo.com/v3/place_order "HTTP/1.1 200 OK"
+2026-10-04 21:23:21,285 INFO __main__: LIVE SELL WLFI/USD qty=60156.4 @ 0.05550000
+2026-10-04 21:23:22,266 INFO __main__: Cycle complete: state=RANGING  86 monitored  10 positions  equity=$100108.81
+2026-10-04 21:25:22,537 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791129234568 "HTTP/1.1 200 OK"
+2026-10-04 21:25:23,404 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791129235558 "HTTP/1.1 200 OK"
+2026-10-04 21:25:27,024 INFO __main__: Cycle complete: state=RANGING  86 monitored  10 positions  equity=$99986.35
+2026-10-04 21:27:27,651 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791129359326 "HTTP/1.1 200 OK"
+2026-10-04 21:27:28,542 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791129360685 "HTTP/1.1 200 OK"
+2026-10-04 21:27:32,223 INFO __main__: Cycle complete: state=RANGING  86 monitored  10 positions  equity=$99970.01
+2026-10-04 21:28:50,420 INFO alembic.runtime.migration: Context impl PostgresqlImpl.
+2026-10-04 21:28:50,420 INFO alembic.runtime.migration: Will assume transactional DDL.
+2026-10-04 21:28:52,443 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/serverTime "HTTP/1.1 200 OK"
+2026-10-04 21:28:53,373 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/exchangeInfo "HTTP/1.1 200 OK"
+2026-10-04 21:28:54,285 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791129446588 "HTTP/1.1 200 OK"
+2026-10-04 21:28:55,348 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791129447501 "HTTP/1.1 200 OK"
+2026-10-04 21:29:14,233 INFO __main__: Bot initialised: 86 tracked coins (86 warmed), 10 open positions
+2026-10-04 21:29:14,521 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791129466687 "HTTP/1.1 200 OK"
+2026-10-04 21:29:15,921 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791129468217 "HTTP/1.1 200 OK"
+2026-10-04 21:29:19,198 INFO __main__: Market regime: None → RANGING  (avg_rsi=43.5  ema_up=34%  rising=70%)
+2026-10-04 21:29:19,198 INFO __main__: Adapted params: rsi=45.0–56.0  sep=0.06%  confirm=3  stop=2.0%  target=2.0%  hold≥5  stagnant≥10
+2026-10-04 21:29:20,219 INFO __main__: Cycle complete: state=RANGING  86 monitored  10 positions  equity=$99998.13
+2026-10-04 21:31:20,650 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791129592673 "HTTP/1.1 200 OK"
+2026-10-04 21:31:21,744 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791129593884 "HTTP/1.1 200 OK"
+2026-10-04 21:31:25,620 INFO __main__: Cycle complete: state=RANGING  86 monitored  10 positions  equity=$99956.84
+2026-10-04 21:33:25,905 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791129718074 "HTTP/1.1 200 OK"
+2026-10-04 21:33:26,800 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791129719125 "HTTP/1.1 200 OK"
+2026-10-04 21:33:30,888 INFO __main__: Cycle complete: state=RANGING  86 monitored  10 positions  equity=$99954.59
+2026-10-04 21:35:31,196 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791129843343 "HTTP/1.1 200 OK"
+2026-10-04 21:35:32,107 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791129844409 "HTTP/1.1 200 OK"
+2026-10-04 21:35:34,906 INFO bot.strategy.momentum: FET/USD signal=BUY | fast=0.246185 slow=0.245262 rsi=49.3 sep=0.3764% cooldown=0 confirm_ticks=3
+2026-10-04 21:35:34,907 INFO bot.strategy.momentum: DOT/USD signal=BUY | fast=1.199854 slow=1.197923 rsi=50.0 sep=0.1613% cooldown=0 confirm_ticks=3
+2026-10-04 21:35:35,078 INFO httpx: HTTP Request: POST https://mock-api.roostoo.com/v3/place_order "HTTP/1.1 200 OK"
+2026-10-04 21:35:37,635 INFO __main__: LIVE BUY FET/USD qty=15879.8 @ 0.24610000 (score=7.2683)
+2026-10-04 21:35:37,801 INFO httpx: HTTP Request: POST https://mock-api.roostoo.com/v3/place_order "HTTP/1.1 200 OK"
+2026-10-04 21:35:40,436 INFO __main__: LIVE BUY DOT/USD qty=3190.72 @ 1.19900000 (score=2.6519)
+2026-10-04 21:35:41,469 INFO __main__: Cycle complete: state=RANGING  86 monitored  12 positions  equity=$99870.40
+2026-10-04 21:37:41,763 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791129973923 "HTTP/1.1 200 OK"
+2026-10-04 21:37:42,819 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791129974980 "HTTP/1.1 200 OK"
+2026-10-04 21:37:45,644 INFO __main__: Market regime: RANGING → RECOVERY  (avg_rsi=36.6  ema_up=24%  rising=67%)
+2026-10-04 21:37:45,644 INFO __main__: Adapted params: rsi=38.0–62.0  sep=0.02%  confirm=3  stop=2.0%  target=2.5%  hold≥8  stagnant≥16
+2026-10-04 21:37:45,644 INFO bot.strategy.momentum: PUMP/USD signal=BUY | fast=0.006483 slow=0.006446 rsi=52.6 sep=0.5748% cooldown=0 confirm_ticks=4
+2026-10-04 21:37:45,646 INFO bot.strategy.momentum: HEMI/USD signal=BUY | fast=0.005911 slow=0.005908 rsi=55.6 sep=0.0441% cooldown=0 confirm_ticks=3
+2026-10-04 21:37:45,791 INFO httpx: HTTP Request: POST https://mock-api.roostoo.com/v3/place_order "HTTP/1.1 200 OK"
+2026-10-04 21:37:48,323 INFO __main__: LIVE BUY PUMP/USD qty=605233.0 @ 0.00649400 (score=14.1012)
+2026-10-04 21:37:48,473 INFO httpx: HTTP Request: POST https://mock-api.roostoo.com/v3/place_order "HTTP/1.1 200 OK"
+2026-10-04 21:37:51,035 INFO __main__: LIVE BUY HEMI/USD qty=529244.8 @ 0.00592000 (score=0.9893)
+2026-10-04 21:37:52,056 INFO __main__: Cycle complete: state=RECOVERY  86 monitored  14 positions  equity=$99847.09
+2026-10-04 21:39:52,303 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791130104510 "HTTP/1.1 200 OK"
+2026-10-04 21:39:53,266 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791130105585 "HTTP/1.1 200 OK"
+2026-10-04 21:39:56,627 INFO __main__: Market regime: RECOVERY → RANGING  (avg_rsi=38.8  ema_up=21%  rising=73%)
+2026-10-04 21:39:56,627 INFO __main__: Adapted params: rsi=45.0–56.0  sep=0.06%  confirm=3  stop=2.0%  target=2.0%  hold≥5  stagnant≥10
+2026-10-04 21:39:57,943 INFO __main__: Cycle complete: state=RANGING  86 monitored  14 positions  equity=$99969.24
+2026-10-04 21:41:58,428 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791130230398 "HTTP/1.1 200 OK"
+2026-10-04 21:41:59,496 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791130231649 "HTTP/1.1 200 OK"
+2026-10-04 21:42:03,094 INFO __main__: TRAILING STOP PUMP/USD: pnl=2.17% — entry moved 0.0065 → 0.0065 (stop 0.0064 → 0.0064)
+2026-10-04 21:42:04,118 INFO __main__: Cycle complete: state=RANGING  86 monitored  14 positions  equity=$100030.29
+2026-10-04 21:42:40,403 INFO alembic.runtime.migration: Context impl PostgresqlImpl.
+2026-10-04 21:42:40,403 INFO alembic.runtime.migration: Will assume transactional DDL.
+2026-10-04 21:42:41,705 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/serverTime "HTTP/1.1 200 OK"
+2026-10-04 21:42:43,155 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/exchangeInfo "HTTP/1.1 200 OK"
+2026-10-04 21:42:44,057 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791130276048 "HTTP/1.1 200 OK"
+2026-10-04 21:42:45,116 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791130276958 "HTTP/1.1 200 OK"
+2026-10-04 21:43:10,734 INFO __main__: Bot initialised: 86 tracked coins (86 warmed), 14 open positions
+2026-10-04 21:43:10,954 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791130302861 "HTTP/1.1 200 OK"
+2026-10-04 21:43:12,024 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791130303924 "HTTP/1.1 200 OK"
+2026-10-04 21:43:15,362 INFO __main__: Market regime: None → RANGING  (avg_rsi=48.1  ema_up=26%  rising=70%)
+2026-10-04 21:43:15,362 INFO __main__: Adapted params: rsi=45.0–56.0  sep=0.06%  confirm=3  stop=2.0%  target=2.0%  hold≥5  stagnant≥10
+2026-10-04 21:43:15,362 INFO __main__: TRAILING STOP PUMP/USD: pnl=1.57% — entry moved 0.0065 → 0.0065 (stop 0.0064 → 0.0064)
+2026-10-04 21:43:16,377 INFO __main__: Cycle complete: state=RANGING  86 monitored  14 positions  equity=$99982.18
+2026-10-04 21:45:16,794 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791130428504 "HTTP/1.1 200 OK"
+2026-10-04 21:45:17,678 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791130429675 "HTTP/1.1 200 OK"
+2026-10-04 21:45:20,421 INFO __main__: TRAILING STOP PUMP/USD: pnl=2.82% — entry moved 0.0065 → 0.0065 (stop 0.0064 → 0.0064)
+2026-10-04 21:45:20,422 INFO bot.strategy.momentum: PUMP/USD TAKE-PROFIT: pnl=2.62%
+2026-10-04 21:45:20,422 INFO bot.strategy.momentum: PUMP/USD signal=SELL | fast=0.006578 slow=0.006502 rsi=74.8 sep=1.1701% cooldown=0 confirm_ticks=1
+2026-10-04 21:45:20,553 INFO httpx: HTTP Request: POST https://mock-api.roostoo.com/v3/place_order "HTTP/1.1 200 OK"
+2026-10-04 21:45:23,108 INFO __main__: LIVE SELL PUMP/USD qty=605233.0 @ 0.00669700
+2026-10-04 21:45:24,129 INFO __main__: Cycle complete: state=RANGING  86 monitored  13 positions  equity=$100022.12
+2026-10-04 21:47:24,429 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791130556255 "HTTP/1.1 200 OK"
+2026-10-04 21:47:26,097 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791130557668 "HTTP/1.1 200 OK"
+2026-10-04 21:47:30,212 INFO __main__: Cycle complete: state=RANGING  86 monitored  13 positions  equity=$100029.44
+2026-10-04 21:49:30,639 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791130682338 "HTTP/1.1 200 OK"
+2026-10-04 21:49:31,760 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791130683750 "HTTP/1.1 200 OK"
+2026-10-04 21:49:34,758 INFO bot.strategy.momentum: ADA/USD signal=BUY | fast=0.248118 slow=0.247968 rsi=50.0 sep=0.0606% cooldown=0 confirm_ticks=3
+2026-10-04 21:49:34,760 INFO bot.strategy.momentum: PLUME/USD signal=BUY | fast=0.018760 slow=0.018736 rsi=51.9 sep=0.1265% cooldown=0 confirm_ticks=3
+2026-10-04 21:49:34,906 INFO httpx: HTTP Request: POST https://mock-api.roostoo.com/v3/place_order "HTTP/1.1 200 OK"
+2026-10-04 21:49:37,660 INFO __main__: LIVE BUY PLUME/USD qty=191732.0 @ 0.01878000 (score=3.7483)
+2026-10-04 21:49:38,695 INFO __main__: Cycle complete: state=RANGING  86 monitored  14 positions  equity=$100031.29
+2026-10-04 21:51:38,972 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791130810821 "HTTP/1.1 200 OK"
+2026-10-04 21:51:39,890 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791130811864 "HTTP/1.1 200 OK"
+2026-10-04 21:51:42,875 INFO httpx: HTTP Request: POST https://mock-api.roostoo.com/v3/place_order "HTTP/1.1 200 OK"
+2026-10-04 21:51:45,395 INFO __main__: PROACTIVE EXIT LTC/USD qty=44.901 @ 71.32000000 pnl=-0.86% rsi=24.3
+2026-10-04 21:51:45,396 INFO bot.strategy.momentum: TRUMP/USD signal=BUY | fast=2.045253 slow=2.043702 rsi=55.0 sep=0.0759% cooldown=0 confirm_ticks=4
+2026-10-04 21:51:45,397 INFO bot.strategy.momentum: CBRSB/USD signal=BUY | fast=183.340816 slow=183.042866 rsi=53.7 sep=0.1628% cooldown=0 confirm_ticks=4
+2026-10-04 21:51:45,571 INFO httpx: HTTP Request: POST https://mock-api.roostoo.com/v3/place_order "HTTP/1.1 200 OK"
+2026-10-04 21:51:49,078 INFO __main__: LIVE BUY CBRSB/USD qty=20.517 @ 183.63000000 (score=3.1142)
+2026-10-04 21:51:50,807 INFO __main__: Cycle complete: state=RANGING  86 monitored  14 positions  equity=$100001.06
+2026-10-04 21:53:51,044 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791130942933 "HTTP/1.1 200 OK"
+2026-10-04 21:53:52,091 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791130943930 "HTTP/1.1 200 OK"
+2026-10-04 21:53:55,285 INFO __main__: Market regime: RANGING → TRENDING  (avg_rsi=48.6  ema_up=45%  rising=71%)
+2026-10-04 21:53:55,285 INFO __main__: Adapted params: rsi=44.0–60.0  sep=0.04%  confirm=3  stop=2.5%  target=3.5%  hold≥8  stagnant≥18
+2026-10-04 21:53:55,288 INFO bot.strategy.momentum: SEI/USD signal=BUY | fast=0.074958 slow=0.074914 rsi=51.8 sep=0.0592% cooldown=0 confirm_ticks=4
+2026-10-04 21:53:55,288 INFO bot.strategy.momentum: WLFI/USD signal=BUY | fast=0.055697 slow=0.055660 rsi=57.1 sep=0.0678% cooldown=0 confirm_ticks=5
+2026-10-04 21:53:55,289 INFO bot.strategy.momentum: FORM/USD signal=BUY | fast=0.280368 slow=0.280253 rsi=55.6 sep=0.0411% cooldown=0 confirm_ticks=5
+2026-10-04 21:53:55,289 INFO bot.strategy.momentum: AVNT/USD signal=BUY | fast=0.126820 slow=0.126754 rsi=56.5 sep=0.0523% cooldown=0 confirm_ticks=5
+2026-10-04 21:53:55,289 INFO bot.strategy.momentum: SOMI/USD signal=BUY | fast=0.212111 slow=0.211979 rsi=51.4 sep=0.0624% cooldown=0 confirm_ticks=5
+2026-10-04 21:53:55,447 INFO httpx: HTTP Request: POST https://mock-api.roostoo.com/v3/place_order "HTTP/1.1 200 OK"
+2026-10-04 21:53:57,911 INFO __main__: LIVE BUY SEI/USD qty=44206.6 @ 0.07489000 (score=2.6614)
+2026-10-04 21:53:58,106 INFO httpx: HTTP Request: POST https://mock-api.roostoo.com/v3/place_order "HTTP/1.1 200 OK"
+2026-10-04 21:54:01,050 INFO __main__: ROTATION SELL PEPE/USD (pnl=-0.70%) to make room for SOMI/USD (score=1.5669)
+2026-10-04 21:54:02,263 INFO __main__: Cycle complete: state=TRENDING  86 monitored  14 positions  equity=$99904.04
+2026-10-04 21:56:02,541 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791131074389 "HTTP/1.1 200 OK"
+2026-10-04 21:56:03,453 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791131075428 "HTTP/1.1 200 OK"
+2026-10-04 21:56:06,203 INFO __main__: Market regime: TRENDING → RANGING  (avg_rsi=49.5  ema_up=42%  rising=76%)
+2026-10-04 21:56:06,203 INFO __main__: Adapted params: rsi=45.0–56.0  sep=0.06%  confirm=3  stop=2.0%  target=2.0%  hold≥5  stagnant≥10
+2026-10-04 21:56:07,447 INFO __main__: Cycle complete: state=RANGING  86 monitored  14 positions  equity=$99867.89
+2026-10-04 21:58:07,664 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791131199574 "HTTP/1.1 200 OK"
+2026-10-04 21:58:08,554 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791131200549 "HTTP/1.1 200 OK"
+2026-10-04 21:58:12,310 INFO __main__: Cycle complete: state=RANGING  86 monitored  14 positions  equity=$99849.30
+2026-10-04 22:00:12,528 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791131324436 "HTTP/1.1 200 OK"
+2026-10-04 22:00:13,722 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791131325715 "HTTP/1.1 200 OK"
+2026-10-04 22:00:17,420 INFO bot.strategy.momentum: HEMI/USD EMA-SELL: pnl=-0.34% cycles=8
+2026-10-04 22:00:17,420 INFO bot.strategy.momentum: HEMI/USD signal=SELL | fast=0.005908 slow=0.005909 rsi=50.0 sep=-0.0142% cooldown=3 confirm_ticks=0
+2026-10-04 22:00:17,559 INFO httpx: HTTP Request: POST https://mock-api.roostoo.com/v3/place_order "HTTP/1.1 200 OK"
+2026-10-04 22:00:20,562 INFO __main__: LIVE SELL HEMI/USD qty=529244.8 @ 0.00590000
+2026-10-04 22:00:20,564 INFO bot.strategy.momentum: ADA/USD EMA-SELL: pnl=-0.24% cycles=5
+2026-10-04 22:00:20,564 INFO bot.strategy.momentum: ADA/USD signal=SELL | fast=0.247864 slow=0.247903 rsi=45.7 sep=-0.0160% cooldown=3 confirm_ticks=0
+2026-10-04 22:00:21,586 INFO __main__: Cycle complete: state=RANGING  86 monitored  13 positions  equity=$99849.39
+2026-10-04 22:02:21,805 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791131453712 "HTTP/1.1 200 OK"
+2026-10-04 22:02:22,873 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791131454707 "HTTP/1.1 200 OK"
+2026-10-04 22:02:25,651 INFO bot.strategy.momentum: PLUME/USD EMA-SELL: pnl=-0.43% cycles=6
+2026-10-04 22:02:25,651 INFO bot.strategy.momentum: PLUME/USD signal=SELL | fast=0.018723 slow=0.018726 rsi=51.0 sep=-0.0193% cooldown=3 confirm_ticks=0
+2026-10-04 22:02:25,822 INFO httpx: HTTP Request: POST https://mock-api.roostoo.com/v3/place_order "HTTP/1.1 200 OK"
+2026-10-04 22:02:28,335 INFO __main__: LIVE SELL PLUME/USD qty=191732.0 @ 0.01869000
+2026-10-04 22:02:29,344 INFO __main__: Cycle complete: state=RANGING  86 monitored  12 positions  equity=$99829.17
+2026-10-04 22:04:29,787 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791131581470 "HTTP/1.1 200 OK"
+2026-10-04 22:04:30,689 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791131582680 "HTTP/1.1 200 OK"
+2026-10-04 22:04:33,496 INFO bot.strategy.momentum: BONK/USD STAGNANT EXIT: pnl=-0.78% cycles=10 ema_below=10 ticks
+2026-10-04 22:04:33,496 INFO bot.strategy.momentum: BONK/USD signal=SELL | fast=0.000004 slow=0.000004 rsi=50.0 sep=-0.1750% cooldown=3 confirm_ticks=0
+2026-10-04 22:04:33,638 INFO httpx: HTTP Request: POST https://mock-api.roostoo.com/v3/place_order "HTTP/1.1 200 OK"
+2026-10-04 22:04:36,170 INFO __main__: LIVE SELL BONK/USD qty=169584570.0 @ 0.00000383
+2026-10-04 22:04:36,170 INFO bot.strategy.momentum: CRCLB/USD STAGNANT EXIT: pnl=-0.32% cycles=10 ema_below=10 ticks
+2026-10-04 22:04:36,188 INFO bot.strategy.momentum: CRCLB/USD signal=SELL | fast=83.085407 slow=83.132486 rsi=31.0 sep=-0.0566% cooldown=3 confirm_ticks=0
+2026-10-04 22:04:36,495 INFO httpx: HTTP Request: POST https://mock-api.roostoo.com/v3/place_order "HTTP/1.1 200 OK"
+2026-10-04 22:04:39,036 INFO __main__: LIVE SELL CRCLB/USD qty=2.11 @ 83.10000000
+2026-10-04 22:04:39,037 INFO bot.strategy.momentum: DOT/USD STAGNANT EXIT: pnl=-0.58% cycles=10 ema_below=10 ticks
+2026-10-04 22:04:39,037 INFO bot.strategy.momentum: DOT/USD signal=SELL | fast=1.192984 slow=1.194805 rsi=29.4 sep=-0.1525% cooldown=3 confirm_ticks=0
+2026-10-04 22:04:39,188 INFO httpx: HTTP Request: POST https://mock-api.roostoo.com/v3/place_order "HTTP/1.1 200 OK"
+2026-10-04 22:04:41,752 INFO __main__: LIVE SELL DOT/USD qty=3190.72 @ 1.19100000
+2026-10-04 22:04:41,753 INFO bot.strategy.momentum: FLOKI/USD STAGNANT EXIT: pnl=-0.73% cycles=10 ema_below=5 ticks
+2026-10-04 22:04:41,757 INFO bot.strategy.momentum: FLOKI/USD signal=SELL | fast=0.000027 slow=0.000027 rsi=38.9 sep=-0.1423% cooldown=3 confirm_ticks=0
+2026-10-04 22:04:42,068 INFO httpx: HTTP Request: POST https://mock-api.roostoo.com/v3/place_order "HTTP/1.1 200 OK"
+2026-10-04 22:04:45,073 INFO __main__: LIVE SELL FLOKI/USD qty=130856837.0 @ 0.00002737
+2026-10-04 22:04:45,073 INFO bot.strategy.momentum: SUI/USD STAGNANT EXIT: pnl=-0.48% cycles=10 ema_below=5 ticks
+2026-10-04 22:04:45,073 INFO bot.strategy.momentum: SUI/USD signal=SELL | fast=1.238384 slow=1.241295 rsi=46.9 sep=-0.2345% cooldown=3 confirm_ticks=0
+2026-10-04 22:04:45,216 INFO httpx: HTTP Request: POST https://mock-api.roostoo.com/v3/place_order "HTTP/1.1 200 OK"
+2026-10-04 22:04:47,727 INFO __main__: LIVE SELL SUI/USD qty=3052.6 @ 1.23760000
+2026-10-04 22:04:47,727 INFO bot.strategy.momentum: XPL/USD STAGNANT EXIT: pnl=-0.66% cycles=10 ema_below=10 ticks
+2026-10-04 22:04:47,727 INFO bot.strategy.momentum: XPL/USD signal=SELL | fast=0.095957 slow=0.096170 rsi=40.0 sep=-0.2218% cooldown=3 confirm_ticks=0
+2026-10-04 22:04:47,874 INFO httpx: HTTP Request: POST https://mock-api.roostoo.com/v3/place_order "HTTP/1.1 200 OK"
+2026-10-04 22:04:50,387 INFO __main__: LIVE SELL XPL/USD qty=61986.7 @ 0.09588000
+2026-10-04 22:04:50,387 INFO bot.strategy.momentum: XRP/USD STAGNANT EXIT: pnl=-0.36% cycles=10 ema_below=6 ticks
+2026-10-04 22:04:50,387 INFO bot.strategy.momentum: XRP/USD signal=SELL | fast=1.502431 slow=1.503254 rsi=50.4 sep=-0.0548% cooldown=3 confirm_ticks=0
+2026-10-04 22:04:50,528 INFO httpx: HTTP Request: POST https://mock-api.roostoo.com/v3/place_order "HTTP/1.1 200 OK"
+2026-10-04 22:04:53,068 INFO __main__: LIVE SELL XRP/USD qty=3922.8 @ 1.50240000
+2026-10-04 22:04:54,071 INFO __main__: Cycle complete: state=RANGING  86 monitored  5 positions  equity=$99814.37
+2026-10-04 22:06:54,295 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791131726197 "HTTP/1.1 200 OK"
+2026-10-04 22:06:55,169 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791131727155 "HTTP/1.1 200 OK"
+2026-10-04 22:06:59,157 INFO __main__: Cycle complete: state=RANGING  86 monitored  5 positions  equity=$99786.32
+2026-10-04 22:08:59,616 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791131851283 "HTTP/1.1 200 OK"
+2026-10-04 22:09:00,510 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791131852483 "HTTP/1.1 200 OK"
+2026-10-04 22:09:03,235 INFO bot.strategy.momentum: FET/USD STAGNANT EXIT: pnl=-0.33% cycles=12 ema_below=2 ticks
+2026-10-04 22:09:03,235 INFO bot.strategy.momentum: FET/USD signal=SELL | fast=0.246176 slow=0.246481 rsi=27.1 sep=-0.1236% cooldown=3 confirm_ticks=0
+2026-10-04 22:09:03,393 INFO httpx: HTTP Request: POST https://mock-api.roostoo.com/v3/place_order "HTTP/1.1 200 OK"
+2026-10-04 22:09:05,884 INFO __main__: LIVE SELL FET/USD qty=15879.8 @ 0.24530000
+2026-10-04 22:09:06,883 INFO __main__: Cycle complete: state=RANGING  86 monitored  4 positions  equity=$99792.78
+2026-10-04 22:11:07,254 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791131979009 "HTTP/1.1 200 OK"
+2026-10-04 22:11:08,135 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791131980128 "HTTP/1.1 200 OK"
+2026-10-04 22:11:10,882 INFO bot.strategy.momentum: SHIB/USD STAGNANT EXIT: pnl=0.18% cycles=13 ema_below=2 ticks
+2026-10-04 22:11:10,882 INFO bot.strategy.momentum: SHIB/USD signal=SELL | fast=0.000006 slow=0.000006 rsi=40.0 sep=-0.0420% cooldown=0 confirm_ticks=0
+2026-10-04 22:11:11,181 INFO httpx: HTTP Request: POST https://mock-api.roostoo.com/v3/place_order "HTTP/1.1 200 OK"
+2026-10-04 22:11:13,648 INFO __main__: LIVE SELL SHIB/USD qty=5410696.0 @ 0.00000572
+2026-10-04 22:11:13,651 INFO bot.strategy.momentum: ZEN/USD signal=BUY | fast=6.983856 slow=6.979633 rsi=54.9 sep=0.0605% cooldown=0 confirm_ticks=3
+2026-10-04 22:11:14,659 INFO __main__: Cycle complete: state=RANGING  86 monitored  3 positions  equity=$99769.27
+2026-10-04 22:13:15,038 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791132106785 "HTTP/1.1 200 OK"
+2026-10-04 22:13:15,916 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791132107910 "HTTP/1.1 200 OK"
+2026-10-04 22:13:18,822 INFO httpx: HTTP Request: POST https://mock-api.roostoo.com/v3/place_order "HTTP/1.1 200 OK"
+2026-10-04 22:13:21,312 INFO __main__: PROACTIVE EXIT SEI/USD qty=44206.6 @ 0.07416000 pnl=-0.96% rsi=28.7
+2026-10-04 22:13:22,326 INFO __main__: Cycle complete: state=RANGING  86 monitored  2 positions  equity=$99761.27
+2026-10-04 22:15:22,569 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791132234452 "HTTP/1.1 200 OK"
+2026-10-04 22:15:23,440 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791132235441 "HTTP/1.1 200 OK"
+2026-10-04 22:15:26,192 INFO bot.strategy.momentum: WLFI/USD STAGNANT EXIT: pnl=-0.36% cycles=10 ema_below=8 ticks
+2026-10-04 22:15:26,193 INFO bot.strategy.momentum: WLFI/USD signal=SELL | fast=0.055436 slow=0.055512 rsi=36.4 sep=-0.1377% cooldown=3 confirm_ticks=0
+2026-10-04 22:15:26,194 INFO bot.strategy.momentum: AVNT/USD STAGNANT EXIT: pnl=-0.16% cycles=10 ema_below=9 ticks
+2026-10-04 22:15:26,194 INFO bot.strategy.momentum: AVNT/USD signal=SELL | fast=0.126409 slow=0.126537 rsi=7.7 sep=-0.1016% cooldown=3 confirm_ticks=0
+2026-10-04 22:15:26,195 INFO bot.strategy.momentum: SOMI/USD STAGNANT EXIT: pnl=-0.09% cycles=10 ema_below=2 ticks
+2026-10-04 22:15:26,195 INFO bot.strategy.momentum: SOMI/USD signal=SELL | fast=0.211875 slow=0.211907 rsi=40.7 sep=-0.0150% cooldown=3 confirm_ticks=0
+2026-10-04 22:15:27,183 INFO __main__: Cycle complete: state=RANGING  86 monitored  2 positions  equity=$99763.49
+2026-10-04 22:17:27,419 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791132359309 "HTTP/1.1 200 OK"
+2026-10-04 22:17:28,285 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791132360281 "HTTP/1.1 200 OK"
+2026-10-04 22:17:31,995 INFO __main__: Cycle complete: state=RANGING  86 monitored  2 positions  equity=$99756.88
+2026-10-04 22:19:32,210 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791132484121 "HTTP/1.1 200 OK"
+2026-10-04 22:19:33,107 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791132485074 "HTTP/1.1 200 OK"
+2026-10-04 22:19:36,855 INFO __main__: Cycle complete: state=RANGING  86 monitored  2 positions  equity=$99769.42
+2026-10-04 22:21:37,918 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791132608981 "HTTP/1.1 200 OK"
+2026-10-04 22:21:39,271 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791132611267 "HTTP/1.1 200 OK"
+2026-10-04 22:21:42,015 INFO __main__: Market regime: RANGING → TRENDING  (avg_rsi=46.3  ema_up=46%  rising=70%)
+2026-10-04 22:21:42,015 INFO __main__: Adapted params: rsi=44.0–60.0  sep=0.04%  confirm=3  stop=2.5%  target=3.5%  hold≥8  stagnant≥18
+2026-10-04 22:21:43,007 INFO __main__: Cycle complete: state=TRENDING  86 monitored  2 positions  equity=$99776.24
+2026-10-04 22:23:43,392 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791132735134 "HTTP/1.1 200 OK"
+2026-10-04 22:23:44,759 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791132736735 "HTTP/1.1 200 OK"
+2026-10-04 22:23:48,549 INFO __main__: Cycle complete: state=TRENDING  86 monitored  2 positions  equity=$99782.93
+2026-10-04 22:25:48,772 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791132860675 "HTTP/1.1 200 OK"
+2026-10-04 22:25:49,647 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791132861645 "HTTP/1.1 200 OK"
+2026-10-04 22:25:52,912 INFO bot.strategy.momentum: FET/USD signal=BUY | fast=0.246601 slow=0.246493 rsi=45.9 sep=0.0437% cooldown=0 confirm_ticks=4
+2026-10-04 22:25:52,913 INFO bot.strategy.momentum: PEPE/USD signal=BUY | fast=0.000004 slow=0.000004 rsi=54.5 sep=0.0624% cooldown=0 confirm_ticks=3
+2026-10-04 22:25:53,915 INFO __main__: Cycle complete: state=TRENDING  86 monitored  2 positions  equity=$99793.65
+2026-10-04 22:27:54,162 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791132986041 "HTTP/1.1 200 OK"
+2026-10-04 22:27:55,043 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791132987039 "HTTP/1.1 200 OK"
+2026-10-04 22:27:58,771 INFO __main__: Cycle complete: state=TRENDING  86 monitored  2 positions  equity=$99795.36
+2026-10-04 22:29:59,024 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791133110897 "HTTP/1.1 200 OK"
+2026-10-04 22:29:59,900 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791133111884 "HTTP/1.1 200 OK"
+2026-10-04 22:30:03,509 INFO __main__: Cycle complete: state=TRENDING  86 monitored  2 positions  equity=$99791.48
+2026-10-04 22:32:03,811 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791133235636 "HTTP/1.1 200 OK"
+2026-10-04 22:32:04,680 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791133236662 "HTTP/1.1 200 OK"
+2026-10-04 22:32:07,810 INFO bot.strategy.momentum: FORM/USD STAGNANT EXIT: pnl=0.11% cycles=18 ema_below=2 ticks
+2026-10-04 22:32:07,810 INFO bot.strategy.momentum: FORM/USD signal=SELL | fast=0.280467 slow=0.280481 rsi=42.9 sep=-0.0049% cooldown=0 confirm_ticks=0
+2026-10-04 22:32:08,769 INFO __main__: Cycle complete: state=TRENDING  86 monitored  2 positions  equity=$99784.82
+2026-10-04 22:34:09,095 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791133360895 "HTTP/1.1 200 OK"
+2026-10-04 22:34:09,995 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791133361969 "HTTP/1.1 200 OK"
+2026-10-04 22:34:14,278 INFO __main__: Cycle complete: state=TRENDING  86 monitored  2 positions  equity=$99787.19
+2026-10-04 22:36:14,805 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791133486404 "HTTP/1.1 200 OK"
+2026-10-04 22:36:15,689 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791133487686 "HTTP/1.1 200 OK"
+2026-10-04 22:36:19,854 INFO bot.strategy.momentum: BONK/USD signal=BUY | fast=0.000004 slow=0.000004 rsi=57.1 sep=0.0721% cooldown=0 confirm_ticks=3
+2026-10-04 22:36:20,859 INFO __main__: Cycle complete: state=TRENDING  86 monitored  2 positions  equity=$99793.48
+2026-10-04 22:38:22,182 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791133612985 "HTTP/1.1 200 OK"
+2026-10-04 22:38:23,162 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791133615051 "HTTP/1.1 200 OK"
+2026-10-04 22:38:25,910 INFO bot.strategy.momentum: ADA/USD signal=BUY | fast=0.247856 slow=0.247691 rsi=57.9 sep=0.0666% cooldown=0 confirm_ticks=3
+2026-10-04 22:38:26,906 INFO __main__: Cycle complete: state=TRENDING  86 monitored  2 positions  equity=$99811.13
+2026-10-04 22:40:27,389 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791133739032 "HTTP/1.1 200 OK"
+2026-10-04 22:40:28,290 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791133740245 "HTTP/1.1 200 OK"
+2026-10-04 22:40:32,107 INFO __main__: Cycle complete: state=TRENDING  86 monitored  2 positions  equity=$99832.10
+2026-10-04 22:42:32,369 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791133864234 "HTTP/1.1 200 OK"
+2026-10-04 22:42:33,413 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791133865234 "HTTP/1.1 200 OK"
+2026-10-04 22:42:36,155 INFO bot.strategy.momentum: FET/USD EMA-SELL: pnl=-0.53% cycles=8
+2026-10-04 22:42:36,155 INFO bot.strategy.momentum: FET/USD signal=SELL | fast=0.246383 slow=0.246495 rsi=46.4 sep=-0.0455% cooldown=3 confirm_ticks=0
+2026-10-04 22:42:37,157 INFO __main__: Cycle complete: state=TRENDING  86 monitored  2 positions  equity=$99815.40
+2026-10-04 22:44:37,456 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791133989283 "HTTP/1.1 200 OK"
+2026-10-04 22:44:38,344 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791133990320 "HTTP/1.1 200 OK"
+2026-10-04 22:44:41,082 INFO bot.strategy.momentum: WLFI/USD signal=BUY | fast=0.055572 slow=0.055548 rsi=57.1 sep=0.0430% cooldown=0 confirm_ticks=4
+2026-10-04 22:44:41,083 INFO bot.strategy.momentum: WIF/USD signal=BUY | fast=0.246572 slow=0.246411 rsi=55.6 sep=0.0653% cooldown=0 confirm_ticks=5
+2026-10-04 22:44:42,069 INFO __main__: Cycle complete: state=TRENDING  86 monitored  2 positions  equity=$99819.44
+2026-10-04 22:45:12,983 INFO alembic.runtime.migration: Context impl PostgresqlImpl.
+2026-10-04 22:45:12,984 INFO alembic.runtime.migration: Will assume transactional DDL.
+2026-10-04 22:45:14,285 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/serverTime "HTTP/1.1 200 OK"
+2026-10-04 22:45:15,194 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/exchangeInfo "HTTP/1.1 200 OK"
+2026-10-04 22:45:16,172 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791134028505 "HTTP/1.1 200 OK"
+2026-10-04 22:45:17,220 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791134029474 "HTTP/1.1 200 OK"
+2026-10-04 22:45:22,557 INFO __main__: Bot initialised: 86 tracked coins (86 warmed), 2 open positions
+2026-10-04 22:45:22,986 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791134035090 "HTTP/1.1 200 OK"
+2026-10-04 22:45:23,911 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791134036286 "HTTP/1.1 200 OK"
+2026-10-04 22:45:26,738 INFO __main__: Market regime: None → TRENDING  (avg_rsi=51.1  ema_up=59%  rising=59%)
+2026-10-04 22:45:26,738 INFO __main__: Adapted params: rsi=44.0–60.0  sep=0.04%  confirm=3  stop=2.5%  target=3.5%  hold≥8  stagnant≥25
+2026-10-04 22:45:27,765 INFO __main__: Cycle complete: state=TRENDING  86 monitored  2 positions  equity=$99817.46
+2026-10-04 22:47:28,025 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791134160298 "HTTP/1.1 200 OK"
+2026-10-04 22:47:29,720 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791134162112 "HTTP/1.1 200 OK"
+2026-10-04 22:47:33,571 INFO __main__: Cycle complete: state=TRENDING  86 monitored  2 positions  equity=$99819.97
+2026-10-04 22:49:33,871 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791134286104 "HTTP/1.1 200 OK"
+2026-10-04 22:49:34,784 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791134287169 "HTTP/1.1 200 OK"
+2026-10-04 22:49:38,939 INFO __main__: Cycle complete: state=TRENDING  86 monitored  2 positions  equity=$99826.35
+2026-10-04 22:51:40,002 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791134411472 "HTTP/1.1 200 OK"
+2026-10-04 22:51:41,077 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791134413321 "HTTP/1.1 200 OK"
+2026-10-04 22:51:44,406 INFO __main__: Market regime: TRENDING → RANGING  (avg_rsi=44.5  ema_up=44%  rising=51%)
+2026-10-04 22:51:44,406 INFO __main__: Adapted params: rsi=45.0–56.0  sep=0.06%  confirm=3  stop=2.0%  target=2.0%  hold≥5  stagnant≥15
+2026-10-04 22:51:44,407 INFO bot.strategy.momentum: PENDLE/USD signal=BUY | fast=2.431287 slow=2.429768 rsi=52.6 sep=0.0625% cooldown=0 confirm_ticks=3
+2026-10-04 22:51:44,409 INFO bot.strategy.momentum: 1000CHEEMS/USD signal=BUY | fast=0.000551 slow=0.000551 rsi=50.0 sep=0.0683% cooldown=0 confirm_ticks=3
+2026-10-04 22:51:44,559 INFO httpx: HTTP Request: POST https://mock-api.roostoo.com/v3/place_order "HTTP/1.1 200 OK"
+2026-10-04 22:51:47,110 INFO __main__: LIVE BUY PENDLE/USD qty=1411.7 @ 2.43200000 (score=2.0429)
+2026-10-04 22:51:48,132 INFO __main__: Cycle complete: state=RANGING  86 monitored  3 positions  equity=$99816.47
+2026-10-04 22:53:48,535 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791134540665 "HTTP/1.1 200 OK"
+2026-10-04 22:53:49,889 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791134542295 "HTTP/1.1 200 OK"
+2026-10-04 22:53:52,762 INFO bot.strategy.momentum: NEAR/USD signal=BUY | fast=4.950596 slow=4.942239 rsi=47.2 sep=0.1691% cooldown=0 confirm_ticks=4
+2026-10-04 22:53:52,763 INFO bot.strategy.momentum: TRUMP/USD signal=BUY | fast=2.057204 slow=2.055352 rsi=53.3 sep=0.0901% cooldown=0 confirm_ticks=4
+2026-10-04 22:53:52,765 INFO bot.strategy.momentum: SOMI/USD signal=BUY | fast=0.212778 slow=0.212582 rsi=53.3 sep=0.0923% cooldown=0 confirm_ticks=4
+2026-10-04 22:53:52,905 INFO httpx: HTTP Request: POST https://mock-api.roostoo.com/v3/place_order "HTTP/1.1 200 OK"
+2026-10-04 22:53:55,464 INFO __main__: LIVE BUY NEAR/USD qty=709.8 @ 4.95300000 (score=2.9667)
+2026-10-04 22:53:55,763 INFO httpx: HTTP Request: POST https://mock-api.roostoo.com/v3/place_order "HTTP/1.1 200 OK"
+2026-10-04 22:53:58,312 INFO __main__: LIVE BUY TRUMP/USD qty=1683.525 @ 2.05500000 (score=1.9424)
+2026-10-04 22:53:58,462 INFO httpx: HTTP Request: POST https://mock-api.roostoo.com/v3/place_order "HTTP/1.1 200 OK"
+2026-10-04 22:54:01,037 INFO __main__: LIVE BUY SOMI/USD qty=16627.6 @ 0.21300000 (score=1.7617)
+2026-10-04 22:54:02,085 INFO __main__: Cycle complete: state=RANGING  86 monitored  6 positions  equity=$99813.03
+2026-10-04 22:56:02,297 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791134674618 "HTTP/1.1 200 OK"
+2026-10-04 22:56:03,200 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791134675598 "HTTP/1.1 200 OK"
+2026-10-04 22:56:07,814 INFO __main__: Cycle complete: state=RANGING  86 monitored  6 positions  equity=$99808.22
+2026-10-04 22:58:08,083 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791134800348 "HTTP/1.1 200 OK"
+2026-10-04 22:58:09,017 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791134801406 "HTTP/1.1 200 OK"
+2026-10-04 22:58:12,955 INFO __main__: Cycle complete: state=RANGING  86 monitored  6 positions  equity=$99821.43
+2026-10-04 23:00:13,204 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791134925488 "HTTP/1.1 200 OK"
+2026-10-04 23:00:14,126 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791134926511 "HTTP/1.1 200 OK"
+2026-10-04 23:00:17,971 INFO __main__: Cycle complete: state=RANGING  86 monitored  6 positions  equity=$99834.81
+2026-10-04 23:02:18,221 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791135050504 "HTTP/1.1 200 OK"
+2026-10-04 23:02:19,121 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791135051516 "HTTP/1.1 200 OK"
+2026-10-04 23:02:22,970 INFO __main__: Cycle complete: state=RANGING  86 monitored  6 positions  equity=$99841.43
+2026-10-04 23:04:23,233 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791135175503 "HTTP/1.1 200 OK"
+2026-10-04 23:04:24,145 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791135176535 "HTTP/1.1 200 OK"
+2026-10-04 23:04:27,998 INFO __main__: Cycle complete: state=RANGING  86 monitored  6 positions  equity=$99833.52
+2026-10-04 23:06:28,256 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791135300531 "HTTP/1.1 200 OK"
+2026-10-04 23:06:29,189 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791135301548 "HTTP/1.1 200 OK"
+2026-10-04 23:06:33,024 INFO __main__: Cycle complete: state=RANGING  86 monitored  6 positions  equity=$99854.98
+2026-10-04 23:08:33,266 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791135425557 "HTTP/1.1 200 OK"
+2026-10-04 23:08:34,171 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791135426575 "HTTP/1.1 200 OK"
+2026-10-04 23:08:36,996 INFO bot.strategy.momentum: ZEC/USD signal=BUY | fast=1335.468995 slow=1334.608089 rsi=51.6 sep=0.0645% cooldown=0 confirm_ticks=4
+2026-10-04 23:08:37,143 INFO httpx: HTTP Request: POST https://mock-api.roostoo.com/v3/place_order "HTTP/1.1 200 OK"
+2026-10-04 23:08:39,688 INFO __main__: LIVE BUY ZEC/USD qty=2.589 @ 1337.00000000 (score=2.3535)
+2026-10-04 23:08:40,705 INFO __main__: Cycle complete: state=RANGING  86 monitored  7 positions  equity=$99871.07
+2026-10-04 23:10:40,937 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791135553239 "HTTP/1.1 200 OK"
+2026-10-04 23:10:41,905 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791135554231 "HTTP/1.1 200 OK"
+2026-10-04 23:10:45,740 INFO __main__: Cycle complete: state=RANGING  86 monitored  7 positions  equity=$99883.41
+2026-10-04 23:12:46,207 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791135678273 "HTTP/1.1 200 OK"
+2026-10-04 23:12:47,122 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791135679509 "HTTP/1.1 200 OK"
+2026-10-04 23:12:50,971 INFO __main__: Cycle complete: state=RANGING  86 monitored  7 positions  equity=$99903.30
+2026-10-04 23:15:10,351 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791135803504 "HTTP/1.1 200 OK"
+2026-10-04 23:17:43,705 INFO alembic.runtime.migration: Context impl PostgresqlImpl.
+2026-10-04 23:17:43,705 INFO alembic.runtime.migration: Will assume transactional DDL.
+2026-10-04 23:17:45,134 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/serverTime "HTTP/1.1 200 OK"
+2026-10-04 23:17:46,184 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/exchangeInfo "HTTP/1.1 200 OK"
+2026-10-04 23:17:47,262 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791135979655 "HTTP/1.1 200 OK"
+2026-10-04 23:17:48,264 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791135980658 "HTTP/1.1 200 OK"
+2026-10-04 23:17:54,956 INFO __main__: Bot initialised: 86 tracked coins (86 warmed), 7 open positions
+2026-10-04 23:17:55,220 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791135987497 "HTTP/1.1 200 OK"
+2026-10-04 23:17:56,252 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791135988649 "HTTP/1.1 200 OK"
+2026-10-04 23:17:59,488 INFO __main__: Market regime: None → RANGING  (avg_rsi=52.2  ema_up=43%  rising=63%)
+2026-10-04 23:17:59,488 INFO __main__: Adapted params: rsi=45.0–56.0  sep=0.06%  confirm=3  stop=2.0%  target=2.0%  hold≥5  stagnant≥15
+2026-10-04 23:17:59,488 INFO __main__: TRAILING STOP DOGE/USD: pnl=2.00% — entry moved 0.0942 → 0.0944 (stop 0.0923 → 0.0925)
+2026-10-04 23:18:00,705 INFO __main__: Cycle complete: state=RANGING  86 monitored  7 positions  equity=$99985.44
+2026-10-04 23:20:01,831 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791136113246 "HTTP/1.1 200 OK"
+2026-10-04 23:20:02,822 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791136115218 "HTTP/1.1 200 OK"
+2026-10-04 23:20:05,934 INFO __main__: Market regime: RANGING → TRENDING  (avg_rsi=57.9  ema_up=57%  rising=62%)
+2026-10-04 23:20:05,934 INFO __main__: Adapted params: rsi=44.0–60.0  sep=0.04%  confirm=3  stop=2.5%  target=3.5%  hold≥8  stagnant≥25
+2026-10-04 23:20:05,934 INFO __main__: TRAILING STOP DOGE/USD: pnl=1.89% — entry moved 0.0944 → 0.0946 (stop 0.0921 → 0.0922)
+2026-10-04 23:20:07,068 INFO __main__: Cycle complete: state=TRENDING  86 monitored  7 positions  equity=$99973.32
+2026-10-04 23:22:08,135 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791136239608 "HTTP/1.1 200 OK"
+2026-10-04 23:22:09,174 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791136241576 "HTTP/1.1 200 OK"
+2026-10-04 23:22:14,189 INFO __main__: Cycle complete: state=TRENDING  86 monitored  7 positions  equity=$99913.34
+2026-10-04 23:24:14,638 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791136366729 "HTTP/1.1 200 OK"
+2026-10-04 23:24:15,747 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791136368157 "HTTP/1.1 200 OK"
+2026-10-04 23:24:19,030 INFO bot.strategy.momentum: ARB/USD signal=BUY | fast=0.202352 slow=0.202148 rsi=58.6 sep=0.1009% cooldown=0 confirm_ticks=3
+2026-10-04 23:24:19,030 INFO bot.strategy.momentum: XLM/USD signal=BUY | fast=0.217770 slow=0.217655 rsi=59.1 sep=0.0524% cooldown=0 confirm_ticks=3
+2026-10-04 23:24:19,031 INFO bot.strategy.momentum: ZEN/USD signal=BUY | fast=6.997693 slow=6.993915 rsi=56.5 sep=0.0540% cooldown=0 confirm_ticks=3
+2026-10-04 23:24:20,208 INFO __main__: Cycle complete: state=TRENDING  86 monitored  7 positions  equity=$99914.21
+2026-10-04 23:26:20,495 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791136492749 "HTTP/1.1 200 OK"
+2026-10-04 23:26:21,524 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791136493912 "HTTP/1.1 200 OK"
+2026-10-04 23:26:25,001 INFO bot.strategy.momentum: ADA/USD signal=BUY | fast=0.247911 slow=0.247746 rsi=54.1 sep=0.0668% cooldown=0 confirm_ticks=4
+2026-10-04 23:26:25,002 INFO bot.strategy.momentum: ASTER/USD signal=BUY | fast=0.711252 slow=0.710936 rsi=56.6 sep=0.0443% cooldown=0 confirm_ticks=4
+2026-10-04 23:26:25,002 INFO bot.strategy.momentum: HBAR/USD signal=BUY | fast=0.102286 slow=0.102237 rsi=58.0 sep=0.0484% cooldown=0 confirm_ticks=4
+2026-10-04 23:26:25,004 INFO bot.strategy.momentum: BONK/USD signal=BUY | fast=0.000004 slow=0.000004 rsi=54.5 sep=0.0696% cooldown=0 confirm_ticks=4
+2026-10-04 23:26:25,345 INFO httpx: HTTP Request: POST https://mock-api.roostoo.com/v3/place_order "HTTP/1.1 200 OK"
+2026-10-04 23:26:28,859 INFO __main__: LIVE BUY ADA/USD qty=13355.7 @ 0.24790000 (score=1.7187)
+2026-10-04 23:26:30,083 INFO __main__: Cycle complete: state=TRENDING  86 monitored  8 positions  equity=$99888.46
+2026-10-04 23:28:30,494 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791136622623 "HTTP/1.1 200 OK"
+2026-10-04 23:28:31,472 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791136623880 "HTTP/1.1 200 OK"
+2026-10-04 23:28:35,454 INFO bot.strategy.momentum: AAVE/USD signal=BUY | fast=179.778494 slow=179.653730 rsi=58.3 sep=0.0694% cooldown=0 confirm_ticks=5
+2026-10-04 23:28:37,071 INFO __main__: Cycle complete: state=TRENDING  86 monitored  8 positions  equity=$99872.97
+2026-10-04 23:30:37,322 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791136749611 "HTTP/1.1 200 OK"
+2026-10-04 23:30:38,348 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791136750759 "HTTP/1.1 200 OK"
+2026-10-04 23:30:42,985 INFO __main__: Cycle complete: state=TRENDING  86 monitored  8 positions  equity=$99872.47
+2026-10-04 23:32:43,225 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791136875525 "HTTP/1.1 200 OK"
+2026-10-04 23:32:44,361 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791136876618 "HTTP/1.1 200 OK"
+2026-10-04 23:32:48,843 INFO __main__: Cycle complete: state=TRENDING  86 monitored  8 positions  equity=$99857.00
+2026-10-04 23:34:49,105 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791137001383 "HTTP/1.1 200 OK"
+2026-10-04 23:34:50,208 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791137002604 "HTTP/1.1 200 OK"
+2026-10-04 23:34:54,726 INFO __main__: Cycle complete: state=TRENDING  86 monitored  8 positions  equity=$99870.01
+2026-10-04 23:36:55,038 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791137127266 "HTTP/1.1 200 OK"
+2026-10-04 23:36:56,274 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791137128673 "HTTP/1.1 200 OK"
+2026-10-04 23:36:59,774 INFO bot.strategy.momentum: ZEC/USD EMA-SELL: pnl=-0.11% cycles=9
+2026-10-04 23:36:59,780 INFO bot.strategy.momentum: ZEC/USD signal=SELL | fast=1336.556867 slow=1336.645859 rsi=49.4 sep=-0.0067% cooldown=3 confirm_ticks=0
+2026-10-04 23:36:59,921 INFO httpx: HTTP Request: POST https://mock-api.roostoo.com/v3/place_order "HTTP/1.1 200 OK"
+2026-10-04 23:37:02,932 INFO __main__: LIVE SELL ZEC/USD qty=2.589 @ 1335.55000000
+2026-10-04 23:37:04,169 INFO __main__: Cycle complete: state=TRENDING  86 monitored  7 positions  equity=$99868.04
+2026-10-04 23:39:04,614 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791137256709 "HTTP/1.1 200 OK"
+2026-10-04 23:39:05,587 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791137257999 "HTTP/1.1 200 OK"
+2026-10-04 23:39:10,101 INFO __main__: Cycle complete: state=TRENDING  86 monitored  7 positions  equity=$99870.56
+2026-10-04 23:41:10,381 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791137382641 "HTTP/1.1 200 OK"
+2026-10-04 23:41:11,502 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791137383893 "HTTP/1.1 200 OK"
+2026-10-04 23:41:16,095 INFO __main__: Cycle complete: state=TRENDING  86 monitored  7 positions  equity=$99864.43
+2026-10-04 23:43:16,343 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791137508635 "HTTP/1.1 200 OK"
+2026-10-04 23:43:17,437 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791137509853 "HTTP/1.1 200 OK"
+2026-10-04 23:43:20,822 INFO bot.strategy.momentum: ADA/USD EMA-SELL: pnl=-0.16% cycles=8
+2026-10-04 23:43:20,822 INFO bot.strategy.momentum: ADA/USD signal=SELL | fast=0.247673 slow=0.247696 rsi=55.3 sep=-0.0092% cooldown=3 confirm_ticks=0
+2026-10-04 23:43:21,025 INFO httpx: HTTP Request: POST https://mock-api.roostoo.com/v3/place_order "HTTP/1.1 200 OK"
+2026-10-04 23:43:24,116 INFO __main__: LIVE SELL ADA/USD qty=13355.7 @ 0.24750000
+2026-10-04 23:43:24,117 INFO bot.strategy.momentum: SUI/USD signal=BUY | fast=1.220328 slow=1.219747 rsi=58.6 sep=0.0476% cooldown=0 confirm_ticks=3
+2026-10-04 23:43:24,117 INFO bot.strategy.momentum: ASTER/USD EMA-SELL: pnl=-0.06% cycles=8
+2026-10-04 23:43:24,117 INFO bot.strategy.momentum: ASTER/USD signal=SELL | fast=0.710751 slow=0.710799 rsi=47.3 sep=-0.0068% cooldown=3 confirm_ticks=0
+2026-10-04 23:43:25,355 INFO __main__: Cycle complete: state=TRENDING  86 monitored  6 positions  equity=$99868.18
+2026-10-04 23:45:25,647 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791137637895 "HTTP/1.1 200 OK"
+2026-10-04 23:45:26,703 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791137639113 "HTTP/1.1 200 OK"
+2026-10-04 23:45:29,905 INFO __main__: Market regime: TRENDING → RANGING  (avg_rsi=51.9  ema_up=44%  rising=63%)
+2026-10-04 23:45:29,905 INFO __main__: Adapted params: rsi=45.0–56.0  sep=0.06%  confirm=3  stop=2.0%  target=2.0%  hold≥5  stagnant≥15
+2026-10-04 23:45:31,063 INFO __main__: Cycle complete: state=RANGING  86 monitored  6 positions  equity=$99871.59
+2026-10-04 23:47:31,440 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791137763604 "HTTP/1.1 200 OK"
+2026-10-04 23:47:32,512 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791137764897 "HTTP/1.1 200 OK"
+2026-10-04 23:47:37,364 INFO __main__: Cycle complete: state=RANGING  86 monitored  6 positions  equity=$99878.00
+2026-10-04 23:49:37,650 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791137889905 "HTTP/1.1 200 OK"
+2026-10-04 23:49:38,663 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791137891054 "HTTP/1.1 200 OK"
+2026-10-04 23:49:42,067 INFO __main__: Market regime: RANGING → TRENDING  (avg_rsi=43.4  ema_up=50%  rising=66%)
+2026-10-04 23:49:42,067 INFO __main__: Adapted params: rsi=44.0–60.0  sep=0.04%  confirm=3  stop=2.5%  target=3.5%  hold≥8  stagnant≥25
+2026-10-04 23:49:42,069 INFO bot.strategy.momentum: FIL/USD signal=BUY | fast=1.047334 slow=1.046729 rsi=55.1 sep=0.0579% cooldown=0 confirm_ticks=4
+2026-10-04 23:49:43,299 INFO __main__: Cycle complete: state=TRENDING  86 monitored  6 positions  equity=$99893.43
+2026-10-04 23:51:43,501 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791138015839 "HTTP/1.1 200 OK"
+2026-10-04 23:51:44,611 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791138016957 "HTTP/1.1 200 OK"
+2026-10-04 23:51:48,010 INFO bot.strategy.momentum: ICP/USD signal=BUY | fast=3.367512 slow=3.365653 rsi=60.0 sep=0.0552% cooldown=0 confirm_ticks=3
+2026-10-04 23:51:49,573 INFO __main__: Cycle complete: state=TRENDING  86 monitored  6 positions  equity=$99886.07
+2026-10-04 23:53:50,062 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791138142113 "HTTP/1.1 200 OK"
+2026-10-04 23:53:51,141 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791138143538 "HTTP/1.1 200 OK"
+2026-10-04 23:53:55,843 INFO __main__: Cycle complete: state=TRENDING  86 monitored  6 positions  equity=$99886.64
+2026-10-04 23:55:56,104 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791138268383 "HTTP/1.1 200 OK"
+2026-10-04 23:55:57,223 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791138269604 "HTTP/1.1 200 OK"
+2026-10-04 23:56:01,672 INFO __main__: Cycle complete: state=TRENDING  86 monitored  6 positions  equity=$99877.85
+2026-10-04 23:58:01,969 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791138394212 "HTTP/1.1 200 OK"
+2026-10-04 23:58:03,174 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791138395579 "HTTP/1.1 200 OK"
+2026-10-04 23:58:06,808 INFO bot.strategy.momentum: TUT/USD signal=BUY | fast=0.024311 slow=0.024300 rsi=50.0 sep=0.0467% cooldown=0 confirm_ticks=4
+2026-10-04 23:58:08,178 INFO __main__: Cycle complete: state=TRENDING  86 monitored  6 positions  equity=$99888.08
+2026-10-05 00:00:08,466 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791138520718 "HTTP/1.1 200 OK"
+2026-10-05 00:00:09,601 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791138522005 "HTTP/1.1 200 OK"
+2026-10-05 00:00:14,181 INFO __main__: Cycle complete: state=TRENDING  86 monitored  6 positions  equity=$99898.41
+2026-10-05 00:02:14,474 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791138646721 "HTTP/1.1 200 OK"
+2026-10-05 00:02:15,470 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791138647865 "HTTP/1.1 200 OK"
+2026-10-05 00:02:18,834 INFO bot.strategy.momentum: PEPE/USD signal=BUY | fast=0.000004 slow=0.000004 rsi=57.1 sep=0.0507% cooldown=0 confirm_ticks=3
+2026-10-05 00:02:18,834 INFO bot.strategy.momentum: ARB/USD EMA-SELL: pnl=-0.15% cycles=18
+2026-10-05 00:02:18,834 INFO bot.strategy.momentum: ARB/USD signal=SELL | fast=0.202046 slow=0.202052 rsi=60.0 sep=-0.0029% cooldown=3 confirm_ticks=0
+2026-10-05 00:02:20,044 INFO __main__: Cycle complete: state=TRENDING  86 monitored  6 positions  equity=$99894.40
+2026-10-05 00:04:20,309 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791138772584 "HTTP/1.1 200 OK"
+2026-10-05 00:04:21,432 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791138773825 "HTTP/1.1 200 OK"
+2026-10-05 00:04:25,974 INFO __main__: Cycle complete: state=TRENDING  86 monitored  6 positions  equity=$99925.66
+2026-10-05 00:06:26,182 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791138898514 "HTTP/1.1 200 OK"
+2026-10-05 00:06:27,284 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791138899685 "HTTP/1.1 200 OK"
+2026-10-05 00:06:30,653 INFO __main__: Market regime: TRENDING → RANGING  (avg_rsi=64.0  ema_up=74%  rising=70%)
+2026-10-05 00:06:30,654 INFO __main__: Adapted params: rsi=45.0–56.0  sep=0.06%  confirm=3  stop=2.0%  target=2.0%  hold≥5  stagnant≥15
+2026-10-05 00:06:30,654 INFO bot.strategy.momentum: TRUMP/USD STAGNANT EXIT: pnl=-0.44% cycles=23 ema_below=21 ticks
+2026-10-05 00:06:30,654 INFO bot.strategy.momentum: TRUMP/USD signal=SELL | fast=2.045280 slow=2.046852 rsi=44.4 sep=-0.0768% cooldown=3 confirm_ticks=0
+2026-10-05 00:06:30,805 INFO httpx: HTTP Request: POST https://mock-api.roostoo.com/v3/place_order "HTTP/1.1 200 OK"
+2026-10-05 00:06:33,845 INFO __main__: LIVE SELL TRUMP/USD qty=1683.525 @ 2.04400000
+2026-10-05 00:06:35,031 INFO __main__: Cycle complete: state=RANGING  86 monitored  5 positions  equity=$99902.01
+2026-10-05 00:08:35,478 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791139027572 "HTTP/1.1 200 OK"
+2026-10-05 00:08:36,534 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791139028946 "HTTP/1.1 200 OK"
+2026-10-05 00:08:39,996 INFO __main__: Market regime: RANGING → TRENDING  (avg_rsi=60.2  ema_up=72%  rising=65%)
+2026-10-05 00:08:39,996 INFO __main__: Adapted params: rsi=44.0–60.0  sep=0.04%  confirm=3  stop=2.5%  target=3.5%  hold≥8  stagnant≥25
+2026-10-05 00:08:39,998 INFO bot.strategy.momentum: SEI/USD signal=BUY | fast=0.073917 slow=0.073887 rsi=49.0 sep=0.0409% cooldown=0 confirm_ticks=3
+2026-10-05 00:08:40,136 INFO httpx: HTTP Request: POST https://mock-api.roostoo.com/v3/place_order "HTTP/1.1 200 OK"
+2026-10-05 00:08:43,311 INFO __main__: LIVE BUY SEI/USD qty=43347.9 @ 0.07398000 (score=1.8927)
+2026-10-05 00:08:44,550 INFO __main__: Cycle complete: state=TRENDING  86 monitored  6 positions  equity=$99915.67
+2026-10-05 00:10:44,799 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791139157090 "HTTP/1.1 200 OK"
+2026-10-05 00:10:45,884 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791139158289 "HTTP/1.1 200 OK"
+2026-10-05 00:10:50,510 INFO __main__: Cycle complete: state=TRENDING  86 monitored  6 positions  equity=$99899.42
+2026-10-05 00:12:50,781 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791139283050 "HTTP/1.1 200 OK"
+2026-10-05 00:12:51,877 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791139284271 "HTTP/1.1 200 OK"
+2026-10-05 00:12:56,576 INFO __main__: Cycle complete: state=TRENDING  86 monitored  6 positions  equity=$99923.54
+2026-10-05 00:14:56,883 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791139409116 "HTTP/1.1 200 OK"
+2026-10-05 00:14:57,915 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791139410314 "HTTP/1.1 200 OK"
+2026-10-05 00:15:01,279 INFO __main__: Market regime: TRENDING → RANGING  (avg_rsi=62.3  ema_up=70%  rising=64%)
+2026-10-05 00:15:01,279 INFO __main__: Adapted params: rsi=45.0–56.0  sep=0.06%  confirm=3  stop=2.0%  target=2.0%  hold≥5  stagnant≥15
+2026-10-05 00:15:01,280 INFO __main__: TRAILING STOP NEAR/USD: pnl=1.55% — entry moved 4.9530 → 4.9629 (stop 4.8539 → 4.8636)
+2026-10-05 00:15:02,538 INFO __main__: Cycle complete: state=RANGING  86 monitored  6 positions  equity=$99931.11
+2026-10-05 00:17:03,037 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791139535078 "HTTP/1.1 200 OK"
+2026-10-05 00:17:04,090 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791139536504 "HTTP/1.1 200 OK"
+2026-10-05 00:17:08,725 INFO __main__: Cycle complete: state=RANGING  86 monitored  6 positions  equity=$99914.77
+2026-10-04 18:50:04,351 INFO alembic.runtime.migration: Context impl PostgresqlImpl.
+2026-10-04 18:50:04,352 INFO alembic.runtime.migration: Will assume transactional DDL.
+2026-10-04 18:51:44,132 INFO alembic.runtime.migration: Context impl PostgresqlImpl.
+2026-10-04 18:51:44,132 INFO alembic.runtime.migration: Will assume transactional DDL.
+2026-10-04 18:51:45,522 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/serverTime "HTTP/1.1 200 OK"
+2026-10-04 18:51:46,532 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/exchangeInfo "HTTP/1.1 200 OK"
+2026-10-04 18:51:47,462 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791139820029 "HTTP/1.1 200 OK"
+2026-10-04 18:51:48,668 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791139821058 "HTTP/1.1 200 OK"
+2026-10-04 18:51:54,244 INFO __main__: Bot initialised: 86 tracked coins (86 warmed), 6 open positions
+2026-10-04 18:51:54,508 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791139826944 "HTTP/1.1 200 OK"
+2026-10-04 18:51:55,615 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791139828170 "HTTP/1.1 200 OK"
+2026-10-04 18:51:58,670 INFO __main__: Market regime: None → TRENDING  (avg_rsi=60.6  ema_up=74%  rising=69%)
+2026-10-04 18:51:58,670 INFO __main__: Adapted params: rsi=44.0–60.0  sep=0.04%  confirm=3  stop=2.5%  target=3.5%  hold≥8  stagnant≥25
+2026-10-04 18:51:59,800 INFO __main__: Cycle complete: state=TRENDING  86 monitored  6 positions  equity=$99896.84
+2026-10-04 18:54:00,005 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791139952500 "HTTP/1.1 200 OK"
+2026-10-04 18:54:01,074 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791139953645 "HTTP/1.1 200 OK"
+2026-10-04 18:54:04,987 INFO __main__: Cycle complete: state=TRENDING  86 monitored  6 positions  equity=$99887.25
+2026-10-04 18:56:05,252 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791140077687 "HTTP/1.1 200 OK"
+2026-10-04 18:56:06,821 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791140079373 "HTTP/1.1 200 OK"
+2026-10-04 18:56:11,621 INFO __main__: Cycle complete: state=TRENDING  86 monitored  6 positions  equity=$99895.85
+2026-10-04 18:58:11,868 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791140204321 "HTTP/1.1 200 OK"
+2026-10-04 18:58:12,713 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791140205286 "HTTP/1.1 200 OK"
+2026-10-04 18:58:15,526 INFO bot.strategy.momentum: WLD/USD signal=BUY | fast=0.582773 slow=0.582081 rsi=55.4 sep=0.1189% cooldown=0 confirm_ticks=3
+2026-10-04 18:58:15,527 INFO bot.strategy.momentum: OPEN/USD signal=BUY | fast=0.118433 slow=0.118377 rsi=58.8 sep=0.0478% cooldown=0 confirm_ticks=3
+2026-10-04 18:58:15,527 INFO bot.strategy.momentum: DOT/USD signal=BUY | fast=1.200597 slow=1.199377 rsi=58.8 sep=0.1017% cooldown=0 confirm_ticks=3
+2026-10-04 18:58:15,528 INFO bot.strategy.momentum: EIGEN/USD signal=BUY | fast=0.263853 slow=0.263160 rsi=60.0 sep=0.2633% cooldown=0 confirm_ticks=3
+2026-10-04 18:58:15,528 INFO bot.strategy.momentum: SHIB/USD signal=BUY | fast=0.000006 slow=0.000006 rsi=60.0 sep=0.1111% cooldown=0 confirm_ticks=3
+2026-10-04 18:58:15,528 INFO bot.strategy.momentum: BONK/USD signal=BUY | fast=0.000004 slow=0.000004 rsi=57.1 sep=0.0852% cooldown=0 confirm_ticks=3
+2026-10-04 18:58:15,529 INFO bot.strategy.momentum: STO/USD signal=BUY | fast=0.041127 slow=0.041067 rsi=50.0 sep=0.1448% cooldown=0 confirm_ticks=3
+2026-10-04 18:58:15,668 INFO httpx: HTTP Request: POST https://mock-api.roostoo.com/v3/place_order "HTTP/1.1 200 OK"
+2026-10-04 18:58:18,064 INFO __main__: LIVE BUY STO/USD qty=91203.1 @ 0.04120000 (score=1.8761)
+2026-10-04 18:58:18,215 INFO httpx: HTTP Request: POST https://mock-api.roostoo.com/v3/place_order "HTTP/1.1 200 OK"
+2026-10-04 18:58:20,778 INFO __main__: LIVE BUY EIGEN/USD qty=13906.0 @ 0.26460000 (score=1.7450)
+2026-10-04 18:58:20,916 INFO httpx: HTTP Request: POST https://mock-api.roostoo.com/v3/place_order "HTTP/1.1 200 OK"
+2026-10-04 18:58:23,385 INFO __main__: LIVE BUY WLD/USD qty=6087.7 @ 0.58250000 (score=1.7214)
+2026-10-04 18:58:24,342 INFO __main__: Cycle complete: state=TRENDING  86 monitored  9 positions  equity=$99894.73
+2026-10-04 19:00:24,604 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791140337042 "HTTP/1.1 200 OK"
+2026-10-04 19:00:25,608 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791140338180 "HTTP/1.1 200 OK"
+2026-10-04 19:00:28,497 INFO bot.strategy.momentum: SUI/USD signal=BUY | fast=1.228086 slow=1.226099 rsi=59.9 sep=0.1621% cooldown=0 confirm_ticks=4
+2026-10-04 19:00:28,498 INFO bot.strategy.momentum: LTC/USD signal=BUY | fast=71.314911 slow=71.264628 rsi=55.6 sep=0.0706% cooldown=0 confirm_ticks=4
+2026-10-04 19:00:28,499 INFO bot.strategy.momentum: HEMI/USD signal=BUY | fast=0.005927 slow=0.005918 rsi=58.3 sep=0.1591% cooldown=0 confirm_ticks=4
+2026-10-04 19:00:28,667 INFO httpx: HTTP Request: POST https://mock-api.roostoo.com/v3/place_order "HTTP/1.1 200 OK"
+2026-10-04 19:00:31,412 INFO __main__: LIVE BUY LTC/USD qty=46.444 @ 71.29000000 (score=1.7768)
+2026-10-04 19:00:31,547 INFO httpx: HTTP Request: POST https://mock-api.roostoo.com/v3/place_order "HTTP/1.1 200 OK"
+2026-10-04 19:00:34,162 INFO __main__: LIVE BUY SUI/USD qty=2799.4 @ 1.22670000 (score=1.5129)
+2026-10-04 19:00:35,361 INFO __main__: Cycle complete: state=TRENDING  86 monitored  11 positions  equity=$99877.05
+2026-10-04 19:02:35,564 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791140468061 "HTTP/1.1 200 OK"
+2026-10-04 19:02:36,435 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791140469009 "HTTP/1.1 200 OK"
+2026-10-04 19:02:39,607 INFO __main__: TRAILING STOP SOMI/USD: pnl=1.50% — entry moved 0.2130 → 0.2134 (stop 0.2077 → 0.2081)
+2026-10-04 19:02:39,608 INFO bot.strategy.momentum: AVAX/USD signal=BUY | fast=11.072800 slow=11.068210 rsi=56.3 sep=0.0415% cooldown=0 confirm_ticks=5
+2026-10-04 19:02:39,609 INFO bot.strategy.momentum: WIF/USD signal=BUY | fast=0.248627 slow=0.248240 rsi=53.5 sep=0.1559% cooldown=0 confirm_ticks=5
+2026-10-04 19:02:39,609 INFO bot.strategy.momentum: BMT/USD signal=BUY | fast=0.018870 slow=0.018842 rsi=52.6 sep=0.1489% cooldown=0 confirm_ticks=5
+2026-10-04 19:02:39,610 INFO bot.strategy.momentum: 1000CHEEMS/USD signal=BUY | fast=0.000551 slow=0.000550 rsi=57.1 sep=0.0627% cooldown=0 confirm_ticks=4
+2026-10-04 19:02:39,752 INFO httpx: HTTP Request: POST https://mock-api.roostoo.com/v3/place_order "HTTP/1.1 200 OK"
+2026-10-04 19:02:43,182 INFO __main__: LIVE BUY BMT/USD qty=204415.3 @ 0.01889000 (score=2.5402)
+2026-10-04 19:02:43,321 INFO httpx: HTTP Request: POST https://mock-api.roostoo.com/v3/place_order "HTTP/1.1 200 OK"
+2026-10-04 19:02:45,728 INFO __main__: LIVE BUY WIF/USD qty=15239.47 @ 0.24860000 (score=2.2621)
+2026-10-04 19:02:46,999 INFO __main__: Cycle complete: state=TRENDING  86 monitored  13 positions  equity=$99860.26
+2026-10-04 19:04:47,244 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791140599700 "HTTP/1.1 200 OK"
+2026-10-04 19:04:48,198 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791140600775 "HTTP/1.1 200 OK"
+2026-10-04 19:04:52,334 INFO __main__: Cycle complete: state=TRENDING  86 monitored  13 positions  equity=$99941.35
+2026-10-04 19:06:52,594 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791140725034 "HTTP/1.1 200 OK"
+2026-10-04 19:06:53,634 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791140726190 "HTTP/1.1 200 OK"
+2026-10-04 19:06:58,129 INFO __main__: Cycle complete: state=TRENDING  86 monitored  13 positions  equity=$99947.43
+2026-10-04 19:09:20,785 INFO alembic.runtime.migration: Context impl PostgresqlImpl.
+2026-10-04 19:09:20,785 INFO alembic.runtime.migration: Will assume transactional DDL.
+2026-10-04 19:09:22,122 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/serverTime "HTTP/1.1 200 OK"
+2026-10-04 19:09:23,178 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/exchangeInfo "HTTP/1.1 200 OK"
+2026-10-04 19:09:24,124 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791140876696 "HTTP/1.1 200 OK"
+2026-10-04 19:09:25,314 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791140877729 "HTTP/1.1 200 OK"
+2026-10-04 19:09:32,245 INFO __main__: Bot initialised: 86 tracked coins (86 warmed), 13 open positions
+2026-10-04 19:09:32,504 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791140884946 "HTTP/1.1 200 OK"
+2026-10-04 19:09:33,510 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791140886066 "HTTP/1.1 200 OK"
+2026-10-04 19:09:36,875 INFO __main__: Market regime: None → TRENDING  (avg_rsi=61.4  ema_up=84%  rising=69%)
+2026-10-04 19:09:36,875 INFO __main__: Adapted params: rsi=44.0–60.0  sep=0.04%  confirm=3  stop=2.5%  target=3.5%  hold≥8  stagnant≥25
+2026-10-04 19:09:38,289 INFO __main__: Cycle complete: state=TRENDING  86 monitored  13 positions  equity=$99887.95
+2026-10-04 19:11:38,499 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791141010990 "HTTP/1.1 200 OK"
+2026-10-04 19:11:39,712 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791141012117 "HTTP/1.1 200 OK"
+2026-10-04 19:11:44,104 INFO __main__: Cycle complete: state=TRENDING  86 monitored  13 positions  equity=$99864.17
+2026-10-04 19:13:44,302 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791141136806 "HTTP/1.1 200 OK"
+2026-10-04 19:13:45,280 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791141137859 "HTTP/1.1 200 OK"
+2026-10-04 19:14:17,731 INFO alembic.runtime.migration: Context impl PostgresqlImpl.
+2026-10-04 19:14:17,731 INFO alembic.runtime.migration: Will assume transactional DDL.
+2026-10-04 19:14:19,114 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/serverTime "HTTP/1.1 200 OK"
+2026-10-04 19:14:20,004 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/exchangeInfo "HTTP/1.1 200 OK"
+2026-10-04 19:14:20,912 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791141173568 "HTTP/1.1 200 OK"
+2026-10-04 19:14:22,061 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791141174539 "HTTP/1.1 200 OK"
+2026-10-04 19:14:29,080 INFO __main__: Bot initialised: 86 tracked coins (86 warmed), 13 open positions
+2026-10-04 19:14:29,537 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791141181876 "HTTP/1.1 200 OK"
+2026-10-04 19:14:30,497 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791141183151 "HTTP/1.1 200 OK"
+2026-10-04 19:14:33,610 INFO __main__: Market regime: None → TRENDING  (avg_rsi=53.1  ema_up=67%  rising=69%)
+2026-10-04 19:14:33,610 INFO __main__: Adapted params: rsi=44.0–60.0  sep=0.04%  confirm=3  stop=2.5%  target=3.5%  hold≥8  stagnant≥25
+2026-10-04 19:14:34,842 INFO __main__: Cycle complete: state=TRENDING  86 monitored  13 positions  equity=$99785.13
+2026-10-04 19:16:35,053 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791141307638 "HTTP/1.1 200 OK"
+2026-10-04 19:16:36,094 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791141308756 "HTTP/1.1 200 OK"
+2026-10-04 19:16:40,495 INFO __main__: Cycle complete: state=TRENDING  86 monitored  13 positions  equity=$99820.73
+2026-10-07 21:09:48,893 INFO alembic.runtime.migration: Context impl PostgresqlImpl.
+2026-10-07 21:09:48,893 INFO alembic.runtime.migration: Will assume transactional DDL.
+2026-10-07 21:09:50,543 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/serverTime "HTTP/1.1 200 OK"
+2026-10-07 21:09:51,676 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/exchangeInfo "HTTP/1.1 200 OK"
+2026-10-07 21:09:52,749 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791407293465 "HTTP/1.1 200 OK"
+2026-10-07 21:09:53,944 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791407294495 "HTTP/1.1 200 OK"
+2026-10-07 21:09:55,695 INFO __main__: Adopted pre-existing wallet holding AMDB/USD (qty=5.83) @ $645.7500
+2026-10-07 21:09:55,695 INFO __main__: Adopted pre-existing wallet holding DOT/USD (qty=0.01) @ $1.1110
+2026-10-07 21:09:55,695 INFO __main__: Adopted pre-existing wallet holding FLOKI/USD (qty=129203602.0) @ $0.0000
+2026-10-07 21:09:55,695 INFO __main__: Adopted pre-existing wallet holding PENDLE/USD (qty=1569.1) @ $2.2230
+2026-10-07 21:09:55,696 INFO __main__: Adopted pre-existing wallet holding PUMP/USD (qty=578129.0) @ $0.0063
+2026-10-07 21:09:55,696 INFO __main__: Adopted pre-existing wallet holding WDCB/USD (qty=9.48) @ $405.8300
+2026-10-07 21:09:55,696 INFO __main__: Adopted pre-existing wallet holding WLFI/USD (qty=0.1) @ $0.0550
+2026-10-07 21:10:14,079 INFO __main__: Bot initialized with 86 tracked coins (min required: 15). Open longs: 7, Open shorts: 0
+2026-10-07 21:10:14,457 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791407314940 "HTTP/1.1 200 OK"
+2026-10-07 21:10:15,411 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791407316142 "HTTP/1.1 200 OK"
+2026-10-07 21:10:20,228 INFO __main__: Cycle complete: 86 coins monitored, 7 longs, 0 shorts, equity=$91919.59
+2026-10-07 21:11:20,650 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791407381090 "HTTP/1.1 200 OK"
+2026-10-07 21:11:21,617 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791407382351 "HTTP/1.1 200 OK"
+2026-10-07 21:11:25,702 INFO __main__: Cycle complete: 86 coins monitored, 7 longs, 0 shorts, equity=$91923.64
+2026-10-07 21:12:26,192 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791407446564 "HTTP/1.1 200 OK"
+2026-10-07 21:12:27,325 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791407447876 "HTTP/1.1 200 OK"
+2026-10-07 21:12:31,797 INFO __main__: Cycle complete: 86 coins monitored, 7 longs, 0 shorts, equity=$91931.85
+2026-10-07 21:13:32,264 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791407512658 "HTTP/1.1 200 OK"
+2026-10-07 21:13:33,319 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791407514053 "HTTP/1.1 200 OK"
+2026-10-07 21:13:37,870 INFO __main__: Cycle complete: 86 coins monitored, 7 longs, 0 shorts, equity=$91922.33
+2026-10-07 21:34:42,089 INFO alembic.runtime.migration: Context impl PostgresqlImpl.
+2026-10-07 21:34:42,089 INFO alembic.runtime.migration: Will assume transactional DDL.
+2026-10-07 21:34:44,151 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/serverTime "HTTP/1.1 200 OK"
+2026-10-07 21:34:45,388 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/exchangeInfo "HTTP/1.1 200 OK"
+2026-10-07 21:34:46,443 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791408787312 "HTTP/1.1 200 OK"
+2026-10-07 21:34:47,759 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791408788445 "HTTP/1.1 200 OK"
+2026-10-07 21:35:21,190 INFO __main__: Bot initialized with 86 tracked coins (min required: 15). Open longs: 7, Open shorts: 0
+2026-10-07 21:35:21,775 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791408822186 "HTTP/1.1 200 OK"
+2026-10-07 21:35:23,046 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791408823905 "HTTP/1.1 200 OK"
+2026-10-07 21:35:27,856 INFO __main__: Cycle complete: 86 coins monitored, 7 longs, 0 shorts, equity=$91830.77
+2026-10-07 21:36:28,468 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791408888852 "HTTP/1.1 200 OK"
+2026-10-07 21:36:29,911 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/balance?timestamp=1791408890494 "HTTP/1.1 200 OK"
+2026-10-07 21:36:34,756 INFO __main__: Cycle complete: 86 coins monitored, 7 longs, 0 shorts, equity=$91831.61
+2026-10-07 21:37:36,067 INFO httpx: HTTP Request: GET https://mock-api.roostoo.com/v3/ticker?timestamp=1791408955752 "HTTP/1.1 200 OK"

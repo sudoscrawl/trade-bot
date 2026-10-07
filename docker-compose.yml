@@ -1,0 +1,13 @@
+services:
+  bot:
+    build:
+      context: .
+      target: final
+    image: quant-bot:latest
+    env_file: .env
+    volumes:
+      # Persist logs on the host so they survive container restarts
+      - ./logs:/app/logs
+    restart: unless-stopped
+    # DB is Neon (external) — no postgres service needed.
+    # All secrets and overrides come from .env.
