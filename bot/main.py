@@ -271,13 +271,49 @@ def _load_positions(
 
 def _load_short_positions(
     strategy: MomentumStrategy,
-) -> dict[str, float]:
-    """Load active short positions from DB state."""
-    saved = json.loads(DB.get_state("bot_short_positions", "{}") or "{}")
-    active: dict[str, float] = {}
-    for pair, entry_price in saved.items():
-        active[pair] = float(entry_price)
-        strategy.notify_shorted(pair, float(entry_price))
+    client: RoostooClient,
+) -> dict[str, dict[str, float]]:
+    """Load active short positions from the exchange API (source of truth).
+
+    Returns a dict mapping pair -> {"entry_price": ..., "collateral": ..., "qty": ...}.
+    """
+    active: dict[str, dict[str, float]] = {}
+
+    try:
+        resp = client.get_short_positions()
+        if resp.get("Success", False):
+            for pos in resp.get("Positions", []):
+                pair = pos.get("Pair", "")
+                entry_price = float(pos.get("EntryPrice", 0.0))
+                collateral = float(pos.get("Collateral", 0.0))
+                qty = float(pos.get("ShortQty", 0.0))
+                if pair and entry_price > 0:
+                    active[pair] = {
+                        "entry_price": entry_price,
+                        "collateral": collateral,
+                        "qty": qty,
+                    }
+                    strategy.notify_shorted(pair, entry_price)
+                    logger.info(
+                        "Loaded short position %s: entry=$%.4f collateral=$%.2f qty=%.6f",
+                        pair,
+                        entry_price,
+                        collateral,
+                        qty,
+                    )
+    except Exception:  # noqa: BLE001
+        logger.warning("Failed to load short positions from API, falling back to DB")
+        # Fallback to DB state
+        saved = json.loads(DB.get_state("bot_short_positions", "{}") or "{}")
+        for pair, data in saved.items():
+            if isinstance(data, dict):
+                active[pair] = data
+                strategy.notify_shorted(pair, float(data.get("entry_price", 0.0)))
+            else:
+                # Legacy format: pair -> entry_price
+                active[pair] = {"entry_price": float(data), "collateral": 0.0, "qty": 0.0}
+                strategy.notify_shorted(pair, float(data))
+
     return active
 
 
@@ -285,8 +321,8 @@ def _save_positions(positions: Mapping[str, float]) -> None:
     DB.set_state("bot_positions", json.dumps(positions, sort_keys=True))
 
 
-def _save_short_positions(positions: Mapping[str, float]) -> None:
-    DB.set_state("bot_short_positions", json.dumps(positions, sort_keys=True))
+def _save_short_positions(positions: Mapping[str, dict[str, float] | float]) -> None:
+    DB.set_state("bot_short_positions", json.dumps(positions, sort_keys=True, default=str))
 
 
 def _save_state(
@@ -295,7 +331,7 @@ def _save_state(
     equity: float,
     available_usd: float,
     positions: Mapping[str, float],
-    short_positions: Mapping[str, float],
+    short_positions: Mapping[str, Any],
     tracked_symbols: list[str],
     candidates: list[dict[str, Any]],
     cycle_summary: Mapping[str, Any],
@@ -324,7 +360,7 @@ def _save_state(
     DB.set_multiple_states(
         {
             "bot_positions": json.dumps(positions, sort_keys=True),
-            "bot_short_positions": json.dumps(short_positions, sort_keys=True),
+            "bot_short_positions": json.dumps(short_positions, sort_keys=True, default=str),
             "bot_state": json.dumps(bot_state, sort_keys=True),
             "tracked_symbols": json.dumps(tracked_symbols),
             "top_candidates": json.dumps(candidates[:10]),
@@ -373,11 +409,12 @@ def run() -> None:
             exchange_info, initial_tickers, config.min_symbols_tracked
         )
 
+        initial_shorts = client.get_short_positions()
         risk = RiskManager(
-            portfolio_value_usd(initial_balance, initial_tickers), config
+            portfolio_value_usd(initial_balance, initial_tickers, initial_shorts), config
         )
         positions = _load_positions(strategy, initial_balance, initial_tickers)
-        short_positions = _load_short_positions(strategy)
+        short_positions = _load_short_positions(strategy, client)
 
         # Bulk restore history for all tracked symbols from DB in a single query
         history_bulk = DB.get_recent_prices_bulk(initial_tracked, config.min_history)
@@ -397,6 +434,7 @@ def run() -> None:
         while running:
             try:
                 tickers, balance = ticker_data(client), client.get_balance()
+                short_positions_data = client.get_short_positions()
                 tracked_symbols = _select_tracked_symbols(
                     exchange_info, tickers, config.min_symbols_tracked
                 )
@@ -404,7 +442,7 @@ def run() -> None:
                     pair: tickers[pair] for pair in tracked_symbols if pair in tickers
                 }
                 DB.insert_prices(selected)
-                equity = portfolio_value_usd(balance, tickers)
+                equity = portfolio_value_usd(balance, tickers, short_positions_data)
                 risk.update_equity(equity)
                 DB.insert_equity(equity)
                 available_usd = free_balance(balance, "USD")
@@ -461,35 +499,42 @@ def run() -> None:
                     action = strategy.update(pair, price)
 
                     if action == "COVER":
-                        # To cover a short: BUY back the asset
-                        precision, _ = _exchange_rules(exchange_info, pair)
-                        cover_quantity = risk.quantity(
-                            available_usd * 0.5, price, precision
-                        )
-                        if cover_quantity > 0:
-                            result = client.place_order(pair, "BUY", cover_quantity)
-                            if _accepted(result, pair, "BUY"):
-                                fill = _filled_price(result, price)
-                                DB.insert_trade_from_order(
-                                    result,
-                                    mode="LIVE",
-                                    session_id=session_id,
-                                    fallback_pair=pair,
-                                    fallback_side="BUY",
-                                    fallback_price=fill,
-                                    fallback_qty=cover_quantity,
-                                )
-                                was_loss = fill > short_positions[pair]
-                                strategy.notify_covered(pair, was_loss)
-                                short_positions.pop(pair, None)
-                                _save_short_positions(short_positions)
-                                cycle_covers.append(pair)
-                                logger.info(
-                                    "LIVE COVER %s qty=%s @ %.8f",
-                                    pair,
-                                    cover_quantity,
-                                    fill,
-                                )
+                        # To cover a short: call Roostoo POST /v6/short_close
+                        result = client.short_close(pair)
+                        if _accepted(result, pair, "COVER"):
+                            fill = float(result.get("ClosePrice", price))
+                            closed_qty = float(result.get("ClosedQty", 0.0))
+                            realized_pnl = float(result.get("RealizedPNL", 0.0))
+                            return_amount = float(result.get("ReturnAmount", 0.0))
+                            DB.insert_trade_from_order(
+                                result,
+                                mode="LIVE",
+                                session_id=session_id,
+                                fallback_pair=pair,
+                                fallback_side="COVER",
+                                fallback_price=fill,
+                                fallback_qty=closed_qty,
+                            )
+                            pos_data = short_positions.get(pair, {})
+                            entry_p = (
+                                float(pos_data.get("entry_price", fill))
+                                if isinstance(pos_data, dict)
+                                else float(pos_data)
+                            )
+                            was_loss = realized_pnl < 0 or fill > entry_p
+                            strategy.notify_covered(pair, was_loss)
+                            short_positions.pop(pair, None)
+                            _save_short_positions(short_positions)
+                            available_usd += return_amount
+                            cycle_covers.append(pair)
+                            logger.info(
+                                "LIVE COVER %s qty=%s @ %.8f pnl=$%.4f returned=$%.2f",
+                                pair,
+                                closed_qty,
+                                fill,
+                                realized_pnl,
+                                return_amount,
+                            )
 
                 # ── 3. Evaluate BUY and SHORT candidates ──────────────────
                 for pair, ticker in selected.items():
@@ -533,12 +578,15 @@ def run() -> None:
                 buy_candidates.sort(key=lambda c: c["score"], reverse=True)
                 short_candidates.sort(key=lambda c: c["score"], reverse=True)
 
-                # Merge and interleave: take the best signals regardless of direction
-                all_candidates = sorted(
-                    buy_candidates + short_candidates,
-                    key=lambda c: c["score"],
-                    reverse=True,
+                # Enforce short bias (90% shorts in a crashing market)
+                max_long_positions = max(
+                    0, int(config.max_open_positions * (1.0 - config.short_bias_pct))
                 )
+                prioritized_candidates: list[dict[str, Any]] = []
+                prioritized_candidates.extend(short_candidates)
+                if len(positions) < max_long_positions:
+                    prioritized_candidates.extend(buy_candidates)
+                all_candidates = prioritized_candidates
 
                 # ── 4. Execute the best candidate entries ─────────────────
                 total_open = len(positions) + len(short_positions)
@@ -546,9 +594,10 @@ def run() -> None:
 
                 if available_slots > 0 and not risk.halted and all_candidates:
                     logger.info(
-                        "Found %d BUY and %d SHORT candidates. Top picks: %s",
+                        "Found %d BUY and %d SHORT candidates (max longs: %d). Top picks: %s",
                         len(buy_candidates),
                         len(short_candidates),
+                        max_long_positions,
                         ", ".join(
                             f"{c['pair']} ({c['side']} score={c['score']})"
                             for c in all_candidates[:available_slots]
@@ -569,12 +618,12 @@ def run() -> None:
                             _signal_strength(indicators),
                             vol,
                         )
-                        quantity = risk.quantity(budget, price, precision)
 
-                        if quantity > 0 and quantity * price >= max(
-                            config.min_order_usd, exchange_minimum
-                        ):
-                            if cand["side"] == "BUY":
+                        if cand["side"] == "BUY" and len(positions) < max_long_positions:
+                            quantity = risk.quantity(budget, price, precision)
+                            if quantity > 0 and quantity * price >= max(
+                                config.min_order_usd, exchange_minimum
+                            ):
                                 result = client.place_order(pair, "BUY", quantity)
                                 if _accepted(result, pair, "BUY"):
                                     fill = _filled_price(result, price)
@@ -602,31 +651,49 @@ def run() -> None:
                                         cand["score"],
                                     )
 
-                            elif cand["side"] == "SHORT":
-                                # SHORT: SELL the asset to open a short position
-                                result = client.place_order(pair, "SELL", quantity)
-                                if _accepted(result, pair, "SELL"):
-                                    fill = _filled_price(result, price)
+                        elif cand["side"] == "SHORT":
+                            # Sized by collateral (USD) via Roostoo POST /v6/short_open
+                            collateral = round(budget / (1 + config.commission_rate), 2)
+                            if (
+                                collateral >= max(config.min_order_usd, 1.0)
+                                and collateral <= available_usd
+                            ):
+                                result = client.short_open(pair, collateral)
+                                if _accepted(result, pair, "SHORT"):
+                                    fill = float(result.get("EntryPrice", price))
+                                    short_qty = float(result.get("ShortQty", 0.0))
+                                    actual_collateral = float(
+                                        result.get("Collateral", collateral)
+                                    )
+                                    open_fee = float(
+                                        result.get(
+                                            "OpenFee",
+                                            actual_collateral * config.commission_rate,
+                                        )
+                                    )
                                     DB.insert_trade_from_order(
                                         result,
                                         mode="LIVE",
                                         session_id=session_id,
                                         fallback_pair=pair,
-                                        fallback_side="SELL",
+                                        fallback_side="SHORT",
                                         fallback_price=fill,
-                                        fallback_qty=quantity,
+                                        fallback_qty=short_qty,
                                     )
                                     strategy.notify_shorted(pair, fill)
-                                    short_positions[pair] = fill
+                                    short_positions[pair] = {
+                                        "entry_price": fill,
+                                        "collateral": actual_collateral,
+                                        "qty": short_qty,
+                                    }
                                     _save_short_positions(short_positions)
-                                    available_usd -= (
-                                        quantity * fill * config.commission_rate
-                                    )
+                                    available_usd -= (actual_collateral + open_fee)
                                     cycle_shorts.append(pair)
                                     logger.info(
-                                        "LIVE SHORT %s qty=%s @ %.8f (score=%.4f)",
+                                        "LIVE SHORT %s collateral=$%.2f qty=%.6f @ %.8f (score=%.4f)",
                                         pair,
-                                        quantity,
+                                        actual_collateral,
+                                        short_qty,
                                         fill,
                                         cand["score"],
                                     )

@@ -48,11 +48,16 @@ class Config(BaseSettings):
         ),
         alias="SYMBOLS",
     )
-    max_open_positions: int = Field(default=8, alias="MAX_OPEN_POSITIONS")
+    max_open_positions: int = Field(default=12, alias="MAX_OPEN_POSITIONS")
     min_symbols_tracked: int = Field(default=15, alias="MIN_SYMBOLS_TRACKED")
     track_all_coins: bool = Field(default=True, alias="TRACK_ALL_COINS")
     auto_select_top_symbols: bool = Field(default=True, alias="AUTO_SELECT_TOP_SYMBOLS")
     enable_shorts: bool = Field(default=True, alias="ENABLE_SHORTS")
+    short_bias_pct: float = Field(
+        default=0.90,
+        alias="SHORT_BIAS_PCT",
+        description="Fraction of capital budget allocated to shorts vs longs (0.9 = 90% shorts)",
+    )
 
     # ── Strategy: trend-following + mean-reversion with long and short ────
 
@@ -73,7 +78,7 @@ class Config(BaseSettings):
     # Rate of Change (momentum)
     roc_period: int = Field(default=10, alias="ROC_PERIOD")
     roc_buy_threshold: float = Field(default=1.5, alias="ROC_BUY_THRESHOLD")
-    roc_short_threshold: float = Field(default=-1.5, alias="ROC_SHORT_THRESHOLD")
+    roc_short_threshold: float = Field(default=-0.5, alias="ROC_SHORT_THRESHOLD")
 
     # History / warm-up
     min_history: int = Field(default=25, alias="MIN_HISTORY")
@@ -85,8 +90,8 @@ class Config(BaseSettings):
     confirm_ticks: int = Field(default=2, alias="CONFIRM_TICKS")
 
     # Short entry filters
-    rsi_short_min: float = Field(default=35.0, alias="RSI_SHORT_MIN")
-    rsi_short_max: float = Field(default=65.0, alias="RSI_SHORT_MAX")
+    rsi_short_min: float = Field(default=20.0, alias="RSI_SHORT_MIN")
+    rsi_short_max: float = Field(default=70.0, alias="RSI_SHORT_MAX")
 
     # Long exit
     min_hold_cycles: int = Field(default=3, alias="MIN_HOLD_CYCLES")
@@ -101,8 +106,8 @@ class Config(BaseSettings):
     trailing_stop_pct: float = Field(default=1.0, alias="TRAILING_STOP_PCT")
 
     # Short exit
-    short_stop_loss_pct: float = Field(default=2.5, alias="SHORT_STOP_LOSS_PCT")
-    short_take_profit_pct: float = Field(default=3.5, alias="SHORT_TAKE_PROFIT_PCT")
+    short_stop_loss_pct: float = Field(default=2.0, alias="SHORT_STOP_LOSS_PCT")
+    short_take_profit_pct: float = Field(default=5.0, alias="SHORT_TAKE_PROFIT_PCT")
     rsi_cover_threshold: float = Field(default=55.0, alias="RSI_COVER_THRESHOLD")
 
     # Cooldown

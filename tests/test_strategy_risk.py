@@ -112,3 +112,43 @@ def test_negative_price_returns_hold() -> None:
     strategy = MomentumStrategy(settings(min_history=5))
     assert strategy.update("BTC/USD", -1.0) == "HOLD"
     assert strategy.update("BTC/USD", 0.0) == "HOLD"
+
+
+def test_short_trailing_stop() -> None:
+    strategy = MomentumStrategy(
+        settings(
+            min_history=5,
+            trailing_activate_pct=1.0,
+            trailing_stop_pct=1.0,
+            short_take_profit_pct=10.0,  # high so it doesn't interfere
+        )
+    )
+    for price in (100, 99, 98, 97, 96):
+        strategy.update("BTC/USD", price)
+    strategy.notify_shorted("BTC/USD", 100)
+
+    # Price drops to 98 — trailing activates (2% profit from entry 100)
+    strategy.update("BTC/USD", 98)
+    # Price rises to 98.4 — (98.4 - 98) / 98 = 0.41% bounce, below 1%
+    assert strategy.update("BTC/USD", 98.4) == "HOLD"
+    # Price rises to 99.1 — (99.1 - 98) / 98 = 1.12% bounce, exceeds 1%
+    assert strategy.update("BTC/USD", 99.1) == "COVER"
+
+
+def test_bearish_market_triggers_short() -> None:
+    strategy = MomentumStrategy(
+        settings(
+            min_history=5,
+            fast_ema_period=3,
+            slow_ema_period=5,
+            confirm_ticks=1,
+            roc_short_threshold=-0.1,
+            rsi_short_min=10.0,
+            rsi_short_max=80.0,
+            ema_separation_pct=0.01,
+        )
+    )
+    # Falling market prices
+    prices = [100.0, 98.0, 95.0, 92.0, 89.0, 86.0, 83.0, 80.0]
+    signals = [strategy.update("BTC/USD", p) for p in prices]
+    assert "SHORT" in signals

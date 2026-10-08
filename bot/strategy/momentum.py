@@ -323,65 +323,75 @@ class MomentumStrategy:
 
         # ── ENTRY paths (no open position) ───────────────────────────
 
-        # BUY conditions:
-        #   1. Bullish EMA crossover (or just confirmed above)
-        #   2. RSI in bullish zone (not overbought)
-        #   3. Price near or bouncing off lower Bollinger Band (value entry)
-        #      OR strong positive momentum (breakout entry)
-        #   4. Not in cooldown
+        # --- SHORT FIRST (bearish-biased market) ---
+        # In a crashing market, shorts should trigger easily.
+        # We use an OR-based approach: any two bearish signals trigger a SHORT.
+        crossed_down = prev_fast >= prev_slow and fast < slow
+        confirmed_down = state.ticks_below_slow >= cfg.confirm_ticks
+        bb_short = not math.isnan(bb_upper) and price >= bb_mid  # above midline
+        momentum_short = roc < cfg.roc_short_threshold  # strong downward momentum
+        rsi_bearish = current_rsi < 55.0  # not overbought
+        trend_bearish = fast < slow  # fast below slow = downtrend
+
+        # Score how many bearish signals are present
+        bearish_signals = sum([
+            crossed_down or confirmed_down,     # EMA trend confirmation
+            trend_bearish,                       # currently in downtrend
+            momentum_short,                      # negative rate of change
+            rsi_bearish,                         # RSI favours shorts
+            bb_short,                            # price above BB midline (room to fall)
+            separation <= -cfg.ema_separation_pct,  # meaningful EMA gap
+        ])
+
+        # SHORT if at least 2 bearish signals fire and not in cooldown
+        if bearish_signals >= 2 and state.cooldown_cycles == 0:
+            logger.info(
+                "%s SHORT signal: rsi=%.1f sep=%.3f%% roc=%.2f bearish_count=%d",
+                pair,
+                current_rsi,
+                separation,
+                roc,
+                bearish_signals,
+            )
+            return "SHORT"
+
+        # --- BUY (very selective — only extreme reversals in a crash) ---
+        # In a crash, longs are dangerous. Only enter on very strong bounce signals:
+        #   - RSI deeply oversold AND bouncing up
+        #   - Bullish EMA crossover confirmed
+        #   - Price below lower Bollinger Band (extreme value)
+        #   - Strong positive momentum
         crossed_up = prev_fast <= prev_slow and fast > slow
         confirmed_up = (
-            cfg.confirm_ticks <= state.ticks_above_slow <= cfg.confirm_ticks + 3
+            cfg.confirm_ticks <= state.ticks_above_slow <= cfg.confirm_ticks + 2
         )
-        bb_buy = not math.isnan(bb_lower) and price <= bb_mid  # below midline = value
+        bb_buy = not math.isnan(bb_lower) and price <= bb_lower  # at or below lower BB
         momentum_buy = roc > cfg.roc_buy_threshold  # strong upward momentum
+        rsi_oversold_bounce = current_rsi < 35.0  # deeply oversold
 
+        bullish_signals = sum([
+            crossed_up or confirmed_up,
+            momentum_buy,
+            bb_buy,
+            rsi_oversold_bounce,
+        ])
+
+        # BUY only if 3+ strong bullish signals fire (very conservative)
         if (
-            (crossed_up or confirmed_up)
+            bullish_signals >= 3
             and state.cooldown_cycles == 0
             and cfg.rsi_buy_min <= current_rsi <= cfg.rsi_buy_max
             and separation >= cfg.ema_separation_pct
-            and (bb_buy or momentum_buy)
         ):
             logger.info(
-                "%s BUY signal: rsi=%.1f sep=%.3f%% roc=%.2f bb_pos=%s",
+                "%s BUY signal: rsi=%.1f sep=%.3f%% roc=%.2f bullish_count=%d",
                 pair,
                 current_rsi,
                 separation,
                 roc,
-                "below_mid" if bb_buy else "above_mid",
+                bullish_signals,
             )
             return "BUY"
-
-        # SHORT conditions:
-        #   1. Bearish EMA crossover (or confirmed below)
-        #   2. RSI in bearish zone (not oversold)
-        #   3. Price near or rejected from upper Bollinger Band (value short)
-        #      OR strong negative momentum (breakdown short)
-        #   4. Not in cooldown
-        crossed_down = prev_fast >= prev_slow and fast < slow
-        confirmed_down = (
-            cfg.confirm_ticks <= state.ticks_below_slow <= cfg.confirm_ticks + 3
-        )
-        bb_short = not math.isnan(bb_upper) and price >= bb_mid  # above midline
-        momentum_short = roc < cfg.roc_short_threshold  # strong downward momentum
-
-        if (
-            (crossed_down or confirmed_down)
-            and state.cooldown_cycles == 0
-            and cfg.rsi_short_min <= current_rsi <= cfg.rsi_short_max
-            and separation <= -cfg.ema_separation_pct
-            and (bb_short or momentum_short)
-        ):
-            logger.info(
-                "%s SHORT signal: rsi=%.1f sep=%.3f%% roc=%.2f bb_pos=%s",
-                pair,
-                current_rsi,
-                separation,
-                roc,
-                "above_mid" if bb_short else "below_mid",
-            )
-            return "SHORT"
 
         return "HOLD"
 

@@ -15,7 +15,9 @@ def free_balance(balance_response: dict[str, Any], asset: str) -> float:
 
 
 def portfolio_value_usd(
-    balance_response: dict[str, Any], tickers: dict[str, dict[str, Any]]
+    balance_response: dict[str, Any],
+    tickers: dict[str, dict[str, Any]],
+    short_positions: list[dict[str, Any]] | dict[str, Any] | None = None,
 ) -> float:
     wallet = balance_response.get("SpotWallet") or balance_response.get("Wallet") or {}
     total = 0.0
@@ -27,4 +29,13 @@ def portfolio_value_usd(
             else quantity
             * float(tickers.get(f"{asset.upper()}/USD", {}).get("LastPrice", 0.0))
         )
+    if short_positions:
+        positions_list = (
+            short_positions.get("Positions", [])
+            if isinstance(short_positions, dict)
+            else short_positions
+        )
+        for pos in positions_list:
+            if isinstance(pos, dict):
+                total += float(pos.get("PositionValue", pos.get("Collateral", 0.0)))
     return total

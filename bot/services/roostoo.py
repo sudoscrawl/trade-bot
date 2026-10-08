@@ -232,5 +232,84 @@ class RoostooClient:
         )
         return response.json()
 
+    # ── v6 Short Position Endpoints ─────────────────────────────────────────
+
+    def short_open(
+        self,
+        pair: str,
+        collateral: float,
+        price: float | None = None,
+    ) -> dict:
+        """Open a short position via ``POST /v6/short_open``.
+
+        Short positions are sized by *collateral* (USD locked), not quantity.
+        The exchange calculates ``quantity = collateral / EntryPrice``.
+
+        Args:
+            pair: Trading pair (e.g. ``"BTC/USD"``).
+            collateral: USD amount to lock.  Minimum ``1``.
+            price: Limit price.  When *None* a MARKET order fills at current best bid.
+        """
+        payload: dict = {
+            "timestamp": self._timestamp_ms(),
+            "pair": pair.upper(),
+            "collateral": str(collateral),
+        }
+        if price is not None:
+            payload["order_type"] = "LIMIT"
+            payload["price"] = str(price)
+
+        response = self._request(
+            "POST",
+            "/v6/short_open",
+            data=payload,
+            headers=self._auth_headers(payload),
+        )
+        return response.json()
+
+    def short_close(
+        self,
+        pair: str,
+        close_qty: float | None = None,
+        close_pct: float | None = None,
+    ) -> dict:
+        """Close all or part of a short position via ``POST /v6/short_close``.
+
+        Always fills immediately at the current best ask (``MinAsk``).
+
+        Args:
+            pair: Trading pair (e.g. ``"BTC/USD"``).
+            close_qty: Absolute quantity to close.  Takes precedence over *close_pct*.
+            close_pct: Percentage to close (0–100).
+                If neither is sent, the entire position is closed.
+        """
+        payload: dict = {
+            "timestamp": self._timestamp_ms(),
+            "pair": pair.upper(),
+        }
+        if close_qty is not None:
+            payload["close_qty"] = str(close_qty)
+        elif close_pct is not None:
+            payload["close_pct"] = str(close_pct)
+
+        response = self._request(
+            "POST",
+            "/v6/short_close",
+            data=payload,
+            headers=self._auth_headers(payload),
+        )
+        return response.json()
+
+    def get_short_positions(self) -> dict:
+        """Get all open short positions with live PnL via ``GET /v6/short_positions``."""
+        params = {"timestamp": self._timestamp_ms()}
+        response = self._request(
+            "GET",
+            "/v6/short_positions",
+            params=params,
+            headers=self._auth_headers(params),
+        )
+        return response.json()
+
     def close(self) -> None:
         self.client.close()

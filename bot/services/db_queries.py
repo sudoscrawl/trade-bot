@@ -217,6 +217,7 @@ class DB:
             or detail.get("Quantity")
             or detail.get("quantity")
             or detail.get("ShortQty")
+            or detail.get("ClosedQty")
             or order_result.get("Quantity")
             or fallback_qty
             or 0.0
@@ -229,6 +230,7 @@ class DB:
             or detail.get("Price")
             or detail.get("price")
             or detail.get("EntryPrice")
+            or detail.get("ClosePrice")
             or order_result.get("Price")
             or fallback_price
             or 0.0
@@ -236,6 +238,7 @@ class DB:
         fee = float(
             detail.get("CommissionChargeValue")
             or detail.get("OpenFee")
+            or detail.get("CloseFee")
             or detail.get("fee")
             or detail.get("Fee")
             or 0.0

@@ -135,3 +135,63 @@ def test_load_positions_adopts_pre_existing_wallet_holdings():
     assert "ETH/USD" in positions
     assert positions["BTC/USD"] == 65000.0
     assert positions["ETH/USD"] == 3400.0
+
+
+def test_score_short_opportunity_ranks_falling_coins_higher():
+    from bot.main import _score_short_opportunity
+
+    # Heavily falling coin with high negative EMA separation
+    falling_indicators = {"warming_up": False, "ema_sep_pct": -0.06, "rsi": 42.0}
+    falling_ticker = {
+        "LastPrice": 100.0,
+        "MaxBid": 99.98,
+        "MinAsk": 100.02,
+        "Change": -0.08,
+        "UnitTradeValue": 500_000.0,
+    }
+    falling_score = _score_short_opportunity(
+        "CRASH/USD", falling_indicators, falling_ticker, volatility=1.5
+    )
+
+    # Rising coin (poor short candidate)
+    rising_indicators = {"warming_up": False, "ema_sep_pct": 0.05, "rsi": 75.0}
+    rising_ticker = {
+        "LastPrice": 100.0,
+        "MaxBid": 99.0,
+        "MinAsk": 101.0,
+        "Change": 0.10,
+        "UnitTradeValue": 1_000.0,
+    }
+    rising_score = _score_short_opportunity(
+        "PUMP/USD", rising_indicators, rising_ticker, volatility=0.5
+    )
+
+    assert falling_score > rising_score
+    assert falling_score > 0.0
+
+
+def test_load_short_positions_from_exchange_api():
+    from unittest.mock import MagicMock
+
+    from bot.main import _load_short_positions
+    from bot.strategy import MomentumStrategy
+
+    strategy = MomentumStrategy(config)
+    mock_client = MagicMock()
+    mock_client.get_short_positions.return_value = {
+        "Success": True,
+        "Positions": [
+            {
+                "Pair": "BTC/USD",
+                "EntryPrice": 80000.0,
+                "Collateral": 5000.0,
+                "ShortQty": 0.0625,
+            }
+        ],
+    }
+
+    shorts = _load_short_positions(strategy, mock_client)
+    assert "BTC/USD" in shorts
+    assert shorts["BTC/USD"]["entry_price"] == 80000.0
+    assert shorts["BTC/USD"]["collateral"] == 5000.0
+    assert strategy._state("BTC/USD").in_short is True
